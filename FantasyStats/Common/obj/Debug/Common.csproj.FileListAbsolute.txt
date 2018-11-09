@@ -1,0 +1,6 @@
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\bin\Debug\Common.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\bin\Debug\Common.pdb
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.pdb
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.csprojAssemblyReference.cache

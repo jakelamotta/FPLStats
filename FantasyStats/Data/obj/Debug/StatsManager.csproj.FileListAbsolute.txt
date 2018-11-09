@@ -1,0 +1,17 @@
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\Data.dll.config
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\Data.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\Data.pdb
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\Common.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\EntityFramework.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\HtmlAgilityPack.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\Common.pdb
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\EntityFramework.xml
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\obj\Debug\StatsManager.csprojAssemblyReference.cache
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\obj\Debug\StatsManager.csproj.CoreCompileInputs.cache
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\obj\Debug\StatsManager.csproj.CopyComplete
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\obj\Debug\Data.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Data\obj\Debug\Data.pdb

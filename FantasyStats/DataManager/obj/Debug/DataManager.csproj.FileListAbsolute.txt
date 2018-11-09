@@ -1,0 +1,6 @@
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\bin\Debug\DataManager.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\bin\Debug\DataManager.pdb
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManager.csprojAssemblyReference.cache
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManager.csproj.CoreCompileInputs.cache
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManager.dll
+C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManager.pdb

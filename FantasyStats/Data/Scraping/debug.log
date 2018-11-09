@@ -1,0 +1,4 @@
+[1108/212036.410:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[1108/212036.419:ERROR:exception_snapshot_win.cc(88)] thread ID 19396 not found in process
+[1108/212553.135:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[1108/212553.135:ERROR:exception_snapshot_win.cc(88)] thread ID 15280 not found in process
