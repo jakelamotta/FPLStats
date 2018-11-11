@@ -1,0 +1,11 @@
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\bin\Debug\FPLModeling.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\bin\Debug\FPLModeling.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\bin\Debug\Common.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\bin\Debug\log4net.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\bin\Debug\Common.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\bin\Debug\log4net.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\obj\Debug\FPLModeling.csprojAssemblyReference.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\obj\Debug\FPLModeling.csproj.CoreCompileInputs.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\obj\Debug\FPLModeling.csproj.CopyComplete
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\obj\Debug\FPLModeling.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\FPLModeling\obj\Debug\FPLModeling.pdb

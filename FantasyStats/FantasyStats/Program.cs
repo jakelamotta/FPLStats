@@ -1,10 +1,5 @@
-﻿using Data;
-using Data.Providers;
+﻿using ServiceInstance;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FantasyStats
 {
@@ -12,12 +7,10 @@ namespace FantasyStats
     {
         static void Main(string[] args)
         {
-            var sp = new StatsProvider();
+            var instance = new ServiceInstance.ServiceInstance();
+            instance.Run();
 
-            //ScrapingUtility.ExecuteScrapingUtility(2015);
-
-            sp.GetPlayers(new List<int> { 2017});
-            //Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }

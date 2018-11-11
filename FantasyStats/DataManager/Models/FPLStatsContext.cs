@@ -20,6 +20,8 @@ namespace DataManager.Models
         public DbSet<PlayerSeasonStatistics> PlayerSeasonStatistics { get; set; }
         public DbSet<Player> Players { get; set; }
         public DbSet<ApplicationLog> ApplicationLogs { get; set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<CalculatedPlayerStatistics> CalculatedPlayerStatistics {get;set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

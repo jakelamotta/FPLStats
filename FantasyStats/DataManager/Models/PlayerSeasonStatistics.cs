@@ -32,6 +32,5 @@ namespace DataManager.Models
         public double XA { get; set; }
         public double XG90 { get; set; }
         public double XA90 { get; set; }
-        public Constants.Position Position { get; set; }
     }
 }

@@ -22,7 +22,7 @@ driverUS.get(urlUS)
 
 file = open('scraped.txt', 'w', encoding='utf-8')
 i = 2
-while i < 36:
+while i < 43:
 	content = driverUS.find_element_by_id('league-players').text
 
 	file.write(content)
@@ -34,6 +34,7 @@ while i < 36:
 fname= filepath + "stats_" + str(year) + ".csv"
 
 file = open(fname, 'w', encoding='utf-8')
+fileManualMatch = open(filepath + "notscraped" + str(year) + ".csv", "w+",encoding="utf-8")
 file.write("PID,Player,Team,Apps,Minutes,Goals,Assists,xG,xA,xG90,xA90\n")
 
 for line in open("scraped.txt", encoding='utf-8'):
@@ -57,11 +58,11 @@ for line in open("scraped.txt", encoding='utf-8'):
 		line = line.replace(" Manchester United",",Manchester United")
 		line = line.replace(" Newcastle United",",Newcastle United")
 		line = line.replace(" Southampton",",Southampton")
-		line = line.replace(" Stoke",",Stoke")
+		line = line.replace(" Cardiff",",Cardiff")
 		line = line.replace(" Swansea",",Swansea")
 		line = line.replace(" Tottenham",",Tottenham")
 		line = line.replace(" Watford",",Watford")
-		line = line.replace(" West Bromwich Albion",",West Bromwich Albion")
+		line = line.replace(" Wolverhampton Wanderers",",Wolverhampton Wanderers")
 		line = line.replace(" West Ham",",West Ham")
 
 		line = line.replace(" 0",",0")
@@ -79,6 +80,8 @@ for line in open("scraped.txt", encoding='utf-8'):
 
 		if line.count(",") == 10:
 			file.write(line)
+		else:
+			fileManualMatch.write(line)
 
 driverUS.quit()
 

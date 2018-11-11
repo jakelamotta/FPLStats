@@ -12,9 +12,6 @@ namespace DataManager.Models
         public DateTime Date { get; set; }
 
         [MaxLength(255)]
-        public string Username { get; set; }
-
-        [MaxLength(255)]
         public string ApplicationUser { get; set; }
 
         [MaxLength(50), Required]
@@ -27,8 +24,5 @@ namespace DataManager.Models
         [Column(TypeName = "ntext")]
         [MaxLength]
         public string ExtendedInformation { get; set; }
-
-        [MaxLength(255)]
-        public string SessionId { get; set; }
     }
 }

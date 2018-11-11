@@ -65,13 +65,43 @@
     <Compile Include="Migrations\201811101337138_init.Designer.cs">
       <DependentUpon>201811101337138_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811110817168_addded_position.cs" />
+    <Compile Include="Migrations\201811110817168_addded_position.Designer.cs">
+      <DependentUpon>201811110817168_addded_position.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811110818562_changed_name_to_string.cs" />
+    <Compile Include="Migrations\201811110818562_changed_name_to_string.Designer.cs">
+      <DependentUpon>201811110818562_changed_name_to_string.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811110819450_changed_name_to_string1.cs" />
+    <Compile Include="Migrations\201811110819450_changed_name_to_string1.Designer.cs">
+      <DependentUpon>201811110819450_changed_name_to_string1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811110824482_changed_reference_to_position.cs" />
+    <Compile Include="Migrations\201811110824482_changed_reference_to_position.Designer.cs">
+      <DependentUpon>201811110824482_changed_reference_to_position.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811110901596_removed_fields_from_log.cs" />
+    <Compile Include="Migrations\201811110901596_removed_fields_from_log.Designer.cs">
+      <DependentUpon>201811110901596_removed_fields_from_log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811111106265_added_result_table.cs" />
+    <Compile Include="Migrations\201811111106265_added_result_table.Designer.cs">
+      <DependentUpon>201811111106265_added_result_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811111117530_moved_position_to_player.cs" />
+    <Compile Include="Migrations\201811111117530_moved_position_to_player.Designer.cs">
+      <DependentUpon>201811111117530_moved_position_to_player.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationLog.cs" />
+    <Compile Include="Models\CalculatedPlayerStatistics.cs" />
     <Compile Include="Models\FPLStatsContext.cs" />
     <Compile Include="Models\League.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\PlayerCostChange.cs" />
     <Compile Include="Models\PlayerSeasonStatistics.cs" />
+    <Compile Include="Models\Position.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\SeasonTeam.cs" />
     <Compile Include="Models\Team.cs" />
@@ -90,6 +120,27 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811101337138_init.resx">
       <DependentUpon>201811101337138_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811110817168_addded_position.resx">
+      <DependentUpon>201811110817168_addded_position.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811110818562_changed_name_to_string.resx">
+      <DependentUpon>201811110818562_changed_name_to_string.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811110819450_changed_name_to_string1.resx">
+      <DependentUpon>201811110819450_changed_name_to_string1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811110824482_changed_reference_to_position.resx">
+      <DependentUpon>201811110824482_changed_reference_to_position.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811110901596_removed_fields_from_log.resx">
+      <DependentUpon>201811110901596_removed_fields_from_log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811111106265_added_result_table.resx">
+      <DependentUpon>201811111106265_added_result_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811111117530_moved_position_to_player.resx">
+      <DependentUpon>201811111117530_moved_position_to_player.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

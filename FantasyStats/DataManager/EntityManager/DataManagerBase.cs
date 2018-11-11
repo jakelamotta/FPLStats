@@ -10,12 +10,18 @@ namespace DataManager.EntityManager
 {
     public class DataManagerBase
     {
-        protected IMapper Mapper;
+        protected static IMapper Mapper;
 
         public DataManagerBase()
         {
-            var mapper = new AutoMapperConfigurationManager();
-            Mapper = mapper.Mapper;
+            AutoMapperConfigurationManager mapper;
+
+            if (Mapper == null)
+            {
+                mapper = new AutoMapperConfigurationManager();
+                Mapper = mapper.Mapper;
+            }
+           
         }
     }
 }

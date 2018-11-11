@@ -5,12 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using Common;
 using Common.Dtos;
+using Common.Logging;
 
 namespace Data.Providers
 {
     public class StatsProvider : IStatsProvider
     {
-        private string _dataFileName = "D:\\repos\\FPLStats\\FPLStats\\FantasyStats\\Data\\filedata\\";
+        private string _dataPath = "D:\\repos\\FPLStats\\FPLStats\\FantasyStats\\Data\\filedata\\";
+        private readonly ICustomLogger _logger;
+
+        public StatsProvider(ILogFactory logFactory)
+        {
+            _logger = logFactory.Create();
+        }
 
         public BaseResultDto<List<PlayerSeasonStatisticsDto>> GetPlayers(IEnumerable<int> years)
         {
@@ -20,20 +27,24 @@ namespace Data.Providers
 
             foreach (var year in years)
             {
-                var status = true;// ScrapingUtility.ExecuteScrapingUtility(year);
+                var status = ScrapingUtility.ExecuteScrapingUtility(year);
                 var season = new SeasonDto
                 {
-                    StartYear = year
+                    StartYear = year,
+                    League = new LeagueDto
+                    {
+                        Country = "England"
+                    }
                 };
 
                 if (status)
                 {
-                    _dataFileName += $"attackingreturn_{year}.csv";
+                    var fname =  $"{_dataPath}attackingreturn_{year}.csv";
 
-                    var data = Utility.GetFileData(_dataFileName);
+                    var data = Utility.GetFileData(fname);
 
 
-                    foreach (var line in data)
+                    foreach (var line in data.Skip(1))
                     {
                         var lineAsList = Utility.CsvRowToList(line);
 
@@ -48,6 +59,7 @@ namespace Data.Providers
                         int rc = 0;
                         int yc = 0;
                         int min = 0;
+                        Constants.PositionEnum pos;
 
                         double xa = 0.0;
                         double xa90 = 0.0;
@@ -65,6 +77,7 @@ namespace Data.Providers
                         parseStatus &= int.TryParse(lineAsList[10], out rc);
                         parseStatus &= int.TryParse(lineAsList[14], out yc);
                         parseStatus &= int.TryParse(lineAsList[19], out min);
+                        parseStatus &= Enum.TryParse(lineAsList[3], out pos);
 
                         parseStatus &= double.TryParse(lineAsList[23].Replace(".",","), out xa);
                         parseStatus &= double.TryParse(lineAsList[25].Replace(".", ","), out xa90);
@@ -82,7 +95,8 @@ namespace Data.Providers
                                     ExternalId = externalId,
                                     Name = lineAsList[15],
                                     SecondName = lineAsList[11],
-                                    LastCost = cost
+                                    LastCost = cost,
+                                    Position = pos
                                 },
                                 SeasonTeam = new SeasonTeamDto
                                 {
@@ -109,9 +123,15 @@ namespace Data.Providers
 
                             players.Add(playerStatisticsDto);
                         }
+                        else
+                        {
+                            _logger.Info($"Couldnt parse line: {line}");
+                        }
                     }
                 }
             }
+
+            result.DataObject = players;
 
             return result;
         }

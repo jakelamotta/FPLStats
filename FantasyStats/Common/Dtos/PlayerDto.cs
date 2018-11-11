@@ -13,5 +13,6 @@ namespace Common.Dtos
         public string Name { get; set; }
         public string SecondName { get; set; }
         public double LastCost { get; set; }
+        public Constants.PositionEnum Position { get; set; }
     }
 }

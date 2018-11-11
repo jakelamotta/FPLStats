@@ -25,3 +25,12 @@ D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\System.ValueTuple.
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.csproj.CopyComplete
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.init.resources
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.csproj.GenerateResource.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.addded_position.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.changed_name_to_string.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.changed_name_to_string1.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.changed_reference_to_position.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\log4net.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\log4net.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.removed_fields_from_log.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.added_result_table.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.moved_position_to_player.resources

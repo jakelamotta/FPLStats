@@ -19,7 +19,7 @@ namespace DataManager.AutoMapper
             });
 
             Mapper = config.CreateMapper();
-            config.AssertConfigurationIsValid();
+            //config.AssertConfigurationIsValid();
         }
 
         public void InitLeagueMapping(IMapperConfigurationExpression cfg)
@@ -27,7 +27,8 @@ namespace DataManager.AutoMapper
 
             cfg.CreateMap<League, LeagueDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
-                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name));
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
+                .ForMember(dest => dest.Country, opt => opt.MapFrom(src => src.Country));
 
             cfg.CreateMap<Season, SeasonDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
@@ -42,8 +43,7 @@ namespace DataManager.AutoMapper
         {
             cfg.CreateMap<Team, TeamDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
-                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
-                .ForMember(dest => dest, opt => opt.MapFrom(src => src));
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name));
 
             cfg.CreateMap<SeasonTeam, SeasonTeamDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
@@ -58,7 +58,8 @@ namespace DataManager.AutoMapper
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
                 .ForMember(dest => dest.ExternalId, opt => opt.MapFrom(src => src.ExternalId))
                 .ForMember(dest => dest.SecondName, opt => opt.MapFrom(src => src.SecondName))
-                .ForMember(dest => dest.LastCost, opt => opt.MapFrom(src => src.LastCost));
+                .ForMember(dest => dest.LastCost, opt => opt.MapFrom(src => src.LastCost))
+                .ForMember(dest => dest.Position, opt => opt.MapFrom(src => (Constants.PositionEnum)src.Position.AppId));
 
             cfg.CreateMap<PlayerSeasonStatistics, PlayerSeasonStatisticsDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
@@ -70,7 +71,6 @@ namespace DataManager.AutoMapper
                 .ForMember(dest => dest.Goals, opt => opt.MapFrom(src => src.Goals))
                 .ForMember(dest => dest.OwnGoals, opt => opt.MapFrom(src => src.OwnGoals))
                 .ForMember(dest => dest.PenaltiesMissed, opt => opt.MapFrom(src => src.PenaltiesMissed))
-                .ForMember(dest => dest.Position, opt => opt.MapFrom(src => src.Position))
                 .ForMember(dest => dest.RedCards, opt => opt.MapFrom(src => src.RedCards))
                 .ForMember(dest => dest.XA, opt => opt.MapFrom(src => src.XA))
                 .ForMember(dest => dest.XA90, opt => opt.MapFrom(src => src.XA90))

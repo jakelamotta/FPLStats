@@ -16,5 +16,9 @@ namespace DataManager.Models
         public int ExternalId { get; set; }
         public double LastCost { get; set; }
 
+
+        [ForeignKey("Position")]
+        public int PositionId { get; set; }
+        public virtual Position Position { get; set; }
     }
 }

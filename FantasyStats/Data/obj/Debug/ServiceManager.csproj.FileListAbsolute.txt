@@ -15,3 +15,5 @@ D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\ServiceManager.csproj.Cor
 D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\ServiceManager.csproj.CopyComplete
 D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\Data.dll
 D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\Data.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\log4net.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\log4net.xml

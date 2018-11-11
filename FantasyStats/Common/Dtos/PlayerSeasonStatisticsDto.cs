@@ -18,7 +18,6 @@
         public double XA { get; set; }
         public double XG90 { get; set; }
         public double XA90 { get; set; }
-        public Constants.Position Position { get; set; }
         public int MinutesPlayed { get; set; }
         public int Apps { get; set; }
     }

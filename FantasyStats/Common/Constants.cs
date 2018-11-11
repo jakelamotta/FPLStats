@@ -2,12 +2,12 @@
 {
     public class Constants
     {
-        public enum Position
+        public enum PositionEnum
         {
-            GoalKeeper = 0,
-            Defender = 1,
-            Midfielder = 2,
-            Forward = 3
+            GoalKeeper = 1,
+            Defender = 2,
+            Midfielder = 3,
+            Forward = 4
         }
     }
 }
