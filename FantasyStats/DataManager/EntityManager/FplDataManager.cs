@@ -67,6 +67,7 @@ namespace DataManager.EntityManager
                         dbPlayer.YellowCards = playerDto.YellowCards;
                         dbPlayer.RedCards = playerDto.RedCards;
                         dbPlayer.Apps = playerDto.Apps;
+                        dbPlayer.CleanSheets = playerDto.CleanSheets;
                         tempPlayer.LastCost = playerDto.Player.LastCost;
 
                         context.Players.AddOrUpdate(tempPlayer);
@@ -147,6 +148,7 @@ namespace DataManager.EntityManager
                             XG90 = playerDto.XG90,
                             YellowCards = playerDto.YellowCards,
                             Apps = playerDto.Apps,
+                            CleanSheets = playerDto.CleanSheets
                         };
 
                         context.PlayerSeasonStatistics.Add(dbPlayer);
@@ -184,9 +186,18 @@ namespace DataManager.EntityManager
                     };
 
                     context.CalculatedPlayerStatistics.Add(dbPlayer);
+
+                    try
+                    {
+                        context.SaveChanges();
+                    }
+                    catch(Exception e)
+                    {
+                        var t = 1;
+                    }
                 }
 
-                context.SaveChanges();
+                
             }
 
             return result;
@@ -219,6 +230,7 @@ namespace DataManager.EntityManager
             {
                 return context.PlayerSeasonStatistics
                     .Include("SeasonTeam")
+                    .Include("SeasonTeam.Team")
                     .Include("SeasonTeam.Season")
                     .Include("Player")
                     .Include("Player.Position")

@@ -10,7 +10,6 @@ namespace FantasyStats
             var instance = new ServiceInstance.ServiceInstance();
             instance.Run();
 
-            Console.ReadLine();
         }
     }
 }

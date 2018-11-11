@@ -34,3 +34,4 @@ D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\log4net.xml
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.removed_fields_from_log.resources
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.added_result_table.resources
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.moved_position_to_player.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.changed_double_to_int.resources

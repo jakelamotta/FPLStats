@@ -64,6 +64,9 @@ for line in open("scraped.txt", encoding='utf-8'):
 		line = line.replace(" Watford",",Watford")
 		line = line.replace(" Wolverhampton Wanderers",",Wolverhampton Wanderers")
 		line = line.replace(" West Ham",",West Ham")
+		line = line.replace(" Fulham",",Fulham")
+		line = line.replace("Bernardo Silva", "Bernardo Mota Veiga de Carvalho e Silva")
+		line = line.replace("Richarlison", "Richarlison de Andrade")
 
 		line = line.replace(" 0",",0")
 		line = line.replace(" 1",",1")
@@ -101,14 +104,14 @@ driverUS.quit()
 r = urllib.request.urlopen('https://fantasy.premierleague.com/drf/elements/').read()
 soup = BeautifulSoup(r, features="html.parser")
 
-with open("playerdata.json", "w") as file:
+with open("playerdata.json", "w", encoding="utf-8") as file:
 	for line in soup:
 		file.write(line)
 
 #print(soup.body.div.div.div.h2.string) #Goalkeepers string
 #print(soup.body.div)
 
-prettysoup = soup.prettify()
+#prettysoup = soup.prettify()
 
 #test=soup.thead
 #test = soup.tr.td.unwrap()
@@ -154,12 +157,12 @@ prettysoup = soup.prettify()
 #with open("tbody.html", "w") as file:
 #	file.write(str(test))
 
-with open("PlayerList.html", "w") as file:
-	file.write(str(prettysoup))
+#with open("PlayerList.html", "w") as file:
+#	file.write(str(prettysoup))
 
 df_us = pd.read_csv(fname)
 df = pd.read_json('playerdata.json')
-df['Player'] = df[['first_name', 'web_name']].apply(lambda x: ' '.join(x), axis=1)
+df['Player'] = df[['first_name', 'second_name']].apply(lambda x: ' '.join(x), axis=1)
 df.drop(df.columns[[0, 1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 40, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53, 54, 55]], axis=1, inplace=True)
 
 result = pd.merge(df, df_us, on='Player')

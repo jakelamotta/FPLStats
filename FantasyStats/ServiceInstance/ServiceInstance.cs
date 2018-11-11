@@ -9,7 +9,7 @@ namespace ServiceInstance
             var container = Bootstrapper.CreateUnityContainer();
 
             var instance = container.Resolve<FplStats>();
-            //instance.UpdateData();
+            instance.UpdateData();
             instance.Calculate();
         }
     }

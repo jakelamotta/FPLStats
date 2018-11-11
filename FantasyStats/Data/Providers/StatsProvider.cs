@@ -27,7 +27,7 @@ namespace Data.Providers
 
             foreach (var year in years)
             {
-                var status = ScrapingUtility.ExecuteScrapingUtility(year);
+                var status =  ScrapingUtility.ExecuteScrapingUtility(year);
                 var season = new SeasonDto
                 {
                     StartYear = year,
@@ -59,6 +59,7 @@ namespace Data.Providers
                         int rc = 0;
                         int yc = 0;
                         int min = 0;
+                        int apps = 0;
                         Constants.PositionEnum pos;
 
                         double xa = 0.0;
@@ -78,6 +79,7 @@ namespace Data.Providers
                         parseStatus &= int.TryParse(lineAsList[14], out yc);
                         parseStatus &= int.TryParse(lineAsList[19], out min);
                         parseStatus &= Enum.TryParse(lineAsList[3], out pos);
+                        parseStatus &= int.TryParse(lineAsList[18], out apps);
 
                         parseStatus &= double.TryParse(lineAsList[23].Replace(".",","), out xa);
                         parseStatus &= double.TryParse(lineAsList[25].Replace(".", ","), out xa90);
@@ -118,7 +120,8 @@ namespace Data.Providers
                                 XG = xg,
                                 XG90 = xg90,
                                 YellowCards = yc,
-                                MinutesPlayed = min
+                                MinutesPlayed = min,
+                                Apps = apps
                             };
 
                             players.Add(playerStatisticsDto);

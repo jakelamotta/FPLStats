@@ -39,11 +39,18 @@ namespace FPLModeling
                 var pssList = players.Where(p => p.Player.Name.Equals(player));
 
                 var totalMinutes = 0;
-                var totalXG90 = 0.0;
-                var totalXA90 = 0.0;
-                var totalYC90 = 0.0;
-                var totalCS90 = 0.0;
+                Double totalXG90 = 0.0;
+                Double totalXA90 = 0.0;
+                Double totalYC90 = 0.0;
+                Double totalCS90 = 0.0;
                 var minutesPlayedCurrentYear = 0;
+
+                var currentSeasonPlayer = pssList.FirstOrDefault(pss => pss.SeasonTeam.Season.StartYear == currentStartYear);
+                var currentTeam = "";
+                if (currentSeasonPlayer != null)
+                {
+                    currentTeam = currentSeasonPlayer.SeasonTeam.Team.Name;
+                }
 
                 var position = pssList.First().Player.Position;
                 var cost = pssList.First().Player.LastCost;
@@ -61,22 +68,48 @@ namespace FPLModeling
                         xg90 = pss.XG90 * pss.MinutesPlayed;
                         xa90 = pss.XA90 * pss.MinutesPlayed;
                         minutesPlayedCurrentYear = pss.MinutesPlayed;
+                        
+                        if (pss.Apps > 0)
+                        {
+                            totalCS90 += (pss.CleanSheets * 10 / pss.Apps);
+                        }
                     }
                     else
                     {
-                        var fraction = Math.Max(0, 1 - ((currentStartYear - pss.SeasonTeam.Season.StartYear) * .25));
+                        var fraction = Math.Max(0, 1 - ((currentStartYear - pss.SeasonTeam.Season.StartYear) * .37));
+                        fraction *= pss.SeasonTeam.Team.Name.Equals(currentTeam) ? 1:0.6;
+
                         totalMinutes += (int) Math.Round(pss.MinutesPlayed * fraction);
                         xg90 = pss.XG90 * pss.MinutesPlayed * fraction;
                         xa90 = pss.XA90 * pss.MinutesPlayed * fraction;
+
+                        if (currentStartYear - pss.SeasonTeam.Season.StartYear == 1)
+                        {
+                            if (!pss.SeasonTeam.Team.Name.Equals(currentTeam))
+                            {
+                                fraction = 0;
+                            }
+
+                            if (pss.Apps > 0)
+                            {
+                                totalCS90 +=  (pss.CleanSheets * 10/ pss.Apps) * fraction;
+                            }
+                        }
                     }
 
                     totalXG90 += xg90;
                     totalXA90 += xa90;
-                    totalYC90 += pss.YellowCards * 90 / pss.MinutesPlayed;
+                    if (pss.Apps > 0)
+                    {
+                        totalYC90 += pss.YellowCards / pss.Apps;
+                    }
                 }
 
-                totalXG90 /= totalMinutes;
-                totalXA90 /= totalMinutes;
+                if (totalMinutes > 0)
+                {
+                    totalXG90 /= totalMinutes;
+                    totalXA90 /= totalMinutes;
+                }
 
                 resultList.Add(new CalculatedPlayerStatisticsDto
                 {
@@ -84,8 +117,8 @@ namespace FPLModeling
                     Name = player,
                     xPPound90 = GetXPPound90(position, cost, totalXG90, totalXA90, totalCS90, totalYC90),
                     xPPoundMinPlayed = GetXPPoundMinPlayed(position, cost, totalXG90, totalXA90, totalCS90, totalYC90, minutesPlayedCurrentYear),
-                    xYc = totalYC90
-                });
+                    xYc = totalYC90,
+                 });
             }
 
             result.DataObject = resultList;
@@ -125,7 +158,12 @@ namespace FPLModeling
                     throw new Exception();
             }
 
-            xp = (totalCS90 * pCS + totalXA90 * 3 + totalXG90 * pGoal - totalYC90) / lastCost;
+            if (lastCost == 0)
+            {
+                throw new Exception();
+            }
+
+            xp = ((totalCS90 * pCS)/10 + totalXA90 * 3 + totalXG90 * pGoal - totalYC90) / lastCost;
 
             return xp;
         }

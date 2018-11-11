@@ -93,6 +93,10 @@
     <Compile Include="Migrations\201811111117530_moved_position_to_player.Designer.cs">
       <DependentUpon>201811111117530_moved_position_to_player.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811111251315_changed_double_to_int.cs" />
+    <Compile Include="Migrations\201811111251315_changed_double_to_int.Designer.cs">
+      <DependentUpon>201811111251315_changed_double_to_int.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationLog.cs" />
     <Compile Include="Models\CalculatedPlayerStatistics.cs" />
@@ -141,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811111117530_moved_position_to_player.resx">
       <DependentUpon>201811111117530_moved_position_to_player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811111251315_changed_double_to_int.resx">
+      <DependentUpon>201811111251315_changed_double_to_int.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
