@@ -1,0 +1,17 @@
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\Data.dll.config
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\Data.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\Data.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\Common.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\EntityFramework.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\HtmlAgilityPack.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\Common.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\EntityFramework.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\HtmlAgilityPack.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\bin\Debug\HtmlAgilityPack.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\ServiceManager.csprojAssemblyReference.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\ServiceManager.csproj.CoreCompileInputs.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\ServiceManager.csproj.CopyComplete
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\Data.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Data\obj\Debug\Data.pdb

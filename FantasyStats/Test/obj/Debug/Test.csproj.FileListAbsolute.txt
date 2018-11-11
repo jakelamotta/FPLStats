@@ -1,0 +1,6 @@
+D:\repos\FPLStats\FPLStats\FantasyStats\Test\bin\Debug\Test.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Test\bin\Debug\Test.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\Test\obj\Debug\Test.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Test\obj\Debug\Test.pdb

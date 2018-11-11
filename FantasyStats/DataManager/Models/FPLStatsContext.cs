@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System;
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace DataManager.Models
@@ -6,7 +7,7 @@ namespace DataManager.Models
     public class FPLStatsContext : DbContext
     {
         public FPLStatsContext()
-            : base("FPLStatsConnection")
+            : base("DefaultConnection")
         {
             Configuration.LazyLoadingEnabled = false;
         }
@@ -15,7 +16,8 @@ namespace DataManager.Models
         public DbSet<Season> Seasons { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<SeasonTeam> SeasonTeams { get; set; }
-        public DbSet<SeasonTeamPlayer> SeasonTeamPlayers { get; set; }
+        public DbSet<PlayerCostChange> PlayerCostChanges { get; set; }
+        public DbSet<PlayerSeasonStatistics> PlayerSeasonStatistics { get; set; }
         public DbSet<Player> Players { get; set; }
         public DbSet<ApplicationLog> ApplicationLogs { get; set; }
 

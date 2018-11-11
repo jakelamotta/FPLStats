@@ -7,5 +7,6 @@
         public int EndYear { get; set; }
         public bool IsCurrent { get; set; }
         public bool DataComplete { get; set; }
+        public LeagueDto League { get; set; }
     }
 }

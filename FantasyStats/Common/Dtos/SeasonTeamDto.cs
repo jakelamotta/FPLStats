@@ -2,6 +2,9 @@
 {
     public class SeasonTeamDto
     {
+        public int Id { get; set; }
+        public SeasonDto Season { get; set; }
+        public TeamDto Team { get; set; }
         public int? Position { get; set; }
         public int? MatchesPlayed { get; set; }
         public int? Won { get; set; }

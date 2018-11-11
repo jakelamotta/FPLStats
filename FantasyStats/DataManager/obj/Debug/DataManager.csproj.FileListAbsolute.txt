@@ -4,3 +4,24 @@ C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManage
 C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManager.csproj.CoreCompileInputs.cache
 C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManager.dll
 C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\DataManager\obj\Debug\DataManager.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.csprojAssemblyReference.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.csproj.CoreCompileInputs.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\DataManager.dll.config
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\DataManager.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\DataManager.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\AutoMapper.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\Common.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\EntityFramework.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\EntityFramework.SqlServer.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\System.ValueTuple.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\Common.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\AutoMapper.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\AutoMapper.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\EntityFramework.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\EntityFramework.SqlServer.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\bin\Debug\System.ValueTuple.xml
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.csproj.CopyComplete
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.init.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.csproj.GenerateResource.cache

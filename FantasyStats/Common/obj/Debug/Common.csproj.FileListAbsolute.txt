@@ -4,3 +4,14 @@ C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.csproj.C
 C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.dll
 C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.pdb
 C:\Users\EIS i7 Gamer\Source\Repos\FantasyStats\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\bin\Debug\Common.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\bin\Debug\Common.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\bin\Debug\System.Security.AccessControl.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\bin\Debug\System.Security.Permissions.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\bin\Debug\System.Security.Principal.Windows.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\obj\Debug\Common.csproj.CopyComplete
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\obj\Debug\Common.dll
+D:\repos\FPLStats\FPLStats\FantasyStats\Common\obj\Debug\Common.pdb

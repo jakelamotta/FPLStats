@@ -12,11 +12,11 @@ namespace FantasyStats
     {
         static void Main(string[] args)
         {
-            //var sp = new StatsProvider();
+            var sp = new StatsProvider();
 
-            ScrapingUtility.ExecuteScrapingUtility(2015);
+            //ScrapingUtility.ExecuteScrapingUtility(2015);
 
-            //sp.GetPlayer(1);
+            sp.GetPlayers(new List<int> { 2017});
             //Console.ReadLine();
         }
     }

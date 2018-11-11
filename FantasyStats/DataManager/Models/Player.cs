@@ -11,7 +11,10 @@ namespace DataManager.Models
         public int Id { get; set; }
         [MaxLength(100)]
         public string Name { get; set; }
-        public Constants.Position Position { get; set; }
+        public string SecondName { get; set; }
+
         public int ExternalId { get; set; }
+        public double LastCost { get; set; }
+
     }
 }
