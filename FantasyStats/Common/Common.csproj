@@ -70,6 +70,7 @@
     <Compile Include="Dtos\PlayerSeasonStatisticsDto.cs" />
     <Compile Include="Dtos\SeasonDto.cs" />
     <Compile Include="Dtos\SeasonTeamDto.cs" />
+    <Compile Include="Dtos\SettingDto.cs" />
     <Compile Include="Dtos\TeamDto.cs" />
     <Compile Include="Logging\ICcustomLogger.cs" />
     <Compile Include="Logging\ILogFactory.cs" />

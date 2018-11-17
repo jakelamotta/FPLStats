@@ -1,18 +1,10 @@
-23,Alexis Sánchez,Arsenal,,Manchester United,31,2562,9,6,11.42,7.92,0.40,0.28
 36,Xherdan Shaqiri Stoke,36,3066,8,7,4.99,6.88,0.15,0.20
-39,Olivier Giroud,Arsenal,,Chelsea,29,953,7,1,7.60,3.01,0.72,0.28
 43,Salomón Rondón West Bromwich Albion,36,2781,7,3,6.87,2.61,0.22,0.08
 44,Jay Rodriguez West Bromwich Albion,37,2845,7,1,7.64,1.83,0.24,0.06
 53,Mame Biram Diouf Stoke,35,2609,6,2,7.49,2.12,0.26,0.07
 57,Eric Maxim Choupo-Moting Stoke,30,2257,5,5,6.29,3.23,0.25,0.13
 67,Peter Crouch Stoke,31,1532,5,2,4.22,3.15,0.25,0.18
-88,Henrikh Mkhitaryan,Arsenal,,Manchester United,26,1735,3,9,2.47,6.77,0.13,0.35
-91,Theo Walcott,Arsenal,,Everton,20,1207,3,3,3.15,3.03,0.24,0.23
-102,André Ayew,Swansea,,West Ham,30,1859,3,4,4.75,1.51,0.23,0.07
-106,Andy King,Leicester,,Swansea,22,1264,3,0,1.56,0.26,0.11,0.02
-109,Alex Oxlade-Chamberlain,Arsenal,,Liverpool,35,1705,3,7,2.60,4.97,0.14,0.26
 120,Joe Allen Stoke,36,3143,2,6,2.12,2.57,0.06,0.07
-122,Daniel Sturridge,Liverpool, West Bromwich Albion,15,539,2,1,2.66,0.89,0.44,0.15
 144,Craig Dawson West Bromwich Albion,28,2512,2,0,2.26,0.94,0.08,0.03
 145,Jonny Evans West Bromwich Albion,28,2276,2,2,1.74,1.05,0.07,0.04
 155,Jake Livermore West Bromwich Albion,34,2677,2,2,2.64,1.53,0.09,0.05
@@ -23,27 +15,22 @@
 174,Badou Ndiaye Stoke,13,1144,2,1,1.15,0.31,0.09,0.02
 188,Gareth Barry West Bromwich Albion,25,1935,1,1,1.36,1.42,0.06,0.07
 193,Nacer Chadli West Bromwich Albion,5,216,1,0,0.12,0.10,0.05,0.04
-201,Leonardo Ulloa,Brighton,,Leicester,14,264,1,0,0.68,0.21,0.23,0.07
 209,Darren Fletcher Stoke,27,2234,1,1,0.29,1.69,0.01,0.07
 210,James McClean West Bromwich Albion,30,1378,1,0,1.76,0.71,0.11,0.05
 217,Ryan Shawcross Stoke,27,2371,1,1,2.78,0.22,0.11,0.01
 218,Kurt Zouma Stoke,34,2889,1,0,1.13,0.47,0.04,0.01
 220,James Morrison West Bromwich Albion,4,204,1,0,1.03,0.11,0.46,0.05
 221,Sam Field West Bromwich Albion,10,545,1,0,0.59,0.18,0.10,0.03
-230,Islam Slimani,Leicester,,Newcastle United,16,353,1,1,1.31,0.50,0.34,0.13
 238,Jesé Stoke,13,619,1,1,0.91,0.54,0.13,0.08
 253,Konstantinos Stafylidis Stoke,5,338,0,0,0.07,0.02,0.02,0.01
 279,Kieran Gibbs West Bromwich Albion,33,2836,0,1,0.39,1.91,0.01,0.06
 289,Nyom West Bromwich Albion,29,2307,0,1,0.06,1.13,0.00,0.04
-300,Aaron Lennon,Burnley,,Everton,29,1933,0,2,0.67,1.24,0.03,0.06
-308,Eliaquim Mangala,Everton,,Manchester City,11,605,0,0,0.18,0.02,0.03,0.00
 317,Kevin Wimmer Stoke,17,1318,0,0,0.07,0.16,0.00,0.01
 345,Ben Foster West Bromwich Albion,37,3330,0,0,0.00,0.05,0.00,0.00
 346,Gareth McAuley West Bromwich Albion,9,454,0,0,0.00,0.00,0.00,0.00
 347,Claudio Yacob West Bromwich Albion,16,895,0,0,0.30,0.02,0.03,0.00
 348,Saido Berahino Stoke,15,467,0,1,1.74,0.37,0.34,0.07
 349,Boaz Myhill West Bromwich Albion,1,90,0,0,0.00,0.00,0.00,0.00
-354,Virgil van Dijk,Liverpool,,Southampton,26,2252,0,0,1.94,2.32,0.08,0.09
 360,Jack Butland Stoke,35,3150,0,0,0.00,0.02,0.00,0.00
 362,Geoff Cameron Stoke,20,1526,0,0,0.19,0.10,0.01,0.01
 364,Ibrahim Afellay Stoke,6,157,0,0,0.00,0.00,0.00,0.00
@@ -53,4 +40,3 @@
 371,Erik Pieters Stoke,31,2726,0,1,0.09,1.98,0.00,0.07
 374,Chris Brunt West Bromwich Albion,26,1931,0,7,0.83,4.72,0.04,0.22
 379,Glen Johnson Stoke,9,558,0,0,0.09,0.19,0.01,0.03
-407,Georges-Kévin Nkoudou,Burnley,,Tottenham,9,217,0,0,0.09,0.05,0.04,0.02

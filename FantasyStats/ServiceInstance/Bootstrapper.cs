@@ -13,10 +13,11 @@ namespace ServiceInstance
         {
             var con = new UnityContainer();
 
+            con.RegisterType<ISettingDataManager, SettingDataManager>();
+            con.RegisterType<IFplStats, IFplStats>();
             con.RegisterType<IStatsProvider, StatsProvider>();
             con.RegisterType<IFplDataManager, FplDataManager>();
             con.RegisterType<ILogFactory, LogFactory>();
-            con.RegisterType<IFplStats, IFplStats>();
             con.RegisterType<IContextFactory, FPLStatsContextFactory>();
             con.RegisterType<IModelCalculator, ModelCalculator>();
 

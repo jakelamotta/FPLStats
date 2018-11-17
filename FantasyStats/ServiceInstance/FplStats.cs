@@ -1,4 +1,5 @@
-﻿using Data.Providers;
+﻿using Common;
+using Data.Providers;
 using DataManager.EntityManager;
 using FPLModeling;
 using System;
@@ -16,11 +17,20 @@ namespace ServiceInstance
         private readonly IModelCalculator _modelCalculator;
 
 
-        public FplStats(IStatsProvider statsProvider, IFplDataManager fplDataManager, IModelCalculator modelCalculator)
+        public FplStats(IStatsProvider statsProvider, IFplDataManager fplDataManager, IModelCalculator modelCalculator, ISettingDataManager settingDataManager)
         {
             _statsProvider = statsProvider;
             _fplDataManager = fplDataManager;
             _modelCalculator = modelCalculator;
+
+            var result = settingDataManager.GetAllSettings();
+
+            if (!result.Status)
+            {
+                throw new Exception();
+            }
+
+            Utility.SetAllSettings(result.DataObject);
         }
 
         public void Calculate()

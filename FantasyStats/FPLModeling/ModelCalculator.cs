@@ -3,19 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
 using Common.Dtos;
 
 namespace FPLModeling
 {
     public class ModelCalculator : IModelCalculator
     {
-        public ModelCalculator()
-        {
+        public double PREVIOUS_SEASON_WEIGHT;
+        public double PREVIOUS_SEASON_DIFFERENT_TEAM_WEIGHT;
 
-        }
+        public int POINTS_GOALS_DEFENDER;
+        public int POINTS_CLEAN_SHEET_DEFENDER;
+
+        public int POINTS_GOALS_GOALKEEPER;
+        public int POINTS_CLEAN_SHEET_GOALKEEPER;
+
+        public int POINTS_GOALS_MIDFIELDER;
+        public int POINTS_CLEAN_SHEET_MIDFIELDER;
+
+        public int POINTS_GOALS_FORWARD;
+        public int POINTS_CLEAN_SHEET_FORWARD;
 
         public BaseResultDto<List<CalculatedPlayerStatisticsDto>> Calculate(List<PlayerSeasonStatisticsDto> players)
         {
+            SetUpParameters();
+
             var result = new BaseResultDto<List<CalculatedPlayerStatisticsDto>>();
             result.Status = true;
 
@@ -36,6 +49,11 @@ namespace FPLModeling
 
             foreach (var player in listOfPlayers)
             {
+                if (player == "Theo Walcott")
+                {
+                    var t = 1;
+                }
+
                 var pssList = players.Where(p => p.Player.Name.Equals(player));
 
                 var totalMinutes = 0;
@@ -61,7 +79,8 @@ namespace FPLModeling
                     var xa90 = 0.0;
                     var xyc90 = 0.0;
                     var xcs90 = 0.0;
-
+                    var team = pss.SeasonTeam.Team.Name;
+                    
                     if (pss.SeasonTeam.Season.StartYear == currentStartYear)
                     {
                         totalMinutes += pss.MinutesPlayed;
@@ -76,8 +95,8 @@ namespace FPLModeling
                     }
                     else
                     {
-                        var fraction = Math.Max(0, 1 - ((currentStartYear - pss.SeasonTeam.Season.StartYear) * .37));
-                        fraction *= pss.SeasonTeam.Team.Name.Equals(currentTeam) ? 1:0.6;
+                        var fraction = Math.Max(0, Math.Pow(PREVIOUS_SEASON_WEIGHT, (currentStartYear - pss.SeasonTeam.Season.StartYear)));
+                        fraction *= team.Equals(currentTeam) ? 1:PREVIOUS_SEASON_DIFFERENT_TEAM_WEIGHT;
 
                         totalMinutes += (int) Math.Round(pss.MinutesPlayed * fraction);
                         xg90 = pss.XG90 * pss.MinutesPlayed * fraction;
@@ -139,20 +158,20 @@ namespace FPLModeling
             switch (position)
             {
                 case Constants.PositionEnum.Defender:
-                    pGoal = 6;
-                    pCS = 4;
+                    pGoal = POINTS_GOALS_DEFENDER;
+                    pCS = POINTS_CLEAN_SHEET_DEFENDER;
                     break;
                 case Constants.PositionEnum.Midfielder:
-                    pGoal = 5;
-                    pCS = 1;
+                    pGoal = POINTS_GOALS_MIDFIELDER;
+                    pCS = POINTS_CLEAN_SHEET_MIDFIELDER;
                     break;
                 case Constants.PositionEnum.GoalKeeper:
-                    pGoal = 6;
-                    pCS = 4;
+                    pGoal = POINTS_GOALS_GOALKEEPER;
+                    pCS = POINTS_CLEAN_SHEET_GOALKEEPER;
                     break;
                 case Constants.PositionEnum.Forward:
-                    pGoal = 4;
-                    pCS = 0;
+                    pGoal = POINTS_GOALS_FORWARD;
+                    pCS = POINTS_CLEAN_SHEET_FORWARD;
                     break;
                 default:
                     throw new Exception();
@@ -166,6 +185,24 @@ namespace FPLModeling
             xp = ((totalCS90 * pCS)/10 + totalXA90 * 3 + totalXG90 * pGoal - totalYC90) / lastCost;
 
             return xp;
+        }
+
+        private void SetUpParameters()
+        {
+            PREVIOUS_SEASON_WEIGHT = Utility.GetApplicationSetting<double>("PrevSeasonWeight");
+            PREVIOUS_SEASON_DIFFERENT_TEAM_WEIGHT = Utility.GetApplicationSetting<double>("PrevSeasonDiffTeamWeight");
+
+            POINTS_GOALS_DEFENDER = Utility.GetApplicationSetting<int>("PointsGoalsDefender");
+            POINTS_CLEAN_SHEET_DEFENDER = Utility.GetApplicationSetting<int>("PointsCleanSheetDefender");
+
+            POINTS_GOALS_GOALKEEPER = Utility.GetApplicationSetting<int>("PointsGoalsGoalkeeper");
+            POINTS_CLEAN_SHEET_GOALKEEPER = Utility.GetApplicationSetting<int>("PointsCleanSheetGoalKeeper");
+
+            POINTS_GOALS_MIDFIELDER = Utility.GetApplicationSetting<int>("PointsGoalsMidfielder");
+            POINTS_CLEAN_SHEET_MIDFIELDER = Utility.GetApplicationSetting<int>("PointsCleanSheetMidfielder");
+
+            POINTS_GOALS_FORWARD = Utility.GetApplicationSetting<int>("PointsGoalsForward");
+            POINTS_CLEAN_SHEET_FORWARD = Utility.GetApplicationSetting<int>("PointsCleanSheetForward");
         }
     }
 }

@@ -22,11 +22,17 @@ driverUS.get(urlUS)
 
 file = open('scraped.txt', 'w', encoding='utf-8')
 i = 2
+
+prevContent = ""
+
 while i < 43:
 	content = driverUS.find_element_by_id('league-players').text
 
-	file.write(content)
+	if (prevContent != content):
+		file.write(content)
 
+	prevContent = content
+	
 	element = driverUS.find_element_by_xpath('//*[@data-page=' + str(i) + ']')
 	element.click()
 	i+=1
@@ -42,6 +48,9 @@ for line in open("scraped.txt", encoding='utf-8'):
 	line = re.sub(r"\+\d.\d\d\s", " ", line)
 	line = re.sub(r"\-\d.\d\d\s", " ", line)
 	if len(line)>43:
+		
+		#This is cause Understat puts Team1,Team2 in Team column when player has switched teams in January transfer window
+		line = line.replace(", ", "--")
 		line = line.replace(" ", ",", 1)
 
 		line = line.replace(" Arsenal",",Arsenal")
@@ -67,6 +76,7 @@ for line in open("scraped.txt", encoding='utf-8'):
 		line = line.replace(" Fulham",",Fulham")
 		line = line.replace("Bernardo Silva", "Bernardo Mota Veiga de Carvalho e Silva")
 		line = line.replace("Richarlison", "Richarlison de Andrade")
+		
 
 		line = line.replace(" 0",",0")
 		line = line.replace(" 1",",1")
@@ -104,7 +114,7 @@ driverUS.quit()
 r = urllib.request.urlopen('https://fantasy.premierleague.com/drf/elements/').read()
 soup = BeautifulSoup(r, features="html.parser")
 
-with open("playerdata.json", "w", encoding="utf-8") as file:
+with open("playerdata.json", "w") as file:
 	for line in soup:
 		file.write(line)
 

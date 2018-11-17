@@ -59,6 +59,8 @@
     <Compile Include="EntityManager\DataManagerBase.cs" />
     <Compile Include="EntityManager\FplDataManager.cs" />
     <Compile Include="EntityManager\IFplDataManager.cs" />
+    <Compile Include="EntityManager\ISettingDataManager.cs" />
+    <Compile Include="EntityManager\SettingDataManager.cs" />
     <Compile Include="FPLStatsContextFactory.cs" />
     <Compile Include="IContextFactory.cs" />
     <Compile Include="Migrations\201811101337138_init.cs" />
@@ -97,6 +99,10 @@
     <Compile Include="Migrations\201811111251315_changed_double_to_int.Designer.cs">
       <DependentUpon>201811111251315_changed_double_to_int.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811170757500_added_setting_and_teamstatistics.cs" />
+    <Compile Include="Migrations\201811170757500_added_setting_and_teamstatistics.Designer.cs">
+      <DependentUpon>201811170757500_added_setting_and_teamstatistics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationLog.cs" />
     <Compile Include="Models\CalculatedPlayerStatistics.cs" />
@@ -108,7 +114,9 @@
     <Compile Include="Models\Position.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\SeasonTeam.cs" />
+    <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Team.cs" />
+    <Compile Include="Models\TeamSeasonStatistics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811111251315_changed_double_to_int.resx">
       <DependentUpon>201811111251315_changed_double_to_int.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811170757500_added_setting_and_teamstatistics.resx">
+      <DependentUpon>201811170757500_added_setting_and_teamstatistics.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

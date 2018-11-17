@@ -10,11 +10,9 @@
 71,Jonathan Walters Stoke,27,1718,5,3,5.67,2.37,0.30,0.12
 72,Mame Biram Diouf Stoke,26,1246,5,1,5.14,0.76,0.37,0.05
 87,Patrick van Aanholt Sunderland,33,2970,4,3,2.54,3.80,0.08,0.12
-88,Andros Townsend,Newcastle United,,Tottenham,16,1149,4,2,1.47,2.82,0.11,0.22
 89,Wes Hoolahan Norwich,30,2026,4,8,3.47,4.91,0.15,0.22
 90,Craig Dawson West Bromwich Albion,38,3387,4,0,4.99,3.27,0.13,0.09
 91,Saido Berahino West Bromwich Albion,31,1727,4,0,7.12,1.01,0.37,0.05
-92,Steven Naismith,Everton, Norwich,23,1343,4,1,3.01,2.08,0.20,0.14
 94,Joselu Stoke,22,1072,4,1,3.42,0.89,0.29,0.07
 95,Steven Fletcher Sunderland,16,1021,4,0,3.11,0.81,0.27,0.07
 109,Jeremain Lens Sunderland,20,1299,3,3,1.34,2.98,0.09,0.21
@@ -23,7 +21,6 @@
 112,Jonny Howson Norwich,36,2960,3,4,2.25,2.89,0.07,0.09
 113,Cameron Jerome Norwich,34,1770,3,2,8.22,0.37,0.42,0.02
 114,Craig Gardner West Bromwich Albion,34,2037,3,3,4.14,3.02,0.18,0.13
-117,Glenn Murray,Bournemouth,,Crystal Palace,21,789,3,0,4.02,0.52,0.46,0.06
 118,Xherdan Shaqiri Stoke,27,2072,3,6,3.07,6.42,0.13,0.28
 119,Duncan Watmore Sunderland,23,880,3,1,1.47,0.95,0.15,0.10
 121,James Morrison West Bromwich Albion,18,1354,3,3,1.89,1.12,0.13,0.07
@@ -39,7 +36,7 @@
 171,Ibrahim Afellay Stoke,31,2105,2,2,2.38,2.04,0.10,0.09
 174,Adam Johnson Sunderland,19,1136,2,5,1.81,2.19,0.14,0.17
 178,Timm Klose Norwich,10,849,1,0,0.54,0.00,0.06,0.00
-182,Lewis Grabban,Bournemouth, Norwich,21,806,1,0,2.31,0.42,0.26,0.05
+212,Joleon Lescott Aston Villa--West Bromwich Albion,32,2812,1,0,1.87,0.17,0.06,0.01
 213,Micah Richards Aston Villa,24,2049,1,1,1.01,0.42,0.04,0.02
 214,Leandro Bacuna Aston Villa,31,2421,1,0,1.91,1.20,0.07,0.04
 215,Jack Grealish Aston Villa,16,831,1,0,0.60,0.64,0.06,0.07
@@ -47,10 +44,8 @@
 225,Yann M'Vila Sunderland,37,3194,1,4,0.87,4.28,0.02,0.12
 226,Jack Rodwell Sunderland,22,1137,1,0,2.49,0.85,0.20,0.07
 227,Billy Jones Sunderland,24,2039,1,1,2.41,1.10,0.11,0.05
-232,Jonjo Shelvey,Newcastle United,,Swansea,31,2270,1,5,2.54,4.39,0.10,0.17
-234,Nathan Dyer,Leicester,,Swansea,13,209,1,1,0.26,0.57,0.11,0.25
 235,Martin Olsson Norwich,24,1767,1,2,0.16,0.90,0.01,0.05
-236,Matthew Jarvis Norwich,,West Ham,22,1100,1,1,1.02,1.54,0.08,0.13
+236,Matthew Jarvis Norwich--West Ham,22,1100,1,1,1.02,1.54,0.08,0.13
 237,Jonas Olsson West Bromwich Albion,28,2019,1,1,0.99,1.05,0.04,0.05
 238,Gareth McAuley West Bromwich Albion,34,3060,1,0,0.52,0.69,0.02,0.02
 239,Jonny Evans West Bromwich Albion,30,2600,1,1,1.24,0.78,0.04,0.03
@@ -89,4 +84,3 @@
 407,Graham Dorrans Norwich,21,1289,0,1,0.56,1.16,0.04,0.08
 408,Ben Foster West Bromwich Albion,15,1350,0,0,0.00,0.00,0.00,0.00
 409,Claudio Yacob West Bromwich Albion,34,2862,0,1,0.17,0.52,0.01,0.02
-410,Alex Pritchard,Tottenham, West Bromwich Albion,3,59,0,0,0.08,0.00,0.12,0.00

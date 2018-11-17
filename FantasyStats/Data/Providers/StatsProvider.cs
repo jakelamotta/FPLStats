@@ -105,7 +105,7 @@ namespace Data.Providers
                                     Season = season,
                                     Team = new TeamDto
                                     {
-                                        Name = lineAsList[17]
+                                        Name = ConvertDoubleTeam(lineAsList[17])
                                     }
                                 },
                                 Assists = assists,
@@ -137,6 +137,23 @@ namespace Data.Providers
             result.DataObject = players;
 
             return result;
+        }
+
+        private string ConvertDoubleTeam(string v)
+        {
+            if (!v.Contains("-"))
+            {
+                return v;
+            }
+
+            var teams = v.Split(new string[] { "--" }, StringSplitOptions.None);
+
+            if (teams.Count() > 1)
+            {
+                return teams[0];
+            }
+
+            throw new Exception();
         }
     }
 }

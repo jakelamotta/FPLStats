@@ -29,3 +29,4 @@ D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Release\DataManager.cspr
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Release\DataManager.csproj.CopyComplete
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Release\DataManager.dll
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Release\DataManager.pdb
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Release\DataManager.Migrations.added_setting_and_teamstatistics.resources
