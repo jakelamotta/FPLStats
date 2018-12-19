@@ -27,6 +27,7 @@ namespace DataManager.Models
         public int Assists { get; set; }
         public int MinutesPlayed { get; set; }
         public int Apps { get; set; }
+        public int Saves { get; set; }
 
         public double XG { get; set; }
         public double XA { get; set; }

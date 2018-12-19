@@ -1,5 +1,7 @@
-﻿using ServiceInstance;
+﻿using Common;
+using ServiceInstance;
 using System;
+using System.Collections.Generic;
 
 namespace FantasyStats
 {
@@ -9,7 +11,6 @@ namespace FantasyStats
         {
             var instance = new ServiceInstance.ServiceInstance();
             instance.Run();
-
         }
     }
 }

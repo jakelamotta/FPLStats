@@ -64,10 +64,13 @@
     <Compile Include="Dtos\BaseResultDto.cs" />
     <Compile Include="Dtos\CalculatedPlayerStatisticsDto.cs" />
     <Compile Include="Dtos\LeagueDto.cs" />
+    <Compile Include="Dtos\LinearRegressionDto.cs" />
     <Compile Include="Dtos\PlayerCostChangeDto.cs" />
     <Compile Include="Dtos\PlayerDto.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Dtos\PlayerSeasonStatisticsDto.cs" />
+    <Compile Include="Dtos\PythonRequestDto.cs" />
+    <Compile Include="Dtos\PythonResultDto.cs" />
     <Compile Include="Dtos\SeasonDto.cs" />
     <Compile Include="Dtos\SeasonTeamDto.cs" />
     <Compile Include="Dtos\SettingDto.cs" />

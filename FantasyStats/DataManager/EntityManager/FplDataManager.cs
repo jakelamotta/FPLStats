@@ -38,7 +38,7 @@ namespace DataManager.EntityManager
                 foreach (var playerDto in players)
                 {
                     var dbPlayer = context.PlayerSeasonStatistics.FirstOrDefault(p => p.Player.Name == playerDto.Player.Name
-                            && p.SeasonTeam.Season.StartYear == playerDto.SeasonTeam.Season.StartYear);
+                            && p.SeasonTeam.Season.Id == playerDto.SeasonTeam.Season.Id);
 
                     if (dbPlayer != null)
                     {
@@ -76,13 +76,12 @@ namespace DataManager.EntityManager
                     }
                     else
                     {
-                        var seasonTeam = context.SeasonTeams.FirstOrDefault(st => st.Season.StartYear == playerDto.SeasonTeam.Season.StartYear
-                            && st.Season.League.Country == playerDto.SeasonTeam.Season.League.Country
+                        var seasonTeam = context.SeasonTeams.FirstOrDefault(st => st.Season.Id == playerDto.SeasonTeam.Season.Id
                             && st.Team.Name.Equals(playerDto.SeasonTeam.Team.Name));
 
                         if (seasonTeam == null)
                         {
-                            var season = allSeasons.FirstOrDefault(s => s.StartYear == playerDto.SeasonTeam.Season.StartYear);
+                            var season = allSeasons.FirstOrDefault(s => s.Id == playerDto.SeasonTeam.Season.Id);
 
                             if (season == null)
                             {
@@ -174,11 +173,13 @@ namespace DataManager.EntityManager
 
                 foreach (var player in players)
                 {
+                    
+
                     var dbPlayer = new CalculatedPlayerStatistics
                     {
                         MinutesPlayed = player.MinutesPlayed,
                         Name = player.Name,
-                        xPAbs = player.xPAbs,
+                        xPTotal = player.xPTotal,
                         xPPound90 = player.xPPound90,
                         xPPoundMinPlayed = player.xPPoundMinPlayed,
                         xRc = player.xRc,
@@ -187,14 +188,7 @@ namespace DataManager.EntityManager
 
                     context.CalculatedPlayerStatistics.Add(dbPlayer);
 
-                    try
-                    {
-                        context.SaveChanges();
-                    }
-                    catch(Exception e)
-                    {
-                        var t = 1;
-                    }
+                    context.SaveChanges();
                 }
 
                 
@@ -203,23 +197,92 @@ namespace DataManager.EntityManager
             return result;
         }
 
+        public BaseResultDto<int> SaveTeamStatisticsList(List<SeasonTeamDto> teams)
+        {
+            var result = new BaseResultDto<int>();
+
+            using (var context = _contextFactory.Create())
+            {
+                foreach (var team in teams)
+                {
+                    var stDb = context.SeasonTeams.FirstOrDefault(st => st.Team.Name == team.Team.Name && st.Season.Id == team.Season.Id && st.Season.League.Id == team.Season.League.Id);
+
+                    if (stDb == null)
+                    {
+                        var sDb = context.Seasons.FirstOrDefault(s => s.Id == team.Season.Id);
+                        var tDb = context.Teams.FirstOrDefault(t => t.Name.Equals(team.Team.Name));
+
+                        if (tDb == null)
+                        {
+                            tDb = new Team
+                            {
+                                Name = team.Team.Name
+                            };
+
+                            context.Teams.Add(tDb);
+                            context.SaveChanges();
+                        }
+
+                        stDb = new SeasonTeam
+                        {
+                            TeamId = tDb.Id,
+                            SeasonId = sDb.Id,
+                            Points = team.Points,
+                            Drawn = team.Drawn,
+                            GamesPlayed = team.GamesPlayed,
+                            Lost = team.Lost,
+                            Position = team.Position,
+                            Won = team.Won,
+                            XGFor = team.XGFor,
+                            XGAgainst = team.XGAgainst,
+                            XPoints = team.XPoints,
+                            CleanSheets = team.CleanSheets
+                        };
+
+                        context.SeasonTeams.Add(stDb);
+                        context.SaveChanges();
+                    }
+                    else
+                    {
+                        stDb.Points = team.Points;
+                        stDb.Drawn = team.Drawn;
+                        stDb.GamesPlayed = team.GamesPlayed;
+                        stDb.Lost = team.Lost;
+                        stDb.Position = team.Position;
+                        stDb.Won = team.Won;
+                        stDb.XGFor = team.XGFor;
+                        stDb.XGAgainst = team.XGAgainst;
+                        stDb.XPoints = team.XPoints;
+                        stDb.CleanSheets = team.CleanSheets;
+
+                        context.SeasonTeams.AddOrUpdate(stDb);
+                        context.SaveChanges();
+                    }
+                }
+            }
+
+            result.Status = true;
+
+            return result;
+        }
+
         #endregion
 
         #region Reads
 
-        public BaseResultDto<List<int>> GetNonCompleteYears()
+        public BaseResultDto<List<SeasonDto>> GetNonCompleteSeasons()
         {
-            var result = new BaseResultDto<List<int>>();
+            var result = new BaseResultDto<List<SeasonDto>>();
             result.Status = true;
 
-            var years = new List<int>();
+            var seasons = new List<SeasonDto>();
 
             using (var context = _contextFactory.Create())
             {
-                years = context.Seasons.Where(s => !s.DataComplete).Select(s => s.StartYear).ToList();
+                seasons = context.Seasons.Include("League").Where(s => !s.DataComplete).ToDtoList<SeasonDto>(Mapper).ToList();
             }
 
-            result.DataObject = years;
+            result.DataObject = seasons;
 
             return result;
         }

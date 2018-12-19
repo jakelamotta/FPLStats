@@ -61,6 +61,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{472AE17E-7E39-4977-8CD2-F87DD246D9E1}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ServiceInstance\ServiceInstance.csproj">
       <Project>{4e001cdb-7045-4f8c-b87d-5c30e804e018}</Project>
       <Name>ServiceInstance</Name>

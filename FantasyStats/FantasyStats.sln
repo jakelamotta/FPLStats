@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyStats", "FantasyStats\FantasyStats.csproj", "{14229895-D543-4429-9656-6C9D74DD8B73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "FantasyStats\Main.csproj", "{14229895-D543-4429-9656-6C9D74DD8B73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManager", "Data\ServiceManager.csproj", "{6F18F870-0DFA-4156-9523-B47E11B7184D}"
 EndProject

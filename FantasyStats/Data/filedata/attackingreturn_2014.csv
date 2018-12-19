@@ -1,0 +1,137 @@
+,bps,clean_sheets,element_type,news_added,now_cost,own_goals,penalties_missed,photo,points_per_game,red_cards,second_name,threat,web_name,yellow_cards,Player,PID,Team,Apps,Minutes,Goals,Assists,xG,xA,xG90,xA90,Position
+0,130,1,1,2018-09-29T17:31:14Z,49,0,0,11334.jpg,3.4,0,Cech,0,Cech,0,Petr Cech,254,Chelsea,7,607,0,0,0.0,0.0,0.0,0.0,Unfilled
+1,0,0,2,2018-07-05T14:31:07Z,54,0,0,51507.jpg,0.0,0,Koscielny,0,Koscielny,0,Laurent Koscielny,97,Arsenal,27,2289,3,0,1.27,0.12,0.05,0.0,Unfilled
+2,222,2,2,2018-11-03T16:31:13Z,54,1,0,98745.jpg,3.2,0,Bellerín,195,Bellerín,2,Héctor Bellerín,121,Arsenal,20,1564,2,1,0.28,1.77,0.02,0.1,Unfilled
+3,124,2,2,2018-10-22T19:31:15Z,54,0,0,38411.jpg,4.3,0,Monreal,161,Monreal,1,Nacho Monreal,256,Arsenal,28,2308,0,1,0.3,1.38,0.01,0.05,Unfilled
+4,180,2,3,2018-10-07T10:31:16Z,82,0,0,37605.jpg,4.6,0,Özil,107,Özil,1,Mesut Özil,70,Arsenal,22,1861,4,5,3.86,6.66,0.19,0.32,Unfilled
+5,136,3,3,2018-08-02T07:01:09Z,73,0,0,41792.jpg,3.0,0,Ramsey,177,Ramsey,0,Aaron Ramsey,40,Arsenal,29,2013,6,6,6.64,5.3,0.3,0.24,Unfilled
+6,63,0,4,2018-11-08T23:01:14Z,65,0,0,50175.jpg,2.4,0,Welbeck,66,Welbeck,0,Danny Welbeck,71,Arsenal--Manchester United,27,1714,4,3,7.27,2.89,0.38,0.15,Unfilled
+7,248,4,2,2018-08-05T11:01:10Z,50,0,0,126184.jpg,3.1,0,Aké,161,Aké,1,Nathan Aké,275,Chelsea,1,14,0,0,0.0,0.0,0.0,0.0,Unfilled
+8,13,0,3,,50,0,0,103912.jpg,1.2,0,Ibe,54,Ibe,0,Jordon Ibe,251,Liverpool,12,616,0,0,0.59,0.36,0.09,0.05,Unfilled
+9,178,2,4,2018-11-26T14:01:15Z,67,0,0,20529.jpg,4.3,0,Murray,321,Murray,2,Glenn Murray,38,Crystal Palace,17,859,7,3,9.53,1.53,1.0,0.16,Unfilled
+10,231,3,2,,48,1,0,51927.jpg,2.3,0,Mee,53,Mee,2,Ben Mee,161,Burnley,33,2889,2,1,1.93,0.87,0.06,0.03,Unfilled
+11,152,3,3,2018-11-10T14:01:14Z,47,0,0,40145.jpg,2.0,0,Cork,59,Cork,3,Jack Cork,104,Southampton--Swansea,27,1795,3,0,3.13,0.71,0.16,0.04,Unfilled
+12,117,3,3,2018-10-26T14:31:14Z,50,0,0,17349.jpg,2.8,0,Lennon,106,Lennon,1,Aaron Lennon,131,Everton--Tottenham,23,1345,2,2,1.22,2.71,0.08,0.18,Unfilled
+13,72,1,4,2018-07-24T09:01:08Z,56,0,0,44699.jpg,1.8,0,Barnes,87,Barnes,1,Ashley Barnes,67,Burnley,35,2435,5,2,5.69,1.82,0.21,0.07,Unfilled
+14,56,2,4,2018-08-12T12:31:12Z,62,0,0,60689.jpg,1.8,0,Wood,245,Wood,0,Chris Wood,244,Leicester,7,91,1,0,0.72,0.0,0.71,0.0,Unfilled
+15,293,3,1,,45,0,0,15749.jpg,3.9,0,Hart,0,Hart,0,Joe Hart,283,Manchester City,36,3240,0,0,0.0,0.0,0.0,0.0,Unfilled
+16,0,0,1,2018-08-09T06:49:10Z,55,0,0,60772.jpg,0.0,0,Courtois,0,Courtois,0,Thibaut Courtois,307,Chelsea,32,2813,0,0,0.0,0.22,0.0,0.01,Unfilled
+17,0,0,1,,47,0,0,20310.jpg,0.0,0,Caballero,0,Caballero,0,Willy Caballero,286,Manchester City,2,180,0,0,0.0,0.0,0.0,0.0,Unfilled
+18,298,6,2,,63,0,0,41328.jpg,4.2,0,Azpilicueta,71,Azpilicueta,0,César Azpilicueta,308,Chelsea,29,2483,0,3,0.25,1.31,0.01,0.05,Unfilled
+19,3,0,2,,51,0,0,19419.jpg,1.0,0,Cahill,0,Cahill,0,Gary Cahill,192,Chelsea,36,2986,1,0,1.82,1.69,0.06,0.05,Unfilled
+20,0,0,2,2018-09-26T22:31:12Z,50,0,0,135363.jpg,0.0,0,Christensen,0,Christensen,0,Andreas Christensen,247,Chelsea,1,9,0,0,0.0,0.0,0.0,0.0,Unfilled
+21,302,4,3,2018-11-25T20:01:14Z,111,0,0,42786.jpg,6.9,0,Hazard,496,Hazard,2,Eden Hazard,7,Chelsea,38,3389,14,9,12.02,11.24,0.32,0.3,Unfilled
+22,17,0,3,2018-11-11T13:31:14Z,63,0,0,17878.jpg,1.0,0,Fàbregas,2,Fàbregas,0,Cesc Fàbregas,103,Chelsea,34,2895,3,18,3.25,10.15,0.1,0.32,Unfilled
+23,164,3,3,2018-10-20T11:31:16Z,58,0,0,88894.jpg,4.0,0,Barkley,204,Barkley,0,Ross Barkley,130,Everton,29,1967,2,2,3.76,2.57,0.17,0.12,Unfilled
+24,0,0,3,,47,0,0,61603.jpg,0.0,0,Drinkwater,0,Drinkwater,0,Daniel Drinkwater,328,Leicester,23,1476,0,0,0.53,0.72,0.03,0.04,Unfilled
+25,33,1,3,2018-09-28T13:01:14Z,52,0,0,126187.jpg,3.3,0,Loftus-Cheek,47,Loftus-Cheek,0,Ruben Loftus-Cheek,310,Chelsea,3,139,0,0,0.02,0.08,0.01,0.05,Unfilled
+26,102,3,4,2018-11-01T11:31:13Z,77,0,0,44346.jpg,3.2,0,Giroud,214,Giroud,0,Olivier Giroud,6,Arsenal,27,1871,14,3,8.85,3.86,0.43,0.19,Unfilled
+27,273,5,1,,45,0,0,20066.jpg,4.4,0,Hennessey,0,Hennessey,0,Wayne Hennessey,261,Crystal Palace,3,213,0,0,0.0,0.0,0.0,0.0,Unfilled
+28,0,0,1,,40,0,0,11554.jpg,0.0,0,Speroni,0,Speroni,0,Julian Speroni,264,Crystal Palace,36,3207,0,0,0.0,0.0,0.0,0.0,Unfilled
+29,216,5,2,2018-11-10T20:01:15Z,43,0,0,49413.jpg,2.9,0,Tomkins,63,Tomkins,3,James Tomkins,174,West Ham,22,1858,1,3,2.16,2.03,0.1,0.1,Unfilled
+30,0,0,2,2018-07-05T14:31:07Z,44,0,0,19188.jpg,0.0,0,Dann,0,Dann,0,Scott Dann,122,Crystal Palace,34,2926,2,3,1.25,3.09,0.04,0.09,Unfilled
+31,24,0,2,,39,0,0,58786.jpg,1.0,0,Kelly,0,Kelly,0,Martin Kelly,266,Crystal Palace,31,2503,0,1,0.19,0.81,0.01,0.03,Unfilled
+32,71,1,2,,44,0,0,86417.jpg,2.1,0,Schlupp,124,Schlupp,1,Jeffrey Schlupp,108,Leicester,32,2557,3,2,2.3,1.55,0.08,0.05,Unfilled
+33,277,5,2,2018-11-24T15:01:16Z,49,0,0,40784.jpg,3.1,0,Sakho,13,Sakho,2,Mamadou Sakho,252,Liverpool,16,1419,0,0,0.11,0.12,0.01,0.01,Unfilled
+34,3,0,3,,43,0,0,19197.jpg,1.0,0,Puncheon,0,Puncheon,0,Jason Puncheon,41,Crystal Palace,37,2823,6,7,2.79,5.31,0.09,0.17,Unfilled
+35,164,5,3,,47,0,0,50471.jpg,2.8,0,McArthur,102,McArthur,2,James McArthur,137,Crystal Palace,32,2623,2,0,2.07,1.77,0.07,0.06,Unfilled
+36,195,5,3,,57,0,0,60252.jpg,3.2,0,Townsend,232,Townsend,1,Andros Townsend,143,Tottenham,17,767,2,2,1.78,0.95,0.21,0.11,Unfilled
+37,132,5,4,2018-11-10T20:01:15Z,67,0,0,82403.jpg,3.5,0,Zaha,344,Zaha,3,Wilfried Zaha,73,Crystal Palace,31,1989,4,2,4.76,2.19,0.22,0.1,Unfilled
+38,83,4,3,,47,0,0,55037.jpg,2.3,0,Kouyaté,76,Kouyaté,2,Cheikhou Kouyaté,74,West Ham,31,2670,4,2,3.06,1.19,0.1,0.04,Unfilled
+39,6,0,2,2018-11-10T16:31:13Z,43,0,0,55494.jpg,1.0,0,Ward,4,Ward,0,Joel Ward,172,Crystal Palace,37,3330,1,0,0.31,0.88,0.01,0.02,Unfilled
+40,3,0,2,2018-08-24T16:01:12Z,43,0,0,79228.jpg,1.0,0,Souaré,0,Souaré,0,Pape Souaré,263,Crystal Palace,9,603,0,0,0.04,1.76,0.01,0.26,Unfilled
+41,40,0,2,,51,0,0,12745.jpg,1.3,0,Baines,15,Baines,0,Leighton Baines,128,Everton,31,2775,2,9,2.97,6.35,0.1,0.21,Unfilled
+42,160,3,2,2018-09-10T17:01:14Z,52,0,0,59949.jpg,3.8,0,Coleman,74,Coleman,1,Seamus Coleman,99,Everton,35,3062,3,2,2.01,2.73,0.06,0.08,Unfilled
+43,-2,0,2,2018-11-02T18:01:13Z,43,0,0,7645.jpg,-1.0,1,Jagielka,0,Jagielka,0,Phil Jagielka,77,Everton,37,3295,4,0,2.39,0.07,0.07,0.0,Unfilled
+44,0,0,2,2018-08-03T09:26:19Z,45,0,0,19159.jpg,0.0,0,Williams,0,Williams,0,Ashley Williams,315,Swansea,37,3330,0,0,0.4,0.15,0.01,0.0,Unfilled
+45,138,4,3,2018-09-16T14:01:13Z,63,0,0,20467.jpg,3.9,0,Walcott,309,Walcott,0,Theo Walcott,54,Arsenal,14,427,5,0,5.35,0.4,1.13,0.08,Unfilled
+46,0,0,3,2018-08-26T07:54:10Z,58,0,0,55452.jpg,0.0,0,Bolasie,0,Bolasie,0,Yannick Bolasie,72,Crystal Palace,34,2788,4,6,4.84,5.13,0.16,0.17,Unfilled
+47,0,0,3,2018-07-05T14:31:07Z,44,0,0,50472.jpg,0.0,0,McCarthy,0,McCarthy,0,James McCarthy,129,Everton,28,2416,2,1,1.41,1.04,0.05,0.04,Unfilled
+48,59,0,3,2018-08-18T17:01:12Z,43,0,0,42774.jpg,1.7,0,Schneiderlin,2,Schneiderlin,1,Morgan Schneiderlin,76,Southampton,26,2183,4,1,2.39,1.56,0.1,0.06,Unfilled
+49,276,4,3,2018-11-11T17:31:14Z,74,0,1,55422.jpg,5.5,0,Sigurdsson,333,Sigurdsson,1,Gylfi Sigurdsson,34,Swansea,32,2721,7,10,5.18,8.45,0.17,0.28,Unfilled
+50,0,0,3,2018-08-05T06:50:01Z,55,0,0,26901.jpg,0.0,0,Mirallas,0,Mirallas,0,Kevin Mirallas,31,Everton,29,1430,7,1,4.72,1.59,0.3,0.1,Unfilled
+51,142,2,2,2018-11-03T23:01:14Z,50,0,0,103192.jpg,2.9,0,Zouma,49,Zouma,0,Kurt Zouma,376,Chelsea,15,633,0,0,0.02,0.03,0.0,0.0,Unfilled
+52,0,0,2,,40,0,0,149468.jpg,0.0,0,Browning,0,Browning,0,Tyias Browning,388,Everton,2,24,0,0,0.0,0.03,0.0,0.12,Unfilled
+53,74,0,2,2018-10-20T16:31:16Z,42,0,0,101184.jpg,0.8,0,Chambers,56,Chambers,2,Calum Chambers,171,Arsenal,23,1574,1,1,0.81,0.88,0.05,0.05,Unfilled
+54,182,0,3,,59,0,0,66842.jpg,3.7,0,Schürrle,317,Schürrle,2,André Schürrle,96,Chelsea,14,428,3,0,3.25,0.6,0.68,0.13,Unfilled
+55,243,5,1,,50,0,0,17745.jpg,3.4,0,Schmeichel,4,Schmeichel,1,Kasper Schmeichel,326,Leicester,24,2160,0,0,0.0,0.08,0.0,0.0,Unfilled
+56,155,4,2,2018-10-06T17:01:15Z,45,0,0,15033.jpg,2.6,2,Morgan,62,Morgan,1,Wes Morgan,141,Leicester,37,3293,2,2,2.28,0.92,0.06,0.03,Unfilled
+57,5,0,2,2018-07-23T19:01:08Z,42,0,0,40725.jpg,1.0,0,Simpson,0,Simpson,0,Danny Simpson,327,Leicester--Queens Park Rangers,15,1257,0,0,0.04,0.47,0.0,0.03,Unfilled
+58,128,4,2,2018-11-10T17:31:13Z,48,0,0,37642.jpg,3.6,0,Evans,53,Evans,1,Jonny Evans,336,Manchester United,14,1095,0,0,0.01,0.04,0.0,0.0,Unfilled
+59,134,2,3,2018-07-23T19:01:08Z,51,0,0,51938.jpg,2.2,0,Albrighton,135,Albrighton,2,Marc Albrighton,142,Leicester,18,1011,2,3,1.39,3.89,0.12,0.35,Unfilled
+60,155,5,4,2018-11-24T15:01:16Z,89,0,0,101668.jpg,4.1,1,Vardy,358,Vardy,0,Jamie Vardy,60,Leicester,34,2261,5,8,7.85,5.18,0.31,0.21,Unfilled
+61,0,0,1,2018-09-14T13:01:14Z,48,0,0,66797.jpg,0.0,0,Mignolet,0,Mignolet,0,Simon Mignolet,253,Liverpool,36,3225,0,0,0.0,0.02,0.0,0.0,Unfilled
+62,103,3,2,2018-11-07T02:01:16Z,49,0,0,38454.jpg,6.5,0,Lovren,10,Lovren,0,Dejan Lovren,282,Liverpool,26,2032,0,0,0.89,0.07,0.04,0.0,Unfilled
+63,13,0,2,,42,0,0,100059.jpg,2.0,0,Moreno,5,Moreno,0,Alberto Moreno,133,Liverpool,28,2273,2,0,1.94,1.66,0.08,0.07,Unfilled
+64,0,0,2,2018-11-05T10:01:14Z,46,0,0,57328.jpg,0.0,0,Clyne,0,Clyne,0,Nathaniel Clyne,132,Southampton,35,3148,2,0,0.94,2.09,0.03,0.06,Unfilled
+65,0,0,3,2018-07-05T14:31:07Z,64,0,0,81880.jpg,0.0,0,Oxlade-Chamberlain,0,Chamberlain,0,Alex Oxlade-Chamberlain,220,Arsenal,23,1497,1,1,2.85,3.69,0.17,0.22,Unfilled
+66,118,3,3,2018-11-24T17:01:15Z,53,0,0,56979.jpg,1.5,1,Henderson,5,Henderson,0,Jordan Henderson,43,Liverpool,37,3253,6,9,4.29,6.79,0.12,0.19,Unfilled
+67,23,2,3,2018-11-23T12:31:16Z,69,0,0,39155.jpg,2.0,0,Lallana,46,Lallana,1,Adam Lallana,51,Liverpool,27,1802,5,3,4.77,3.14,0.24,0.16,Unfilled
+68,236,7,3,2018-10-15T22:01:16Z,99,0,0,110979.jpg,6.4,0,Mané,424,Mané,1,Sadio Mané,22,Southampton,30,2142,10,3,8.55,3.98,0.36,0.17,Unfilled
+69,199,4,3,2018-10-20T15:31:16Z,56,0,0,15157.jpg,3.5,0,Milner,116,Milner,2,James Milner,53,Manchester City,32,1732,5,7,5.72,4.97,0.3,0.26,Unfilled
+70,68,1,4,,58,0,0,40755.jpg,2.4,0,Sturridge,101,Sturridge,1,Daniel Sturridge,69,Liverpool,12,747,4,1,4.52,1.52,0.54,0.18,Unfilled
+71,162,3,3,2018-07-29T08:31:08Z,85,0,1,103025.jpg,3.7,0,Mahrez,304,Mahrez,0,Riyad Mahrez,83,Leicester,30,2091,4,3,4.92,6.06,0.21,0.26,Unfilled
+72,183,4,2,,53,0,0,97299.jpg,4.2,0,Stones,14,Stones,0,John Stones,175,Everton,23,2046,1,0,0.2,0.66,0.01,0.03,Unfilled
+73,64,1,2,,52,0,0,17476.jpg,1.8,0,Kompany,8,Kompany,2,Vincent Kompany,284,Manchester City,25,2035,0,0,0.33,0.86,0.01,0.04,Unfilled
+74,261,7,2,2018-10-21T16:31:17Z,65,0,0,58621.jpg,5.5,0,Walker,56,Walker,0,Kyle Walker,293,Tottenham,15,1309,0,0,0.16,0.92,0.01,0.06,Unfilled
+75,341,7,3,2018-09-03T18:31:13Z,114,0,0,103955.jpg,8.5,0,Sterling,602,Sterling,1,Raheem Sterling,32,Liverpool,35,3059,7,7,8.79,6.04,0.26,0.18,Unfilled
+76,301,6,3,,87,0,0,20664.jpg,5.6,0,Silva,546,David Silva,1,David Silva,10,Manchester City,32,2682,12,7,9.1,10.39,0.31,0.35,Unfilled
+77,316,7,4,2018-09-15T17:01:14Z,115,0,0,37572.jpg,6.3,0,Agüero,749,Agüero,2,Sergio Agüero,1,Manchester City,33,2551,26,8,25.27,5.57,0.89,0.2,Unfilled
+78,220,2,1,,57,0,0,51940.jpg,3.0,0,De Gea,0,De Gea,0,David De Gea,270,Manchester United,37,3315,0,0,0.0,0.0,0.0,0.0,Unfilled
+79,163,2,2,2018-07-29T08:31:08Z,57,0,0,55909.jpg,3.0,0,Smalling,96,Smalling,1,Chris Smalling,78,Manchester United,25,1881,4,0,1.86,0.39,0.09,0.02,Unfilled
+80,6,0,2,2018-08-27T22:01:13Z,51,0,0,76359.jpg,0.0,0,Jones,0,Jones,0,Phil Jones,380,Manchester United,22,1881,0,0,0.19,0.26,0.01,0.01,Unfilled
+81,174,1,2,2018-11-11T19:31:16Z,50,0,0,106760.jpg,2.7,0,Shaw,131,Shaw,5,Luke Shaw,392,Manchester United,16,1131,0,0,0.14,1.28,0.01,0.1,Unfilled
+82,0,0,2,2018-12-01T17:01:14Z,49,0,0,58893.jpg,0.0,0,Rojo,0,Rojo,0,Marcos Rojo,271,Manchester United,22,1767,0,0,1.53,0.34,0.08,0.02,Unfilled
+83,69,1,2,2018-10-24T09:01:16Z,64,0,0,20695.jpg,2.5,0,Valencia,3,Valencia,2,Antonio Valencia,289,Manchester United,32,2588,0,2,0.22,2.21,0.01,0.08,Unfilled
+84,0,0,2,2018-07-18T10:05:48Z,50,0,0,58877.jpg,0.0,0,Blind,0,Blind,0,Daley Blind,127,Manchester United,25,2174,2,2,1.0,1.45,0.04,0.06,Unfilled
+85,135,1,2,2018-10-06T15:31:14Z,57,0,0,18892.jpg,2.1,0,Young,20,Young,4,Ashley Young,136,Manchester United,26,2076,2,5,2.51,4.12,0.11,0.18,Unfilled
+86,102,1,3,2018-11-29T23:01:15Z,100,0,0,37265.jpg,2.9,0,Sánchez,223,Sánchez,2,Alexis Sánchez,5,Arsenal,35,2967,16,8,13.45,8.49,0.41,0.26,Unfilled
+87,119,2,3,2018-10-20T11:31:16Z,50,0,0,62398.jpg,1.7,1,Matic,91,Matic,2,Nemanja Matic,191,Chelsea,36,3124,1,3,2.8,2.38,0.08,0.07,Unfilled
+88,95,1,3,,62,0,0,43670.jpg,2.4,0,Mata,87,Mata,1,Juan Mata,25,Manchester United,33,2318,9,4,6.6,4.97,0.26,0.19,Unfilled
+89,107,1,3,2018-10-19T14:01:16Z,49,0,0,41184.jpg,2.2,0,Fellaini,115,Fellaini,0,Marouane Fellaini,44,Manchester United,27,1824,6,0,5.31,1.15,0.26,0.06,Unfilled
+90,29,0,3,2018-10-20T11:31:16Z,50,0,0,59846.jpg,1.0,0,Herrera,57,Herrera,1,Ander Herrera,42,Manchester United,26,1877,6,4,2.04,2.12,0.1,0.1,Unfilled
+91,59,1,3,2018-10-28T15:01:14Z,67,0,0,109322.jpg,1.6,0,Lingard,159,Lingard,0,Jesse Lingard,272,Manchester United,1,23,0,0,0.0,0.0,0.0,0.0,Unfilled
+92,125,2,4,2018-11-24T15:01:16Z,107,0,0,66749.jpg,3.7,0,Lukaku,404,Lukaku,1,Romelu Lukaku,19,Everton,36,2880,10,5,12.43,2.35,0.39,0.07,Unfilled
+93,28,0,3,,46,0,0,156689.jpg,0.8,0,Pereira,16,Pereira,2,Andreas Pereira,372,Manchester United,1,12,0,0,0.0,0.0,0.0,0.0,Unfilled
+94,0,0,1,,43,0,0,19838.jpg,0.0,0,Elliot,0,Elliot,0,Robert Elliot,330,Newcastle United,3,227,0,0,0.0,0.05,0.0,0.02,Unfilled
+95,169,3,2,2018-09-29T13:01:13Z,45,1,0,151119.jpg,2.8,0,Yedlin,61,Yedlin,2,DeAndre Yedlin,321,Tottenham,1,9,0,0,0.0,0.0,0.0,0.0,Unfilled
+96,165,4,2,2018-11-17T01:31:18Z,44,0,0,106618.jpg,3.2,0,Dummett,13,Dummett,0,Paul Dummett,344,Newcastle United,25,2111,0,0,1.64,1.22,0.07,0.05,Unfilled
+97,111,3,3,2018-11-03T17:31:13Z,53,0,0,50232.jpg,2.4,0,Shelvey,104,Shelvey,0,Jonjo Shelvey,109,Swansea,31,2471,3,5,4.55,2.94,0.17,0.11,Unfilled
+98,0,0,4,2018-08-07T09:52:46Z,60,0,0,104547.jpg,0.0,0,Gayle,0,Gayle,0,Dwight Gayle,59,Crystal Palace,25,1069,5,1,5.16,0.77,0.43,0.06,Unfilled
+99,128,3,4,,61,0,0,168580.jpg,2.6,0,Pérez,220,Pérez,0,Ayoze Pérez,36,Newcastle United,36,2369,7,0,5.75,2.9,0.22,0.11,Unfilled
+100,209,3,2,2018-10-06T15:31:14Z,44,0,0,57145.jpg,3.5,0,Fernández,45,Fernández,1,Federico Fernández,314,Swansea,28,2472,0,0,0.59,0.09,0.02,0.0,Unfilled
+101,154,3,4,2018-11-10T17:31:13Z,54,0,0,84939.jpg,4.0,0,Ings,489,Ings,1,Danny Ings,18,Burnley,35,3048,11,4,12.29,4.24,0.36,0.13,Unfilled
+102,0,0,1,,43,0,0,40383.jpg,0.0,0,Forster,0,Forster,0,Fraser Forster,342,Southampton,30,2623,0,0,0.0,0.02,0.0,0.0,Unfilled
+103,171,4,2,2018-11-29T15:01:15Z,48,0,0,40146.jpg,2.8,0,Bertrand,85,Bertrand,5,Ryan Bertrand,148,Southampton,34,3057,2,2,0.98,3.74,0.03,0.11,Unfilled
+104,41,0,2,,41,0,0,80447.jpg,1.3,0,Yoshida,42,Yoshida,0,Maya Yoshida,209,Southampton,22,1688,1,1,1.73,0.33,0.09,0.02,Unfilled
+105,3,0,3,,46,0,0,17339.jpg,1.0,0,Davis,0,Davis,0,Steven Davis,357,Southampton,35,2668,0,2,3.12,3.7,0.11,0.12,Unfilled
+106,33,0,3,,51,0,0,101178.jpg,1.2,0,Ward-Prowse,28,Ward-Prowse,1,James Ward-Prowse,208,Southampton,25,1488,1,6,2.94,3.92,0.18,0.24,Unfilled
+107,29,1,4,2018-11-10T20:01:16Z,48,0,0,20452.jpg,1.6,0,Long,155,Long,0,Shane Long,61,Southampton,32,1522,5,5,4.04,2.74,0.24,0.16,Unfilled
+108,40,0,2,2018-11-28T14:01:15Z,42,0,0,169359.jpg,1.7,0,Targett,6,Targett,0,Matt Targett,358,Southampton,6,221,0,0,0.04,0.04,0.01,0.02,Unfilled
+109,198,4,1,2018-08-31T12:31:13Z,54,0,0,37915.jpg,4.9,0,Lloris,0,Lloris,0,Hugo Lloris,292,Tottenham,35,3063,0,0,0.0,0.0,0.0,0.0,Unfilled
+110,36,0,1,2018-09-22T16:01:13Z,48,0,0,39215.jpg,2.5,0,Vorm,0,Vorm,0,Michel Vorm,295,Tottenham,4,357,0,0,0.0,0.03,0.0,0.01,Unfilled
+111,245,5,2,,59,0,0,55605.jpg,3.5,0,Alderweireld,96,Alderweireld,1,Toby Alderweireld,182,Southampton,26,2264,1,0,0.93,0.7,0.04,0.03,Unfilled
+112,100,3,2,2018-10-06T17:01:15Z,58,0,0,38290.jpg,4.7,0,Rose,44,Rose,2,Danny Rose,102,Tottenham,28,2386,3,4,1.67,2.91,0.06,0.11,Unfilled
+113,131,1,2,2018-11-24T17:01:16Z,59,0,0,39194.jpg,3.4,0,Vertonghen,55,Vertonghen,0,Jan Vertonghen,294,Tottenham,32,2807,0,0,0.59,0.08,0.02,0.0,Unfilled
+114,124,2,2,,56,0,0,115556.jpg,2.3,0,Davies,83,Davies,1,Ben Davies,300,Tottenham,14,879,0,1,0.01,0.35,0.0,0.04,Unfilled
+115,258,4,2,2018-11-10T20:01:16Z,61,0,0,77794.jpg,5.4,0,Trippier,53,Trippier,1,Kieran Trippier,296,Burnley,38,3418,0,4,0.46,6.79,0.01,0.18,Unfilled
+116,145,4,3,2018-11-10T16:31:13Z,48,0,0,93264.jpg,2.8,0,Dier,49,Dier,1,Eric Dier,138,Tottenham,28,2288,2,2,1.42,1.47,0.06,0.06,Unfilled
+117,74,1,3,2018-11-03T22:01:14Z,49,0,0,39104.jpg,1.4,0,Dembélé,1,Dembélé,1,Mousa Dembélé,183,Tottenham,26,1122,1,1,1.15,0.76,0.09,0.06,Unfilled
+118,124,2,3,2018-11-30T13:01:15Z,63,0,0,62974.jpg,4.7,0,Lamela,234,Lamela,0,Erik Lamela,139,Tottenham,33,2297,2,7,2.45,6.1,0.1,0.24,Unfilled
+119,147,1,3,2018-09-27T12:31:15Z,92,0,0,80607.jpg,3.3,0,Eriksen,131,Eriksen,0,Christian Eriksen,20,Tottenham,38,3160,10,2,7.39,6.09,0.21,0.17,Unfilled
+120,25,1,3,2018-11-10T16:31:13Z,49,0,0,54756.jpg,1.5,0,Wanyama,21,Wanyama,0,Victor Wanyama,113,Southampton,32,2367,3,1,1.72,0.93,0.07,0.04,Unfilled
+121,123,3,3,2018-08-31T12:31:13Z,49,0,0,45268.jpg,2.9,0,Sissoko,65,Sissoko,0,Moussa Sissoko,85,Newcastle United,34,3037,4,2,3.95,4.65,0.12,0.14,Unfilled
+122,232,5,4,,123,0,0,78830.jpg,5.2,0,Kane,627,Kane,3,Harry Kane,2,Tottenham,34,2589,21,4,17.16,3.92,0.6,0.14,Unfilled
+123,48,1,1,,45,0,0,102884.jpg,5.0,0,Gazzaniga,0,Gazzaniga,0,Paulo Gazzaniga,387,Southampton,2,180,0,0,0.0,0.0,0.0,0.0,Unfilled
+124,0,0,2,,42,0,0,37742.jpg,0.0,0,Kaboul,0,Kaboul,0,Younes Kaboul,324,Tottenham,11,990,0,0,0.91,0.31,0.08,0.03,Unfilled
+125,105,1,2,2018-09-27T15:31:13Z,49,0,0,52940.jpg,3.3,0,Janmaat,30,Janmaat,2,Daryl Janmaat,198,Newcastle United,37,3263,1,6,1.41,2.94,0.04,0.08,Unfilled
+126,102,2,2,,42,0,0,20145.jpg,2.5,0,Mariappa,28,Mariappa,0,Adrian Mariappa,265,Crystal Palace,12,838,0,0,0.0,0.06,0.0,0.01,Unfilled
+127,203,3,3,2018-11-04T20:31:15Z,51,0,0,38439.jpg,3.1,1,Capoue,76,Capoue,5,Etienne Capoue,274,Tottenham,12,911,0,0,0.12,0.24,0.01,0.02,Unfilled
+128,0,0,4,2018-07-26T08:24:43Z,45,0,0,133801.jpg,0.0,0,Sinclair,0,Sinclair,0,Jerome Sinclair,386,Liverpool,2,22,0,0,0.0,0.05,0.0,0.21,Unfilled
+129,272,2,1,,45,0,0,37096.jpg,3.7,0,Fabianski,0,Fabianski,0,Lukasz Fabianski,312,Swansea,37,3310,0,0,0.0,0.0,0.0,0.0,Unfilled
+130,0,0,2,2018-07-05T14:31:07Z,44,0,0,48717.jpg,0.0,0,Reid,0,Reid,0,Winston Reid,173,West Ham,30,2497,1,0,1.24,1.22,0.04,0.04,Unfilled
+131,74,0,2,2018-07-29T08:31:08Z,51,0,0,55459.jpg,1.3,0,Cresswell,13,Cresswell,1,Aaron Cresswell,126,West Ham,38,3420,2,4,1.24,4.84,0.03,0.13,Unfilled
+132,171,2,2,,43,0,0,20658.jpg,2.6,0,Zabaleta,40,Zabaleta,4,Pablo Zabaleta,179,Manchester City,29,2590,1,4,1.36,3.76,0.05,0.13,Unfilled
+133,92,2,3,2018-10-27T19:01:15Z,49,0,0,18073.jpg,2.1,1,Noble,41,Noble,3,Mark Noble,125,West Ham,28,2321,2,3,2.42,3.1,0.09,0.12,Unfilled
+134,0,0,4,2018-07-12T19:31:08Z,54,0,0,40142.jpg,0.0,0,Carroll,0,Carroll,0,Andy Carroll,57,West Ham,14,1032,5,1,3.69,0.77,0.32,0.07,Unfilled
+135,69,1,3,2018-09-14T15:01:13Z,48,0,0,54102.jpg,2.2,0,Wilshere,11,Wilshere,2,Jack Wilshere,160,Arsenal,14,739,2,1,2.42,1.43,0.29,0.17,Unfilled

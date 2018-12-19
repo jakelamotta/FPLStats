@@ -10,11 +10,12 @@ namespace DataManager.EntityManager
     {
         #region Writes
         BaseResultDto<int> SavePlayerStatisticsList(List<PlayerSeasonStatisticsDto> players);
+        BaseResultDto<int> SaveTeamStatisticsList(List<SeasonTeamDto> teams);
         BaseResultDto<int> SaveCalculatedPlayerStatistics(List<CalculatedPlayerStatisticsDto> players);
         #endregion
 
         #region Reads
-        BaseResultDto<List<int>> GetNonCompleteYears();
+        BaseResultDto<List<SeasonDto>> GetNonCompleteSeasons();
         List<PlayerSeasonStatisticsDto> GetAllPlayerStatistics();
         #endregion
     }

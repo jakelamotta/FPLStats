@@ -48,14 +48,23 @@ namespace ServiceInstance
 
         public void UpdateData()
         {
-            var yearResult = _fplDataManager.GetNonCompleteYears();
+            var seasonResult = _fplDataManager.GetNonCompleteSeasons();
 
-            if (!yearResult.Status)
+            if (!seasonResult.Status)
             {
                 return;
             }
 
-            var result = _statsProvider.GetPlayers(yearResult.DataObject);
+            var teamResult = _statsProvider.GetTeams(seasonResult.DataObject);
+
+            if (!teamResult.Status)
+            {
+                throw new Exception();
+            }
+
+            _fplDataManager.SaveTeamStatisticsList(teamResult.DataObject);
+
+            var result = _statsProvider.GetPlayers(seasonResult.DataObject);
 
             if (result.Status)
             {

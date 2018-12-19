@@ -47,14 +47,17 @@ namespace FPLModeling
 
             var listOfPlayers = players.Select(p => p.Player.Name).Distinct().ToList();
 
+            var regModel = Utility.GetLinearRegressionModel(players.Select(p => (double)p.SeasonTeam.XGAgainst / p.SeasonTeam.GamesPlayed), players.Select(p => (double)p.SeasonTeam.CleanSheets / p.SeasonTeam.GamesPlayed));
+
             foreach (var player in listOfPlayers)
             {
-                if (player == "Theo Walcott")
+
+                var pssList = players.Where(p => p.Player.Name.Equals(player));
+
+                if (player == "John Stones")
                 {
                     var t = 1;
                 }
-
-                var pssList = players.Where(p => p.Player.Name.Equals(player));
 
                 var totalMinutes = 0;
                 Double totalXG90 = 0.0;
@@ -62,6 +65,8 @@ namespace FPLModeling
                 Double totalYC90 = 0.0;
                 Double totalCS90 = 0.0;
                 var minutesPlayedCurrentYear = 0;
+                var totalYC = 0;
+                var totalApps = 0;
 
                 var currentSeasonPlayer = pssList.FirstOrDefault(pss => pss.SeasonTeam.Season.StartYear == currentStartYear);
                 var currentTeam = "";
@@ -77,8 +82,6 @@ namespace FPLModeling
                 {
                     var xg90 = 0.0;
                     var xa90 = 0.0;
-                    var xyc90 = 0.0;
-                    var xcs90 = 0.0;
                     var team = pss.SeasonTeam.Team.Name;
                     
                     if (pss.SeasonTeam.Season.StartYear == currentStartYear)
@@ -90,7 +93,8 @@ namespace FPLModeling
                         
                         if (pss.Apps > 0)
                         {
-                            totalCS90 += (pss.CleanSheets * 10 / pss.Apps);
+                            totalCS90 = regModel.Alpha + (currentSeasonPlayer.SeasonTeam.XGAgainst / currentSeasonPlayer.SeasonTeam.GamesPlayed * regModel.Beta);
+                            totalCS90 = (double)totalCS90 * ((double)pss.Apps / pss.SeasonTeam.GamesPlayed);
                         }
                     }
                     else
@@ -108,20 +112,20 @@ namespace FPLModeling
                             {
                                 fraction = 0;
                             }
-
-                            if (pss.Apps > 0)
-                            {
-                                totalCS90 +=  (pss.CleanSheets * 10/ pss.Apps) * fraction;
-                            }
                         }
                     }
 
                     totalXG90 += xg90;
                     totalXA90 += xa90;
-                    if (pss.Apps > 0)
-                    {
-                        totalYC90 += pss.YellowCards / pss.Apps;
-                    }
+                    totalYC += pss.YellowCards;
+                    totalApps += pss.Apps;
+
+                    
+                }
+
+                if (totalApps > 0)
+                {
+                    totalYC90 += (double)totalYC / totalApps;
                 }
 
                 if (totalMinutes > 0)
@@ -136,6 +140,7 @@ namespace FPLModeling
                     Name = player,
                     xPPound90 = GetXPPound90(position, cost, totalXG90, totalXA90, totalCS90, totalYC90),
                     xPPoundMinPlayed = GetXPPoundMinPlayed(position, cost, totalXG90, totalXA90, totalCS90, totalYC90, minutesPlayedCurrentYear),
+                    xPTotal = GetXpTotal(position, cost, totalXG90, totalXA90, totalCS90, totalYC90),
                     xYc = totalYC90,
                  });
             }
@@ -146,7 +151,12 @@ namespace FPLModeling
 
         private double GetXPPoundMinPlayed(Constants.PositionEnum position, double lastCost, double totalXG90, double totalXA90, double totalCS90, double totalYC90, int minPlayed)
         {
-            return GetXPPound90(position, lastCost, totalXG90, totalXA90, totalCS90, totalYC90) * (minPlayed/90);
+            return GetXPPound90(position, lastCost, totalXG90, totalXA90, totalCS90, totalYC90) * (double)(minPlayed/90);
+        }
+
+        private double GetXpTotal(Constants.PositionEnum position, double lastCost, double totalXG90, double totalXA90, double totalCS90, double totalYC90)
+        {
+            return GetXPPound90(position, lastCost, totalXG90, totalXA90, totalCS90, totalYC90) * lastCost;
         }
 
         private double GetXPPound90(Constants.PositionEnum position, double lastCost, double totalXG90, double totalXA90, double totalCS90, double totalYC90)
@@ -182,7 +192,7 @@ namespace FPLModeling
                 throw new Exception();
             }
 
-            xp = ((totalCS90 * pCS)/10 + totalXA90 * 3 + totalXG90 * pGoal - totalYC90) / lastCost;
+            xp = (totalCS90 * pCS / 10 + totalXA90 * 3 + totalXG90 * pGoal - totalYC90) / lastCost;
 
             return xp;
         }

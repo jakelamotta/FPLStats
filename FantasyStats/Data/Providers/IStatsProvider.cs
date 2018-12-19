@@ -9,6 +9,7 @@ namespace Data.Providers
 {
     public interface IStatsProvider
     {
-        BaseResultDto<List<PlayerSeasonStatisticsDto>> GetPlayers(IEnumerable<int> years);
+        BaseResultDto<List<PlayerSeasonStatisticsDto>> GetPlayers(IEnumerable<SeasonDto> seasons);
+        BaseResultDto<List<SeasonTeamDto>> GetTeams(IEnumerable<SeasonDto> seasons);
     }
 }

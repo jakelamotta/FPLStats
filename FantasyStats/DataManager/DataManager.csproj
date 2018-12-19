@@ -103,11 +103,28 @@
     <Compile Include="Migrations\201811170757500_added_setting_and_teamstatistics.Designer.cs">
       <DependentUpon>201811170757500_added_setting_and_teamstatistics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811181328130_changed_seasonteams.cs" />
+    <Compile Include="Migrations\201811181328130_changed_seasonteams.Designer.cs">
+      <DependentUpon>201811181328130_changed_seasonteams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811181619306_added_stat.cs" />
+    <Compile Include="Migrations\201811181619306_added_stat.Designer.cs">
+      <DependentUpon>201811181619306_added_stat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811241501078_added_match_to_model.cs" />
+    <Compile Include="Migrations\201811241501078_added_match_to_model.Designer.cs">
+      <DependentUpon>201811241501078_added_match_to_model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812090913278_new_calc_value.cs" />
+    <Compile Include="Migrations\201812090913278_new_calc_value.Designer.cs">
+      <DependentUpon>201812090913278_new_calc_value.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationLog.cs" />
     <Compile Include="Models\CalculatedPlayerStatistics.cs" />
     <Compile Include="Models\FPLStatsContext.cs" />
     <Compile Include="Models\League.cs" />
+    <Compile Include="Models\Match.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\PlayerCostChange.cs" />
     <Compile Include="Models\PlayerSeasonStatistics.cs" />
@@ -116,7 +133,6 @@
     <Compile Include="Models\SeasonTeam.cs" />
     <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Team.cs" />
-    <Compile Include="Models\TeamSeasonStatistics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +175,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811170757500_added_setting_and_teamstatistics.resx">
       <DependentUpon>201811170757500_added_setting_and_teamstatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811181328130_changed_seasonteams.resx">
+      <DependentUpon>201811181328130_changed_seasonteams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811181619306_added_stat.resx">
+      <DependentUpon>201811181619306_added_stat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811241501078_added_match_to_model.resx">
+      <DependentUpon>201811241501078_added_match_to_model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812090913278_new_calc_value.resx">
+      <DependentUpon>201812090913278_new_calc_value.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

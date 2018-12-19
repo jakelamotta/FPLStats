@@ -36,3 +36,7 @@ D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrat
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.moved_position_to_player.resources
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.changed_double_to_int.resources
 D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.added_setting_and_teamstatistics.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.changed_seasonteams.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.added_stat.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.added_match_to_model.resources
+D:\repos\FPLStats\FPLStats\FantasyStats\DataManager\obj\Debug\DataManager.Migrations.new_calc_value.resources
