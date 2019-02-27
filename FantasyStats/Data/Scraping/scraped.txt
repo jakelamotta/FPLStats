@@ -4,484 +4,736 @@
 4
 5
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-1 Pierre-Emerick Aubameyang Arsenal 17 1315 10 3 8.55-1.45 2.67-0.33 0.59 0.18
-2 Mohamed Salah Liverpool 17 1405 10 4 10.06+0.06 5.30+1.30 0.64 0.34
-3 Raheem Sterling Manchester City 14 1149 9 6 7.20-1.80 4.81-1.19 0.56 0.38
-4 Harry Kane Tottenham 17 1454 9 3 9.62+0.62 2.65-0.35 0.60 0.16
-5 Callum Wilson Bournemouth 16 1355 8 5 8.16+0.16 3.73-1.27 0.54 0.25
-6 Sergio Agüero Manchester City 13 986 8 4 8.76+0.76 2.91-1.09 0.80 0.27
-7 Eden Hazard Chelsea 16 1227 8 9 5.32-2.68 6.66-2.34 0.39 0.49
-8 Glenn Murray Brighton 17 1125 8 0 5.22-2.78 0.55+0.55 0.42 0.04
-9 Richarlison Everton 15 1298 8 0 5.71-2.29 0.86+0.86 0.40 0.06
-10 Anthony Martial Manchester United 13 801 7 0 3.55-3.45 1.41+1.41 0.40 0.16
-461 331 480.95+19.95 337.44+6.441
+1 Sergio Agüero Manchester City 23 1703 17 6 15.88-1.12 3.66-2.34 0.84 0.19
+2 Mohamed Salah Liverpool 27 2299 17 7 16.76-0.24 8.44+1.44 0.66 0.33
+3 Pierre-Emerick Aubameyang Arsenal 26 2031 15 4 15.17+0.17 3.58-0.42 0.67 0.16
+4 Harry Kane Tottenham 23 1987 15 4 12.84-2.16 4.32+0.32 0.58 0.20
+5 Raheem Sterling Manchester City 24 1969 12 8 10.41-1.59 9.00+1.00 0.48 0.41
+6 Eden Hazard Chelsea 25 2026 12 10 9.90-2.10 7.64-2.36 0.44 0.34
+7 Sadio Mané Liverpool 25 2126 12 1 9.36-2.64 3.13+2.13 0.40 0.13
+8 Son Heung-Min Tottenham 21 1458 11 5 6.68-4.32 3.19-1.81 0.41 0.20
+9 Gylfi Sigurdsson Everton 28 2274 11 3 8.69-2.31 4.39+1.39 0.34 0.17
+10 Paul Pogba Manchester United 24 2023 11 8 12.28+1.28 3.86-4.14 0.55 0.17
+746 533 779.70+33.70 548.98+15.981
 2
 3
 4
 5
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-11 Aleksandar Mitrovic Fulham 17 1485 7 2 6.39-0.61 1.07-0.93 0.39 0.06
-12 Sadio Mané Liverpool 15 1265 7 1 5.70-1.30 1.70+0.70 0.41 0.12
-13 Alexandre Lacazette Arsenal 16 1041 7 3 4.78-2.22 1.15-1.85 0.41 0.10
-14 Leroy Sané Manchester City 15 888 6 7 4.96-1.04 3.87-3.13 0.50 0.39
-15 Romelu Lukaku Manchester United 16 1179 6 0 6.16+0.16 1.06+1.06 0.47 0.08
-16 Pedro Chelsea 15 802 6 1 3.42-2.58 1.15+0.15 0.38 0.13
-17 Gylfi Sigurdsson Everton 17 1434 6 2 5.76-0.24 3.23+1.23 0.36 0.20
-18 Danny Ings Southampton 12 906 6 1 6.54+0.54 1.21+0.21 0.65 0.12
-19 Felipe Anderson West Ham 17 1428 6 2 3.14-2.86 2.95+0.95 0.20 0.19
-20 André Schürrle Fulham 15 1181 5 0 2.49-2.51 1.29+1.29 0.19 0.10
-461 331 480.95+19.95 337.44+6.441
+11 Alexandre Lacazette Arsenal 26 1798 11 5 8.77-2.23 2.60-2.40 0.44 0.13
+12 Callum Wilson Bournemouth 21 1744 10 5 9.56-0.44 4.42-0.58 0.49 0.23
+13 Aleksandar Mitrovic Fulham 27 2385 10 2 11.15+1.15 2.19+0.19 0.42 0.08
+14 Glenn Murray Brighton 27 1785 10 0 8.84-1.16 0.56+0.56 0.45 0.03
+15 Raúl Jiménez Wolverhampton Wanderers 28 2314 10 5 10.00 4.56-0.44 0.39 0.18
+16 Richarlison Everton 26 2054 10 1 8.08-1.92 1.03+0.03 0.35 0.05
+17 Joshua King Bournemouth 24 2050 9 3 9.29+0.29 3.40+0.40 0.41 0.15
+18 Roberto Firmino Liverpool 27 2082 9 4 10.25+1.25 4.63+0.63 0.44 0.20
+19 Anthony Martial Manchester United 20 1293 9 2 5.49-3.51 2.99+0.99 0.38 0.21
+20 Marcus Rashford Manchester United 23 1628 9 6 8.66-0.34 3.29-2.71 0.48 0.18
+746 533 779.70+33.70 548.98+15.981
 2
 3
 4
 5
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-21 Joshua King Bournemouth 14 1232 5 1 5.01+0.01 1.54+0.54 0.37 0.11
-22 David Silva Manchester City 14 1094 5 2 4.41-0.59 5.60+3.60 0.36 0.46
-23 Riyad Mahrez Manchester City 16 829 5 2 4.72-0.28 2.35+0.35 0.51 0.26
-24 Jamie Vardy Leicester 13 942 5 1 7.76+2.76 1.24+0.24 0.74 0.12
-25 Marko Arnautovic West Ham 13 1023 5 2 5.08+0.08 2.98+0.98 0.45 0.26
-26 Xherdan Shaqiri Liverpool 13 628 5 2 2.60-2.40 1.11-0.89 0.37 0.16
-27 Roberto Pereyra Watford 17 1461 5 0 3.76-1.24 1.75+1.75 0.23 0.11
-28 Álvaro Morata Chelsea 14 848 5 0 6.46+1.46 0.21+0.21 0.69 0.02
-29 Lucas Moura Tottenham 16 1234 5 0 4.58-0.42 0.88+0.88 0.33 0.06
-30 Raúl Jiménez Wolverhampton Wanderers 17 1374 5 4 6.22+1.22 2.67-1.33 0.41 0.17
-461 331 480.95+19.95 337.44+6.441
+21 Jamie Vardy Leicester 24 1845 9 3 12.14+3.14 2.86-0.14 0.59 0.14
+22 Leroy Sané Manchester City 23 1448 8 9 6.00-2.00 6.91-2.09 0.37 0.43
+23 Romelu Lukaku Manchester United 24 1498 8 0 7.88-0.12 1.62+1.62 0.47 0.10
+24 Felipe Anderson West Ham 27 2316 8 3 4.31-3.69 5.37+2.37 0.17 0.21
+25 Ashley Barnes Burnley 27 1497 8 2 10.30+2.30 2.51+0.51 0.62 0.15
+26 Luka Milivojevic Crystal Palace 27 2430 8 1 7.77-0.23 2.00+1.00 0.29 0.07
+27 Wilfried Zaha Crystal Palace 23 2068 7 2 4.57-2.43 3.14+1.14 0.20 0.14
+28 Troy Deeney Watford 24 2001 7 3 7.96+0.96 3.92+0.92 0.36 0.18
+29 Pedro Chelsea 21 1229 7 1 4.80-2.20 2.30+1.30 0.35 0.17
+30 Salomón Rondón Newcastle United 22 1716 7 4 7.28+0.28 1.96-2.04 0.38 0.10
+746 533 779.70+33.70 548.98+15.981
 2
 3
 4
 5
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-31 James Maddison Leicester 16 1254 5 2 2.96-2.04 3.67+1.67 0.21 0.26
-32 Chicharito West Ham 13 638 4 1 4.53+0.53 1.12+0.12 0.64 0.16
-33 Henrikh Mkhitaryan Arsenal 14 836 4 1 3.12-0.88 1.61+0.61 0.34 0.17
-34 Roberto Firmino Liverpool 17 1294 4 3 6.31+2.31 3.31+0.31 0.44 0.23
-35 Erik Lamela Tottenham 10 517 4 1 3.10-0.90 0.82-0.18 0.54 0.14
-36 Salomón Rondón Newcastle United 12 820 4 2 4.09+0.09 0.51-1.49 0.45 0.06
-37 Ryan Fraser Bournemouth 17 1465 4 7 2.12-1.88 6.88-0.12 0.13 0.42
-38 Bernardo Silva Manchester City 16 1323 4 3 3.45-0.55 4.26+1.26 0.23 0.29
-39 Luka Milivojevic Crystal Palace 17 1530 4 0 4.13+0.13 1.12+1.12 0.24 0.07
-40 Callum Paterson Cardiff 15 1131 4 0 4.22+0.22 1.35+1.35 0.34 0.11
-461 331 480.95+19.95 337.44+6.441
+31 Marko Arnautovic West Ham 19 1385 7 3 5.87-1.13 3.27+0.27 0.38 0.21
+32 Danny Ings Southampton 18 1276 7 1 8.13+1.13 1.77+0.77 0.57 0.12
+33 Chris Wood Burnley 28 1763 7 0 5.69-1.31 1.43+1.43 0.29 0.07
+34 André Schürrle Fulham 22 1646 6 0 3.27-2.73 1.93+1.93 0.18 0.11
+35 Gerard Deulofeu Watford 20 1408 6 4 5.93-0.07 4.01+0.01 0.38 0.26
+36 David Silva Manchester City 23 1646 6 4 6.19+0.19 7.26+3.26 0.34 0.40
+37 Xherdan Shaqiri Liverpool 21 1009 6 2 4.01-1.99 1.28-0.72 0.36 0.11
+38 Roberto Pereyra Watford 25 2164 6 1 4.76-1.24 2.66+1.66 0.20 0.11
+39 Lucas Moura Tottenham 22 1455 6 0 5.23-0.77 1.37+1.37 0.32 0.08
+40 Gabriel Jesus Manchester City 21 821 6 2 8.98+2.98 2.54+0.54 0.98 0.28
+746 533 779.70+33.70 548.98+15.981
 ...
 4
 5
 6
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-41 Ilkay Gündogan Manchester City 12 658 3 2 2.47-0.53 2.38+0.38 0.34 0.33
-42 Son Heung-Min Tottenham 12 672 3 2 3.23+0.23 1.28-0.72 0.43 0.17
-43 James Milner Liverpool 15 974 3 2 1.36-1.64 2.82+0.82 0.13 0.26
-44 Mesut Özil Arsenal 11 850 3 1 0.79-2.21 2.39+1.39 0.08 0.25
-45 Wilfried Zaha Crystal Palace 14 1260 3 1 2.33-0.67 1.50+0.50 0.17 0.11
-46 Marcus Rashford Manchester United 14 854 3 5 3.27+0.27 1.28-3.72 0.34 0.14
-47 José Holebas Watford 14 1256 3 4 0.45-2.55 3.81-0.19 0.03 0.27
-48 Ross Barkley Chelsea 14 525 3 3 2.28-0.72 1.04-1.96 0.39 0.18
-49 Dele Alli Tottenham 12 826 3 1 3.64+0.64 1.57+0.57 0.40 0.17
-50 Ruben Loftus-Cheek Chelsea 7 239 3 0 1.09-1.91 0.25+0.25 0.41 0.10
-461 331 480.95+19.95 337.44+6.441
+41 David Brooks Bournemouth 22 1632 6 4 5.55-0.45 3.46-0.54 0.31 0.19
+42 Chicharito West Ham 19 964 5 1 6.89+1.89 1.23+0.23 0.64 0.11
+43 Ilkay Gündogan Manchester City 21 1233 5 2 3.57-1.43 3.14+1.14 0.26 0.23
+44 Henrikh Mkhitaryan Arsenal 16 1003 5 2 3.71-1.29 2.89+0.89 0.33 0.26
+45 Dele Alli Tottenham 17 1208 5 1 4.94-0.06 1.88+0.88 0.37 0.14
+46 Christian Eriksen Tottenham 24 1782 5 9 3.28-1.72 5.09-3.91 0.17 0.26
+47 Riyad Mahrez Manchester City 21 962 5 2 5.23+0.23 2.43+0.43 0.49 0.23
+48 Ryan Fraser Bournemouth 27 2225 5 9 2.98-2.02 9.11+0.11 0.12 0.37
+49 Álvaro Morata Chelsea 16 951 5 0 6.41+1.41 0.21+0.21 0.61 0.02
+50 Bernardo Silva Manchester City 26 2076 5 6 5.55+0.55 5.73-0.27 0.24 0.25
+746 533 779.70+33.70 548.98+15.981
 ...
 5
 6
 7
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-51 Andre Gray Watford 15 723 3 0 2.48-0.52 1.01+1.01 0.31 0.13
-52 Sam Vokes Burnley 16 828 3 0 2.67-0.33 0.52+0.52 0.29 0.06
-53 James Tarkowski Burnley 14 1196 3 0 2.11-0.89 0.03+0.03 0.16 0.00
-54 Paul Pogba Manchester United 14 1137 3 3 6.04+3.04 1.45-1.55 0.48 0.12
-55 Ivan Cavaleiro Wolverhampton Wanderers 10 267 3 0 1.81-1.19 0.79+0.79 0.61 0.26
-56 Gabriel Jesus Manchester City 14 584 3 2 5.77+2.77 2.14+0.14 0.89 0.33
-57 Dominic Calvert-Lewin Everton 15 476 3 0 1.68-1.32 0.10+0.10 0.32 0.02
-58 Shane Duffy Brighton 15 1287 3 1 1.56-1.44 0.18-0.82 0.11 0.01
-59 David Brooks Bournemouth 15 1060 3 1 3.12+0.12 1.82+0.82 0.26 0.15
-60 Josh Murphy Cardiff 15 962 3 0 2.46-0.54 1.24+1.24 0.23 0.12
-461 331 480.95+19.95 337.44+6.441
+51 Dominic Calvert-Lewin Everton 26 985 5 1 3.28-1.72 0.66-0.34 0.30 0.06
+52 Shane Duffy Brighton 24 2097 5 1 3.02-1.98 0.17-0.83 0.13 0.01
+53 James Maddison Leicester 26 2023 5 5 5.40+0.40 5.67+0.67 0.24 0.25
+54 Diogo Jota Wolverhampton Wanderers 23 1572 5 2 4.92-0.08 3.84+1.84 0.28 0.22
+55 Michail Antonio West Ham 24 1500 4 3 3.90-0.10 2.94-0.06 0.23 0.18
+56 Jesse Lingard Manchester United 22 1297 4 2 4.06+0.06 2.27+0.27 0.28 0.16
+57 Erik Lamela Tottenham 16 790 4 2 3.71-0.29 2.02+0.02 0.42 0.23
+58 Jeffrey Schlupp Crystal Palace 23 1089 4 0 2.27-1.73 0.51+0.51 0.19 0.04
+59 Demarai Gray Leicester 25 1563 4 1 3.60-0.40 0.89-0.11 0.21 0.05
+60 Ayoze Pérez Newcastle United 27 2133 4 1 4.02+0.02 3.02+2.02 0.17 0.13
+746 533 779.70+33.70 548.98+15.981
 ...
 6
 7
 8
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-61 Matt Doherty Wolverhampton Wanderers 17 1496 3 3 3.14+0.14 1.76-1.24 0.19 0.11
-62 Stuart Armstrong Southampton 13 650 3 0 0.88-2.12 0.28+0.28 0.12 0.04
-63 Granit Xhaka Arsenal 16 1382 2 1 0.53-1.47 1.45+0.45 0.03 0.09
-64 Pierre-Emile Højbjerg Southampton 14 1247 2 0 0.97-1.03 0.65+0.65 0.07 0.05
-65 Daniel Sturridge Liverpool 9 229 2 0 1.12-0.88 0.42+0.42 0.44 0.17
-66 Theo Walcott Everton 17 1256 2 2 3.86+1.86 2.16+0.16 0.28 0.15
-67 Michail Antonio West Ham 14 688 2 1 2.45+0.45 1.40+0.40 0.32 0.18
-68 Juan Mata Manchester United 12 647 2 2 0.68-1.32 2.41+0.41 0.09 0.34
-69 Jesse Lingard Manchester United 13 729 2 0 1.92-0.08 1.24+1.24 0.24 0.15
-70 Troy Deeney Watford 14 1159 2 1 3.64+1.64 1.88+0.88 0.28 0.15
-461 331 480.95+19.95 337.44+6.441
+61 Andros Townsend Crystal Palace 27 2392 4 3 3.02-0.98 2.64-0.36 0.11 0.10
+62 Andre Gray Watford 18 785 4 0 3.08-0.92 1.03+1.03 0.35 0.12
+63 Sol Bamba Cardiff 27 2430 4 1 3.52-0.48 0.14-0.86 0.13 0.01
+64 Callum Paterson Cardiff 25 1961 4 1 4.95+0.95 2.26+1.26 0.23 0.10
+65 Bobby Reid Cardiff 21 1155 4 2 3.40-0.60 0.62-1.38 0.26 0.05
+66 Fabian Schär Newcastle United 16 1327 3 1 1.80-1.20 0.36-0.64 0.12 0.02
+67 Granit Xhaka Arsenal 23 1982 3 1 1.65-1.35 2.44+1.44 0.08 0.11
+68 Pierre-Emile Højbjerg Southampton 20 1780 3 1 1.51-1.49 1.33+0.33 0.08 0.07
+69 James Milner Liverpool 22 1501 3 4 1.62-1.38 5.22+1.22 0.10 0.31
+70 Mesut Özil Arsenal 15 1090 3 1 1.01-1.99 2.71+1.71 0.08 0.22
+746 533 779.70+33.70 548.98+15.981
 ...
 7
 8
 9
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-71 Gerard Deulofeu Watford 10 567 2 2 2.36+0.36 1.75-0.25 0.37 0.28
-72 James McArthur Crystal Palace 17 1390 2 1 1.92-0.08 1.54+0.54 0.12 0.10
-73 Eric Dier Tottenham 13 1128 2 0 0.82-1.18 1.06+1.06 0.07 0.08
-74 Willian Chelsea 16 1099 2 3 1.99-0.01 3.87+0.87 0.16 0.32
-75 N'Golo Kanté Chelsea 17 1519 2 2 1.40-0.60 1.88-0.12 0.08 0.11
-76 Jeffrey Schlupp Crystal Palace 15 625 2 0 1.03-0.97 0.33+0.33 0.15 0.05
-77 Demarai Gray Leicester 14 959 2 1 1.80-0.20 0.41-0.59 0.17 0.04
-78 Ayoze Pérez Newcastle United 17 1259 2 1 2.17+0.17 2.23+1.23 0.15 0.16
-79 Andros Townsend Crystal Palace 17 1501 2 2 1.69-0.31 1.39-0.61 0.10 0.08
-80 Charlie Austin Southampton 13 645 2 0 2.96+0.96 0.08+0.08 0.41 0.01
-461 331 480.95+19.95 337.44+6.441
+71 Alex Iwobi Arsenal 24 1413 3 4 2.72-0.28 4.93+0.93 0.17 0.31
+72 Theo Walcott Everton 27 1872 3 2 5.15+2.15 2.78+0.78 0.25 0.13
+73 José Holebas Watford 23 1985 3 6 0.56-2.44 4.05-1.95 0.03 0.18
+74 Nathan Aké Bournemouth 27 2424 3 0 3.78+0.78 0.07+0.07 0.14 0.00
+75 Craig Cathcart Watford 26 2336 3 0 1.70-1.30 0.11+0.11 0.07 0.00
+76 Ross Barkley Chelsea 21 884 3 4 2.67-0.33 1.77-2.23 0.27 0.18
+77 Ruben Loftus-Cheek Chelsea 12 359 3 0 1.13-1.87 0.35+0.35 0.28 0.09
+78 Willian Chelsea 24 1647 3 4 3.50+0.50 5.52+1.52 0.19 0.30
+79 N'Golo Kanté Chelsea 26 2325 3 4 1.91-1.09 3.07-0.93 0.07 0.12
+80 Nathan Redmond Southampton 27 2340 3 2 3.53+0.53 2.78+0.78 0.14 0.11
+746 533 779.70+33.70 548.98+15.981
 ...
 8
 9
 10
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-81 Joselu Newcastle United 13 470 2 0 1.52-0.48 0.01+0.01 0.29 0.00
-82 Ciaran Clark Newcastle United 10 760 2 0 0.44-1.56 0.05+0.05 0.05 0.01
-83 Lucas Torreira Arsenal 17 1222 2 2 1.46-0.54 0.62-1.38 0.11 0.05
-84 Johann Berg Gudmundsson Burnley 14 1144 2 4 1.35-0.65 2.00-2.00 0.11 0.16
-85 Harry Maguire Leicester 12 1016 2 0 0.90-1.10 0.31+0.31 0.08 0.03
-86 Robert Snodgrass West Ham 16 1000 2 3 0.98-1.02 2.66-0.34 0.09 0.24
-87 Shkodran Mustafi Arsenal 16 1403 2 0 1.01-0.99 0.21+0.21 0.06 0.01
-88 Lucas Pérez West Ham 7 199 2 0 0.64-1.36 0.67+0.67 0.29 0.30
-89 Abdoulaye Doucouré Watford 17 1530 2 5 3.73+1.73 2.76-2.24 0.22 0.16
-90 Sol Bamba Cardiff 16 1440 2 1 2.48+0.48 0.08-0.92 0.16 0.01
-461 331 480.95+19.95 337.44+6.441
+81 James Ward-Prowse Southampton 15 1018 3 0 2.24-0.76 1.58+1.58 0.20 0.14
+82 Ciaran Clark Newcastle United 11 850 3 0 0.47-2.53 0.05+0.05 0.05 0.01
+83 Sam Vokes Burnley 20 918 3 0 2.73-0.27 0.90+0.90 0.27 0.09
+84 James Tarkowski Burnley 25 2186 3 0 3.48+0.48 0.10+0.10 0.14 0.00
+85 Harry Maguire Leicester 23 1966 3 0 2.07-0.93 0.59+0.59 0.09 0.03
+86 Abdoulaye Doucouré Watford 24 2072 3 6 5.16+2.16 4.14-1.86 0.22 0.18
+87 Lucas Digne Everton 25 2070 3 3 0.93-2.07 6.17+3.17 0.04 0.27
+88 Víctor Camarasa Cardiff 23 1908 3 3 1.87-1.13 2.33-0.67 0.09 0.11
+89 Ivan Cavaleiro Wolverhampton Wanderers 18 571 3 1 1.85-1.15 1.58+0.58 0.29 0.25
+90 Aboubakar Kamara Fulham 13 678 3 0 3.53+0.53 0.77+0.77 0.47 0.10
+746 533 779.70+33.70 548.98+15.981
 ...
 9
 10
 11
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-91 Florin Andone Brighton 7 271 2 0 0.78-1.22 0.00 0.26 0.00
-92 Junior Hoilett Cardiff 14 923 2 0 0.91-1.09 0.23+0.23 0.09 0.02
-93 Ashley Barnes Burnley 16 535 2 0 2.51+0.51 0.35+0.35 0.42 0.06
-94 Aboubakar Kamara Fulham 9 522 2 0 2.13+0.13 0.51+0.51 0.37 0.09
-95 Zanka Huddersfield 15 1341 2 1 0.34-1.66 0.29-0.71 0.02 0.02
-96 Aaron Mooy Huddersfield 15 1327 2 0 1.00-1.00 1.48+1.48 0.07 0.10
-97 Lewis Dunk Brighton 16 1369 2 0 1.22-0.78 0.08+0.08 0.08 0.01
-98 Andriy Yarmolenko West Ham 9 454 2 0 1.25-0.75 0.70+0.70 0.25 0.14
-99 Cenk Tosun Everton 13 604 2 2 3.14+1.14 0.28-1.72 0.47 0.04
-100 Bobby Reid Cardiff 13 653 2 1 1.48-0.52 0.52-0.48 0.20 0.07
-461 331 480.95+19.95 337.44+6.441
+91 Zanka Huddersfield 23 2061 3 1 1.48-1.52 0.39-0.61 0.06 0.02
+92 Josh Murphy Cardiff 22 1333 3 0 3.43+0.43 1.35+1.35 0.23 0.09
+93 Willy Boly Wolverhampton Wanderers 26 2268 3 0 2.75-0.25 0.53+0.53 0.11 0.02
+94 Matt Doherty Wolverhampton Wanderers 28 2403 3 4 4.13+1.13 3.08-0.92 0.15 0.12
+95 Rúben Neves Wolverhampton Wanderers 26 2228 3 2 3.04+0.04 1.51-0.49 0.12 0.06
+96 Stuart Armstrong Southampton 21 1115 3 0 1.90-1.10 0.84+0.84 0.15 0.07
+97 Pascal Groß Brighton 19 1390 2 2 3.10+1.10 4.79+2.79 0.20 0.31
+98 Daniel Sturridge Liverpool 14 318 2 0 1.26-0.74 0.42+0.42 0.36 0.12
+99 Laurent Koscielny Arsenal 9 686 2 0 1.59-0.41 0.00 0.21 0.00
+100 Aaron Ramsey Arsenal 23 984 2 6 2.32+0.32 2.17-3.83 0.21 0.20
+746 533 779.70+33.70 548.98+15.981
 ...
 10
 11
 12
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-101 Rúben Neves Wolverhampton Wanderers 16 1440 2 1 1.96-0.04 0.83-0.17 0.12 0.05
-102 Diogo Jota Wolverhampton Wanderers 16 1043 2 1 2.77+0.77 2.35+1.35 0.24 0.20
-103 Yoshinori Muto Newcastle United 10 369 1 0 0.97-0.03 0.20+0.20 0.24 0.05
-104 Pascal Groß Brighton 9 588 1 0 1.99+0.99 0.46+0.46 0.30 0.07
-105 Joel Matip Liverpool 8 275 1 0 0.04-0.96 0.00 0.01 0.00
-106 Leon Balogun Brighton 6 409 1 0 0.08-0.92 0.00 0.02 0.00
-107 Steve Cook Bournemouth 17 1530 1 1 1.10+0.10 0.19-0.81 0.06 0.01
-108 Junior Stanislas Bournemouth 11 381 1 1 1.57+0.57 0.86-0.14 0.37 0.20
-109 Divock Origi Liverpool 2 72 1 1 1.53+0.53 0.06-0.94 1.91 0.07
-110 Nacho Monreal Arsenal 9 741 1 2 1.22+0.22 0.81-1.19 0.15 0.10
-461 331 480.95+19.95 337.44+6.441
+101 Ander Herrera Manchester United 19 1213 2 3 1.42-0.58 2.04-0.96 0.11 0.15
+102 Juan Mata Manchester United 18 1010 2 2 0.98-1.02 3.03+1.03 0.09 0.27
+103 James McArthur Crystal Palace 27 2265 2 5 3.18+1.18 2.37-2.63 0.13 0.09
+104 Eric Dier Tottenham 15 1139 2 0 0.82-1.18 1.04+1.04 0.06 0.08
+105 Marc Albrighton Leicester 22 1302 2 2 0.98-1.02 2.33+0.33 0.07 0.16
+106 Georginio Wijnaldum Liverpool 24 1947 2 0 2.33+0.33 1.07+1.07 0.11 0.05
+107 Charlie Austin Southampton 19 787 2 1 3.58+1.58 0.92-0.08 0.41 0.10
+108 Joselu Newcastle United 16 565 2 0 1.81-0.19 0.01+0.01 0.29 0.00
+109 Lucas Torreira Arsenal 27 1924 2 2 1.60-0.40 1.58-0.42 0.07 0.07
+110 Gonzalo Higuaín Chelsea 3 247 2 0 0.93-1.07 0.45+0.45 0.34 0.16
+746 533 779.70+33.70 548.98+15.981
 ...
 11
 12
 13
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-111 Alexis Sánchez Manchester United 10 476 1 2 1.11+0.11 2.12+0.12 0.21 0.40
-112 Alex Iwobi Arsenal 14 800 1 2 1.42+0.42 1.86-0.14 0.16 0.21
-113 Danny Welbeck Arsenal 8 137 1 1 0.79-0.21 0.28-0.72 0.52 0.19
-114 Olivier Giroud Chelsea 14 491 1 4 2.44+1.44 2.11-1.89 0.45 0.39
-115 Aaron Ramsey Arsenal 15 655 1 6 0.76-0.24 1.56-4.44 0.10 0.21
-116 Ander Herrera Manchester United 10 543 1 1 1.00 1.16+0.16 0.17 0.19
-117 Etienne Capoue Watford 13 1170 1 2 0.37-0.63 0.46-1.54 0.03 0.04
-118 Nathan Aké Bournemouth 17 1530 1 0 2.45+1.45 0.00 0.14 0.00
-119 Craig Cathcart Watford 17 1526 1 0 1.49+0.49 0.11+0.11 0.09 0.01
-120 Seamus Coleman Everton 13 1138 1 0 0.26-0.74 0.90+0.90 0.02 0.07
-461 331 480.95+19.95 337.44+6.441
+111 Johann Berg Gudmundsson Burnley 21 1488 2 5 1.93-0.07 3.24-1.76 0.12 0.20
+112 David Luiz Chelsea 25 2250 2 2 2.35+0.35 2.19+0.19 0.09 0.09
+113 Robert Snodgrass West Ham 26 1676 2 4 1.78-0.22 4.48+0.48 0.10 0.24
+114 Shkodran Mustafi Arsenal 23 1909 2 0 1.13-0.87 0.21+0.21 0.05 0.01
+115 Lucas Pérez West Ham 10 367 2 0 0.89-1.11 0.77+0.77 0.22 0.19
+116 Aymeric Laporte Manchester City 27 2339 2 1 2.59+0.59 0.66-0.34 0.10 0.03
+117 Ricardo Pereira Leicester 25 2229 2 4 0.79-1.21 2.86-1.14 0.03 0.12
+118 Romain Saiss Wolverhampton Wanderers 14 768 2 0 1.27-0.73 0.05+0.05 0.15 0.01
+119 Steve Mounie Huddersfield 23 1421 2 3 4.73+2.73 1.86-1.14 0.30 0.12
+120 Florin Andone Brighton 15 521 2 0 2.68+0.68 0.04+0.04 0.46 0.01
+746 533 779.70+33.70 548.98+15.981
 ...
 12
 13
 14
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-121 Aaron Lennon Burnley 16 1223 1 1 0.92-0.08 0.66-0.34 0.07 0.05
-122 Fernandinho Manchester City 17 1508 1 3 0.97-0.03 2.14-0.86 0.06 0.13
-123 Kelechi Iheanacho Leicester 16 808 1 3 2.17+1.17 1.32-1.68 0.24 0.15
-124 Chris Smalling Manchester United 13 1140 1 0 0.93-0.07 0.06+0.06 0.07 0.00
-125 Ashley Young Manchester United 12 1080 1 2 0.28-0.72 1.58-0.42 0.02 0.13
-126 Kyle Walker Manchester City 14 1260 1 0 0.22-0.78 0.46+0.46 0.02 0.03
-127 Jan Vertonghen Tottenham 9 769 1 0 0.60-0.40 0.13+0.13 0.07 0.01
-128 Christian Eriksen Tottenham 14 882 1 6 1.21+0.21 2.75-3.25 0.12 0.28
-129 Kieran Trippier Tottenham 13 1088 1 3 0.19-0.81 3.03+0.03 0.02 0.25
-130 Kenedy Newcastle United 15 1115 1 1 2.25+1.25 0.74-0.26 0.18 0.06
-461 331 480.95+19.95 337.44+6.441
+121 Junior Hoilett Cardiff 23 1519 2 0 1.41-0.59 0.31+0.31 0.08 0.02
+122 Wilfred Ndidi Leicester 28 2489 2 0 2.38+0.38 1.46+1.46 0.09 0.05
+123 Aaron Mooy Huddersfield 20 1639 2 0 1.35-0.65 1.88+1.88 0.07 0.10
+124 Philip Billing Huddersfield 24 2027 2 0 1.48-0.52 1.31+1.31 0.07 0.06
+125 Lewis Dunk Brighton 25 2164 2 0 1.48-0.52 0.32+0.32 0.06 0.01
+126 Andriy Yarmolenko West Ham 9 454 2 0 1.25-0.75 0.70+0.70 0.25 0.14
+127 Cenk Tosun Everton 20 910 2 3 3.63+1.63 0.44-2.56 0.36 0.04
+128 Jürgen Locadia Brighton 21 1011 2 0 3.27+1.27 0.95+0.95 0.29 0.08
+129 Ryan Sessegnon Fulham 24 1504 2 5 3.29+1.29 2.87-2.13 0.20 0.17
+130 Yoshinori Muto Newcastle United 12 466 1 0 1.02+0.02 0.28+0.28 0.20 0.05
+746 533 779.70+33.70 548.98+15.981
 ...
 13
 14
 15
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-131 Jack Cork Burnley 16 1425 1 1 0.77-0.23 0.85-0.15 0.05 0.05
-132 DeAndre Yedlin Newcastle United 15 1309 1 1 1.07+0.07 1.11+0.11 0.07 0.08
-133 Patrick van Aanholt Crystal Palace 17 1498 1 1 1.59+0.59 1.26+0.26 0.10 0.08
-134 Marc Albrighton Leicester 16 881 1 2 0.52-0.48 1.38-0.62 0.05 0.14
-135 Georginio Wijnaldum Liverpool 16 1355 1 0 1.50+0.50 0.50+0.50 0.10 0.03
-136 Alex Pritchard Huddersfield 14 1060 1 0 1.67+0.67 0.28+0.28 0.14 0.02
-137 Adam Smith Bournemouth 12 975 1 0 0.47-0.53 0.22+0.22 0.04 0.02
-138 Ryan Bertrand Southampton 12 1080 1 0 0.62-0.38 1.36+1.36 0.05 0.11
-139 Cédric Soares Southampton 15 1317 1 2 0.27-0.73 1.13-0.87 0.02 0.08
-140 Adama Traoré Wolverhampton Wanderers 14 434 1 0 0.77-0.23 1.15+1.15 0.16 0.24
-461 331 480.95+19.95 337.44+6.441
+131 Joel Matip Liverpool 13 725 1 0 0.73-0.27 0.00 0.09 0.00
+132 Max Meyer Crystal Palace 20 983 1 2 1.67+0.67 0.74-1.26 0.15 0.07
+133 Leon Balogun Brighton 8 589 1 0 0.08-0.92 0.00 0.01 0.00
+134 Kevin De Bruyne Manchester City 12 525 1 0 0.67-0.33 1.83+1.83 0.11 0.31
+135 Steve Cook Bournemouth 26 2340 1 1 1.44+0.44 0.81-0.19 0.06 0.03
+136 Charlie Daniels Bournemouth 16 1228 1 0 0.57-0.43 0.44+0.44 0.04 0.03
+137 Matt Ritchie Newcastle United 26 2094 1 4 2.65+1.65 3.46-0.54 0.11 0.15
+138 Junior Stanislas Bournemouth 19 956 1 3 2.58+1.58 2.49-0.51 0.24 0.23
+139 Divock Origi Liverpool 6 94 1 1 1.71+0.71 0.06-0.94 1.63 0.06
+140 Nacho Monreal Arsenal 13 1047 1 3 1.22+0.22 1.41-1.59 0.10 0.12
+746 533 779.70+33.70 548.98+15.981
 ...
 14
 15
 16
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-141 Luke Shaw Manchester United 12 1064 1 1 0.67-0.33 0.82-0.18 0.06 0.07
-142 Matej Vydra Burnley 7 257 1 0 0.73-0.27 0.05+0.05 0.25 0.02
-143 Manolo Gabbiadini Southampton 12 459 1 0 1.73+0.73 0.25+0.25 0.34 0.05
-144 Jorginho Chelsea 16 1397 1 0 0.87-0.13 1.01+1.01 0.06 0.06
-145 Marcos Alonso Chelsea 17 1519 1 3 2.16+1.16 1.80-1.20 0.13 0.11
-146 Michael Keane Everton 14 1260 1 2 1.15+0.15 1.11-0.89 0.08 0.08
-147 David Luiz Chelsea 16 1440 1 0 1.25+0.25 0.82+0.82 0.08 0.05
-148 Isaac Success Watford 17 714 1 0 2.30+1.30 1.60+1.60 0.29 0.20
-149 Jeff Hendrick Burnley 13 686 1 0 1.08+0.08 0.13+0.13 0.14 0.02
-150 Trent Alexander-Arnold Liverpool 13 1148 1 2 0.72-0.28 1.27-0.73 0.06 0.10
-461 331 480.95+19.95 337.44+6.441
+141 Alexis Sánchez Manchester United 15 659 1 3 1.67+0.67 3.36+0.36 0.23 0.46
+142 Danny Welbeck Arsenal 8 137 1 1 0.79-0.21 0.28-0.72 0.52 0.19
+143 Olivier Giroud Chelsea 19 640 1 4 2.43+1.43 2.21-1.79 0.34 0.31
+144 Calum Chambers Fulham 20 1598 1 0 1.46+0.46 0.44+0.44 0.08 0.02
+145 James Tomkins Crystal Palace 23 2041 1 1 0.84-0.16 1.27+0.27 0.04 0.06
+146 Mark Noble West Ham 22 1632 1 3 1.16+0.16 1.03-1.97 0.06 0.06
+147 Etienne Capoue Watford 23 2061 1 3 1.10+0.10 1.38-1.62 0.05 0.06
+148 Seamus Coleman Everton 21 1844 1 1 0.54-0.46 2.11+1.11 0.03 0.10
+149 Aaron Lennon Burnley 16 1223 1 1 0.92-0.08 0.66-0.34 0.07 0.05
+150 Tom Cleverley Watford 9 324 1 0 0.17-0.83 0.11+0.11 0.05 0.03
+746 533 779.70+33.70 548.98+15.981
 ...
 15
 16
 17
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-151 Antonio Rüdiger Chelsea 17 1509 1 0 1.89+0.89 0.76+0.76 0.11 0.05
-152 Lucas Digne Everton 15 1249 1 2 0.49-0.51 4.38+2.38 0.04 0.32
-153 Jefferson Lerma Bournemouth 13 1124 1 0 0.45-0.55 0.20+0.20 0.04 0.02
-154 Jonny Wolverhampton Wanderers 13 1109 1 0 1.16+0.16 0.45+0.45 0.09 0.04
-155 Víctor Camarasa Cardiff 16 1415 1 2 0.99-0.01 1.76-0.24 0.06 0.11
-156 Aymeric Laporte Manchester City 17 1441 1 0 1.67+0.67 0.24+0.24 0.10 0.02
-157 Jon Gorenc Stankovic Huddersfield 2 91 1 0 0.59-0.41 0.00 0.59 0.00
-158 Rachid Ghezzal Leicester 11 478 1 0 1.14+0.14 1.57+1.57 0.22 0.30
-159 Ricardo Pereira Leicester 14 1239 1 1 0.40-0.60 0.85-0.15 0.03 0.06
-160 Jean Michael Seri Fulham 17 1344 1 2 0.25-0.75 2.35+0.35 0.02 0.16
-461 331 480.95+19.95 337.44+6.441
+151 Dejan Lovren Liverpool 9 810 1 0 0.85-0.15 0.11+0.11 0.09 0.01
+152 Fernandinho Manchester City 25 2186 1 3 1.51+0.51 2.49-0.51 0.06 0.10
+153 Kelechi Iheanacho Leicester 24 874 1 3 2.23+1.23 1.34-1.66 0.23 0.14
+154 Chris Smalling Manchester United 15 1320 1 0 0.97-0.03 0.06+0.06 0.07 0.00
+155 Ashley Young Manchester United 20 1746 1 2 0.30-0.70 2.63+0.63 0.02 0.14
+156 Kyle Walker Manchester City 23 1893 1 1 0.33-0.67 0.59-0.41 0.02 0.03
+157 Jan Vertonghen Tottenham 15 1299 1 0 0.65-0.35 0.21+0.21 0.05 0.01
+158 Kieran Trippier Tottenham 21 1738 1 3 0.45-0.55 3.90+0.90 0.02 0.20
+159 Jordan Ayew Crystal Palace 18 1107 1 2 1.94+0.94 1.00-1.00 0.16 0.08
+160 Kenedy Newcastle United 21 1252 1 1 2.37+1.37 0.80-0.20 0.17 0.06
+746 533 779.70+33.70 548.98+15.981
 ...
 16
 17
 18
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-161 João Moutinho Wolverhampton Wanderers 17 1376 1 1 0.28-0.72 2.47+1.47 0.02 0.16
-162 Chris Wood Burnley 17 879 1 0 1.49+0.49 0.08+0.08 0.15 0.01
-163 Anthony Knockaert Brighton 15 1068 1 4 1.53+0.53 2.05-1.95 0.13 0.17
-164 Wilfred Ndidi Leicester 17 1499 1 0 1.62+0.62 1.27+1.27 0.10 0.08
-165 Domingos Quina Watford 3 217 1 0 0.18-0.82 0.08+0.08 0.07 0.03
-166 Christopher Schindler Huddersfield 17 1516 1 0 0.71-0.29 0.40+0.40 0.04 0.02
-167 Philip Billing Huddersfield 16 1398 1 0 1.03+0.03 1.12+1.12 0.07 0.07
-168 Solly March Brighton 17 1294 1 5 1.14+0.14 3.88-1.12 0.08 0.27
-169 Terence Kongolo Huddersfield 14 1141 1 0 0.41-0.59 0.43+0.43 0.03 0.03
-170 Will Hughes Watford 15 1156 1 1 1.67+0.67 1.39+0.39 0.13 0.11
-461 331 480.95+19.95 337.44+6.441
+161 Nemanja Matic Manchester United 23 2042 1 0 1.62+0.62 0.56+0.56 0.07 0.02
+162 Jack Cork Burnley 27 2415 1 2 1.06+0.06 1.97-0.03 0.04 0.07
+163 DeAndre Yedlin Newcastle United 25 2116 1 1 1.09+0.09 1.98+0.98 0.05 0.08
+164 Patrick van Aanholt Crystal Palace 27 2398 1 2 1.83+0.83 3.87+1.87 0.07 0.15
+165 Wes Morgan Leicester 17 1487 1 0 0.91-0.09 0.14+0.14 0.05 0.01
+166 Ryan Bennett Wolverhampton Wanderers 27 2430 1 0 0.84-0.16 0.79+0.79 0.03 0.03
+167 Jonny Evans Leicester 16 1273 1 0 0.48-0.52 0.25+0.25 0.03 0.02
+168 Alex Pritchard Huddersfield 22 1532 1 0 1.87+0.87 1.32+1.32 0.11 0.08
+169 Adam Smith Bournemouth 18 1515 1 0 0.56-0.44 0.28+0.28 0.03 0.02
+170 Virgil van Dijk Liverpool 27 2398 1 1 1.85+0.85 1.21+0.21 0.07 0.05
+746 533 779.70+33.70 548.98+15.981
 ...
 17
 18
 19
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-171 Juan Foyth Tottenham 5 450 1 0 0.63-0.37 0.00 0.13 0.00
-172 Beram Kayal Brighton 10 692 1 1 0.24-0.76 1.18+0.18 0.03 0.15
-173 Fred Manchester United 8 502 1 0 0.75-0.25 0.82+0.82 0.13 0.15
-174 Danny Ward Cardiff 9 318 1 0 0.19-0.81 0.18+0.18 0.05 0.05
-175 Ryan Sessegnon Fulham 16 1233 1 3 2.31+1.31 1.94-1.06 0.17 0.14
-176 Willy Boly Wolverhampton Wanderers 17 1530 1 0 1.24+0.24 0.38+0.38 0.07 0.02
-177 Fabián Balbuena West Ham 16 1440 1 0 2.37+1.37 0.15+0.15 0.15 0.01
-178 Kadeem Harris Cardiff 8 217 1 0 0.41-0.59 0.10+0.10 0.17 0.04
-179 Aron Gunnarsson Cardiff 9 777 1 0 0.63-0.37 0.16+0.16 0.07 0.02
-180 Fabian Schär Newcastle United 7 573 0 0 0.52+0.52 0.15+0.15 0.08 0.02
-461 331 480.95+19.95 337.44+6.441
+171 Ryan Bertrand Southampton 13 1170 1 0 0.62-0.38 1.46+1.46 0.05 0.11
+172 Shane Long Southampton 17 798 1 1 1.93+0.93 0.86-0.14 0.22 0.10
+173 Cédric Soares Southampton 18 1494 1 2 0.27-0.73 1.14-0.86 0.02 0.07
+174 Adama Traoré Wolverhampton Wanderers 22 673 1 1 1.08+0.08 2.16+1.16 0.14 0.29
+175 Kurt Zouma Everton 23 1803 1 2 0.89-0.11 0.40-1.60 0.04 0.02
+176 Harry Winks Tottenham 24 1469 1 0 1.08+0.08 0.22+0.22 0.07 0.01
+177 Luke Shaw Manchester United 21 1874 1 1 1.27+0.27 1.82+0.82 0.06 0.09
+178 Matej Vydra Burnley 9 273 1 0 1.45+0.45 0.05+0.05 0.48 0.02
+179 Manolo Gabbiadini Southampton 12 459 1 0 1.76+0.76 0.24+0.24 0.34 0.05
+180 Jorginho Chelsea 25 2176 1 0 1.03+0.03 1.49+1.49 0.04 0.06
+746 533 779.70+33.70 548.98+15.981
 ...
 18
 19
 20
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-181 Jannik Vestergaard Southampton 9 810 0 0 0.23+0.23 0.17+0.17 0.03 0.02
-182 Bernd Leno Arsenal 11 943 0 0 0.00 0.00 0.00 0.00
-183 Andreas Christensen Chelsea 1 90 0 0 0.00 0.00 0.00 0.00
-184 Elias Kachunga Huddersfield 3 158 0 0 0.09+0.09 0.00 0.05 0.00
-185 Max Meyer Crystal Palace 14 784 0 2 1.24+1.24 0.61-1.39 0.14 0.07
-186 Sead Kolasinac Arsenal 6 518 0 1 0.08+0.08 2.89+1.89 0.01 0.50
-187 Sokratis Arsenal 10 848 0 0 0.07+0.07 0.03+0.03 0.01 0.00
-188 Kevin De Bruyne Manchester City 4 86 0 0 0.05+0.05 0.17+0.17 0.05 0.18
-189 Simon Francis Bournemouth 15 1083 0 2 0.12+0.12 0.40-1.60 0.01 0.03
-190 Charlie Daniels Bournemouth 10 866 0 0 0.10+0.10 0.27+0.27 0.01 0.03
-461 331 480.95+19.95 337.44+6.441
+181 Marcos Alonso Chelsea 25 2224 1 3 2.74+1.74 2.34-0.66 0.11 0.09
+182 Michael Keane Everton 25 2250 1 2 1.78+0.78 1.14-0.86 0.07 0.05
+183 Michy Batshuayi Crystal Palace 3 123 1 0 0.82-0.18 0.00 0.60 0.00
+184 Ben Gibson Burnley 1 67 1 0 0.91-0.09 0.00 1.22 0.00
+185 Isaac Success Watford 23 871 1 0 3.15+2.15 1.79+1.79 0.33 0.19
+186 Fernando Llorente Tottenham 11 346 1 3 2.46+1.46 1.00-2.00 0.64 0.26
+187 Jack Stephens Southampton 17 1271 1 0 1.46+0.46 0.23+0.23 0.10 0.02
+188 Jeff Hendrick Burnley 23 1434 1 0 1.60+0.60 0.85+0.85 0.10 0.05
+189 Ainsley Maitland-Niles Arsenal 9 517 1 1 0.99-0.01 0.93-0.07 0.17 0.16
+190 Trent Alexander-Arnold Liverpool 18 1519 1 3 1.17+0.17 2.73-0.27 0.07 0.16
+746 533 779.70+33.70 548.98+15.981
 ...
 19
 20
 21
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-191 Andrew Surman Bournemouth 9 630 0 0 0.12+0.12 0.39+0.39 0.02 0.06
-192 Matt Ritchie Newcastle United 15 1138 0 2 1.56+1.56 1.78-0.22 0.12 0.14
-193 Dan Gosling Bournemouth 12 642 0 0 0.53+0.53 0.48+0.48 0.07 0.07
-194 Jordon Ibe Bournemouth 6 206 0 0 0.46+0.46 0.20+0.20 0.20 0.09
-195 Mamadou Sakho Crystal Palace 17 1530 0 0 0.22+0.22 0.19+0.19 0.01 0.01
-196 Adam Lallana Liverpool 4 158 0 0 0.06+0.06 0.07+0.07 0.04 0.04
-197 Petr Cech Arsenal 7 587 0 0 0.00 0.00 0.00 0.00
-198 Héctor Bellerín Arsenal 17 1445 0 4 0.97+0.97 2.39-1.61 0.06 0.15
-199 Laurent Koscielny Arsenal 1 90 0 0 0.03+0.03 0.00 0.03 0.00
-200 Calum Chambers Fulham 11 788 0 0 0.64+0.64 0.13+0.13 0.07 0.01
-461 331 480.95+19.95 337.44+6.441
+191 Antonio Rüdiger Chelsea 25 2229 1 0 2.58+1.58 0.90+0.90 0.10 0.04
+192 Jefferson Lerma Bournemouth 21 1759 1 0 0.63-0.37 0.62+0.62 0.03 0.03
+193 Danilo Manchester City 7 624 1 0 0.31-0.69 0.13+0.13 0.05 0.02
+194 Luciano Vietto Fulham 17 940 1 4 2.76+1.76 2.42-1.58 0.26 0.23
+195 Jonny Wolverhampton Wanderers 24 2085 1 0 1.65+0.65 0.74+0.74 0.07 0.03
+196 André Gomes Everton 20 1535 1 1 1.14+0.14 0.55-0.45 0.07 0.03
+197 Jon Gorenc Stankovic Huddersfield 3 176 1 0 0.70-0.30 0.00 0.36 0.00
+198 Issa Diop West Ham 25 2250 1 0 1.03+0.03 0.18+0.18 0.04 0.01
+199 Rachid Ghezzal Leicester 17 713 1 0 1.37+0.37 1.72+1.72 0.17 0.22
+200 Jean Michael Seri Fulham 27 2082 1 2 0.50-0.50 3.28+1.28 0.02 0.14
+746 533 779.70+33.70 548.98+15.981
 ...
 20
 21
 22
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-201 Wayne Hennessey Crystal Palace 16 1440 0 0 0.00 0.00 0.00 0.00
-202 Joel Ward Crystal Palace 2 100 0 0 0.34+0.34 0.00 0.31 0.00
-203 Pape Souaré Crystal Palace 1 1 0 0 0.00 0.00 0.00 0.00
-204 Jason Puncheon Crystal Palace 4 6 0 0 0.00 0.00 0.00 0.00
-205 Connor Wickham Crystal Palace 1 1 0 0 0.00 0.00 0.00 0.00
-206 Adrian Mariappa Watford 9 575 0 0 0.57+0.57 0.04+0.04 0.09 0.01
-207 Martin Kelly Crystal Palace 4 299 0 0 0.00 0.00 0.00 0.00
-208 Angelo Ogbonna West Ham 5 278 0 0 0.39+0.39 0.10+0.10 0.13 0.03
-209 James Tomkins Crystal Palace 14 1231 0 1 0.33+0.33 1.15+0.15 0.02 0.08
-210 Cheikhou Kouyaté Crystal Palace 15 952 0 1 0.83+0.83 0.29-0.71 0.08 0.03
-461 331 480.95+19.95 337.44+6.441
+201 Fabinho Liverpool 18 1270 1 2 1.03+0.03 0.89-1.11 0.07 0.06
+202 João Moutinho Wolverhampton Wanderers 28 2229 1 7 0.38-0.62 4.60-2.40 0.02 0.19
+203 Hélder Costa Wolverhampton Wanderers 23 1330 1 2 2.66+1.66 2.01+0.01 0.18 0.14
+204 Anthony Knockaert Brighton 22 1284 1 5 1.74+0.74 2.72-2.28 0.12 0.19
+205 Ryan Babel Fulham 5 404 1 1 2.83+1.83 1.04+0.04 0.63 0.23
+206 Declan Rice West Ham 24 2118 1 0 1.00 0.61+0.61 0.04 0.03
+207 Domingos Quina Watford 7 318 1 0 0.20-0.80 0.09+0.09 0.06 0.03
+208 Christopher Schindler Huddersfield 28 2456 1 0 0.60-0.40 0.40+0.40 0.02 0.01
+209 Solly March Brighton 27 2081 1 5 1.47+0.47 4.88-0.12 0.06 0.21
+210 Davy Pröpper Brighton 23 2046 1 1 0.95-0.05 1.03+0.03 0.04 0.05
+746 533 779.70+33.70 548.98+15.981
 ...
 21
 22
 23
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-211 Mark Noble West Ham 12 945 0 2 0.15+0.15 0.62-1.38 0.01 0.06
-212 Aaron Cresswell West Ham 7 473 0 0 0.07+0.07 0.17+0.17 0.01 0.03
-213 Andy Carroll West Ham 3 78 0 0 0.04+0.04 0.06+0.06 0.05 0.07
-214 Victor Moses Chelsea 2 24 0 0 0.00 0.11+0.11 0.00 0.40
-215 Pedro Obiang West Ham 11 625 0 1 0.46+0.46 0.49-0.51 0.07 0.07
-216 David de Gea Manchester United 17 1530 0 0 0.00 0.00 0.00 0.00
-217 Timothy Fosu-Mensah Fulham 7 505 0 0 0.08+0.08 0.31+0.31 0.01 0.05
-218 Marcos Rojo Manchester United 2 105 0 0 0.13+0.13 0.00 0.11 0.00
-219 Morgan Schneiderlin Everton 6 248 0 1 0.00 0.65-0.35 0.00 0.24
-220 Matteo Darmian Manchester United 4 360 0 0 0.03+0.03 0.05+0.05 0.01 0.01
-461 331 480.95+19.95 337.44+6.441
+211 Dale Stephens Brighton 20 1585 1 0 0.15-0.85 0.38+0.38 0.01 0.02
+212 Isaac Hayden Newcastle United 15 1024 1 3 0.45-0.55 1.79-1.21 0.04 0.16
+213 Terence Kongolo Huddersfield 23 1918 1 0 1.00 0.75+0.75 0.05 0.04
+214 Victor Lindelöf Manchester United 22 1889 1 0 0.41-0.59 1.09+1.09 0.02 0.05
+215 Will Hughes Watford 22 1607 1 3 1.78+0.78 2.75-0.25 0.10 0.15
+216 Davinson Sánchez Tottenham 15 1243 1 1 1.53+0.53 0.51-0.49 0.11 0.04
+217 Juan Foyth Tottenham 7 616 1 0 0.68-0.32 0.00 0.10 0.00
+218 Beram Kayal Brighton 12 708 1 1 0.24-0.76 1.18+0.18 0.03 0.15
+219 Michael Obafemi Southampton 6 131 1 1 1.89+0.89 0.34-0.66 1.30 0.23
+220 Yerry Mina Everton 10 698 1 0 0.69-0.31 0.14+0.14 0.09 0.02
+746 533 779.70+33.70 548.98+15.981
 ...
 22
 23
 24
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-221 Sebastian Prödl Watford 1 13 0 0 0.00 0.00 0.00 0.00
-222 John Stones Manchester City 11 895 0 0 0.13+0.13 0.13+0.13 0.01 0.01
-223 Phil Jagielka Everton 2 50 0 0 0.00 0.00 0.00 0.00
-224 Leighton Baines Everton 4 282 0 0 0.08+0.08 0.06+0.06 0.02 0.02
-225 Tom Cleverley Watford 1 1 0 0 0.05+0.05 0.00 4.10 0.00
-226 Oumar Niasse Everton 4 38 0 0 0.34+0.34 0.09+0.09 0.80 0.22
-227 Dejan Lovren Liverpool 5 450 0 0 0.79+0.79 0.00 0.16 0.00
-228 Nathaniel Clyne Liverpool 1 90 0 0 0.03+0.03 0.00 0.03 0.00
-229 Jordan Henderson Liverpool 14 660 0 0 0.14+0.14 0.25+0.25 0.02 0.03
-230 Christian Benteke Crystal Palace 4 332 0 0 2.11+2.11 0.42+0.42 0.57 0.11
-461 331 480.95+19.95 337.44+6.441
+221 Dwight McNeil Burnley 11 820 1 3 1.36+0.36 2.23-0.77 0.15 0.24
+222 Fred Manchester United 10 565 1 0 0.75-0.25 0.82+0.82 0.12 0.13
+223 Nathaniel Mendez-Laing Cardiff 12 503 1 0 0.43-0.57 0.42+0.42 0.08 0.07
+224 Danny Ward Cardiff 11 327 1 0 0.23-0.77 0.18+0.18 0.06 0.05
+225 Ken Sema Watford 14 674 1 2 0.79-0.21 0.57-1.43 0.11 0.08
+226 Fabián Balbuena West Ham 17 1473 1 0 2.41+1.41 0.15+0.15 0.15 0.01
+227 Kenneth Zohore Cardiff 12 436 1 1 1.24+0.24 0.33-0.67 0.26 0.07
+228 Sean Longstaff Newcastle United 8 643 1 0 0.27-0.73 0.51+0.51 0.04 0.07
+229 Kadeem Harris Cardiff 12 338 1 0 0.89-0.11 0.51+0.51 0.24 0.14
+230 Aron Gunnarsson Cardiff 18 1467 1 1 1.64+0.64 1.17+0.17 0.10 0.07
+746 533 779.70+33.70 548.98+15.981
 ...
 23
 24
 25
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-231 Alberto Moreno Liverpool 2 156 0 0 0.02+0.02 0.14+0.14 0.01 0.08
-232 Joe Hart Burnley 17 1530 0 0 0.00 0.02+0.02 0.00 0.00
-233 Pablo Zabaleta West Ham 13 1158 0 1 0.04+0.04 0.78-0.22 0.00 0.06
-234 Nicolás Otamendi Manchester City 7 546 0 0 0.14+0.14 0.23+0.23 0.02 0.04
-235 Vincent Kompany Manchester City 7 375 0 0 0.05+0.05 0.07+0.07 0.01 0.02
-236 Antonio Valencia Manchester United 4 360 0 0 0.02+0.02 0.47+0.47 0.00 0.12
-237 Marouane Fellaini Manchester United 13 727 0 1 0.73+0.73 0.20-0.80 0.09 0.03
-238 Alex McCarthy Southampton 17 1530 0 0 0.00 0.00 0.00 0.00
-239 Hugo Lloris Tottenham 13 1170 0 0 0.00 0.00 0.00 0.00
-240 Toby Alderweireld Tottenham 15 1342 0 0 0.25+0.25 0.10+0.10 0.02 0.01
-461 331 480.95+19.95 337.44+6.441
+231 Leander Dendoncker Wolverhampton Wanderers 9 676 1 0 0.97-0.03 0.20+0.20 0.13 0.03
+232 Jannik Vestergaard Southampton 18 1589 0 0 0.28+0.28 0.53+0.53 0.02 0.03
+233 Bernd Leno Arsenal 21 1843 0 0 0.00 0.00 0.00 0.00
+234 Andreas Christensen Chelsea 2 180 0 0 0.00 0.00 0.00 0.00
+235 Håvard Nordtveit Fulham 1 90 0 0 0.00 0.00 0.00 0.00
+236 Elias Kachunga Huddersfield 14 885 0 0 0.71+0.71 0.22+0.22 0.07 0.02
+237 Sead Kolasinac Arsenal 16 1389 0 4 0.31+0.31 5.92+1.92 0.02 0.38
+238 Sokratis Arsenal 17 1478 0 2 0.24+0.24 0.62-1.38 0.01 0.04
+239 Artur Boruc Bournemouth 5 450 0 0 0.00 0.00 0.00 0.00
+240 Simon Francis Bournemouth 17 1220 0 2 0.12+0.12 0.60-1.40 0.01 0.04
+746 533 779.70+33.70 548.98+15.981
 ...
 24
 25
 26
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-241 Danny Rose Tottenham 9 628 0 1 0.22+0.22 0.87-0.13 0.03 0.12
-242 Mousa Dembélé Tottenham 10 518 0 0 0.03+0.03 0.00 0.01 0.00
-243 Michel Vorm Tottenham 2 180 0 0 0.00 0.00 0.00 0.00
-244 Ben Davies Tottenham 13 993 0 0 0.29+0.29 1.59+1.59 0.03 0.14
-245 Carlos Sánchez West Ham 5 213 0 0 0.06+0.06 0.05+0.05 0.02 0.02
-246 Idrissa Gueye Everton 15 1322 0 0 0.18+0.18 0.18+0.18 0.01 0.01
-247 Ashley Westwood Burnley 14 1017 0 2 0.40+0.40 0.90-1.10 0.04 0.08
-248 Jordan Ayew Crystal Palace 11 671 0 1 0.58+0.58 0.42-0.58 0.08 0.06
-249 César Azpilicueta Chelsea 17 1530 0 2 0.16+0.16 1.97-0.03 0.01 0.12
-250 Cesc Fàbregas Chelsea 4 133 0 0 0.06+0.06 0.20+0.20 0.04 0.13
-461 331 480.95+19.95 337.44+6.441
+241 Andrew Surman Bournemouth 15 1170 0 0 0.27+0.27 0.45+0.45 0.02 0.03
+242 Dan Gosling Bournemouth 19 1252 0 0 1.15+1.15 0.48+0.48 0.08 0.03
+243 Jordon Ibe Bournemouth 14 507 0 1 0.58+0.58 0.37-0.63 0.10 0.07
+244 Mamadou Sakho Crystal Palace 27 2418 0 0 0.67+0.67 0.19+0.19 0.02 0.01
+245 Adam Lallana Liverpool 9 290 0 0 0.25+0.25 0.38+0.38 0.08 0.12
+246 Petr Cech Arsenal 7 587 0 0 0.00 0.00 0.00 0.00
+247 Héctor Bellerín Arsenal 19 1539 0 5 0.96+0.96 2.46-2.54 0.06 0.14
+248 Mohamed Elneny Arsenal 4 154 0 0 0.31+0.31 0.08+0.08 0.18 0.05
+249 Wayne Hennessey Crystal Palace 17 1486 0 0 0.00 0.00 0.00 0.00
+250 Joel Ward Crystal Palace 3 190 0 0 0.34+0.34 0.00 0.16 0.00
+746 533 779.70+33.70 548.98+15.981
 ...
 25
 26
 27
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-251 Asmir Begovic Bournemouth 17 1530 0 0 0.00 0.00 0.00 0.00
-252 Nemanja Matic Manchester United 14 1232 0 0 0.77+0.77 0.22+0.22 0.06 0.02
-253 Gary Cahill Chelsea 1 21 0 0 0.00 0.00 0.00 0.00
-254 Lukasz Fabianski West Ham 17 1530 0 0 0.00 0.00 0.00 0.00
-255 Federico Fernández Newcastle United 13 1127 0 1 0.08+0.08 0.38-0.62 0.01 0.03
-256 Ki Sung-yueng Newcastle United 10 753 0 1 0.06+0.06 0.98-0.02 0.01 0.12
-257 Jermain Defoe Bournemouth 4 13 0 0 0.13+0.13 0.00 0.91 0.00
-258 Jordan Pickford Everton 17 1530 0 0 0.00 0.04+0.04 0.00 0.00
-259 Kasper Schmeichel Leicester 17 1530 0 0 0.08+0.08 0.00 0.00 0.00
-260 Danny Simpson Leicester 2 89 0 0 0.00 0.00 0.00 0.00
-461 331 480.95+19.95 337.44+6.441
+251 Scott Dann Crystal Palace 2 13 0 0 0.00 0.00 0.00 0.00
+252 Pape Souaré Crystal Palace 1 1 0 0 0.00 0.00 0.00 0.00
+253 Jason Puncheon Crystal Palace, Huddersfield 10 367 0 0 0.10+0.10 0.49+0.49 0.03 0.12
+254 Connor Wickham Crystal Palace 5 55 0 1 0.34+0.34 0.42-0.58 0.56 0.69
+255 Bakary Sako Crystal Palace 1 1 0 0 0.00 0.00 0.00 0.00
+256 Julian Speroni Crystal Palace 1 90 0 0 0.00 0.00 0.00 0.00
+257 Adrian Mariappa Watford 19 1371 0 0 0.80+0.80 0.04+0.04 0.05 0.00
+258 Martin Kelly Crystal Palace 5 389 0 0 0.06+0.06 0.00 0.01 0.00
+259 Angelo Ogbonna West Ham 15 1145 0 1 0.68+0.68 1.11+0.11 0.05 0.09
+260 Cheikhou Kouyaté Crystal Palace 22 1459 0 1 1.39+1.39 0.65-0.35 0.09 0.04
+746 533 779.70+33.70 548.98+15.981
 ...
 26
 27
 28
 ...
-44
+49
 № Player Team Apps Min G A xG xA xG90 xA90
-261 Wes Morgan Leicester 13 1127 0 0 0.25+0.25 0.11+0.11 0.02 0.01
-262 Christian Fuchs Leicester 1 90 0 0 0.00 0.09+0.09 0.00 0.09
-263 Shinji Okazaki Leicester 11 148 0 1 0.15+0.15 0.11-0.89 0.09 0.07
-264 Daniel Amartey Leicester 9 637 0 0 0.47+0.47 0.11+0.11 0.07 0.02
-265 Daryl Janmaat Watford 6 524 0 1 0.16+0.16 0.23-0.77 0.03 0.04
-266 Jamaal Lascelles Newcastle United 13 1083 0 0 0.30+0.30 0.49+0.49 0.02 0.04
-267 Jonjo Shelvey Newcastle United 9 700 0 1 0.53+0.53 1.53+0.53 0.07 0.20
-268 Moussa Sissoko Tottenham 12 912 0 1 0.50+0.50 1.95+0.95 0.05 0.19
-269 Ben Chilwell Leicester 16 1440 0 1 0.57+0.57 1.02+0.02 0.04 0.06
-270 Ryan Bennett Wolverhampton Wanderers 16 1440 0 0 0.63+0.63 0.65+0.65 0.04 0.04
-461 331 480.95+19.95 337.44+6.44
+261 Aaron Cresswell West Ham 15 1193 0 0 0.18+0.18 0.73+0.73 0.01 0.05
+262 Manuel Lanzini West Ham 1 12 0 0 0.11+0.11 0.00 0.85 0.00
+263 Andy Carroll West Ham 11 348 0 0 1.08+1.08 0.28+0.28 0.28 0.07
+264 Victor Moses Chelsea 2 24 0 0 0.00 0.11+0.11 0.00 0.40
+265 Pedro Obiang West Ham 17 831 0 1 0.53+0.53 1.06+0.06 0.06 0.12
+266 David de Gea Manchester United 27 2430 0 0 0.00 0.00 0.00 0.00
+267 Timothy Fosu-Mensah Fulham 9 565 0 0 0.08+0.08 0.31+0.31 0.01 0.05
+268 Marcos Rojo Manchester United 2 105 0 0 0.13+0.13 0.00 0.11 0.00
+269 Morgan Schneiderlin Everton 8 373 0 1 0.03+0.03 0.72-0.28 0.01 0.17
+270 Matteo Darmian Manchester United 5 361 0 0 0.03+0.03 0.05+0.05 0.01 0.01
+746 533 779.70+33.70 548.98+15.981
+...
+27
+28
+29
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+271 Sebastian Prödl Watford 1 13 0 0 0.00 0.00 0.00 0.00
+272 Miguel Britos Watford 1 12 0 0 0.00 0.00 0.00 0.00
+273 John Stones Manchester City 18 1525 0 0 0.14+0.14 0.22+0.22 0.01 0.01
+274 Phil Jagielka Everton 3 140 0 0 0.00 0.03+0.03 0.00 0.02
+275 Leighton Baines Everton 6 375 0 0 0.08+0.08 0.08+0.08 0.02 0.02
+276 Oumar Niasse Cardiff, Everton 10 429 0 0 1.21+1.21 0.75+0.75 0.25 0.16
+277 Nathaniel Clyne Bournemouth, Liverpool 9 553 0 0 0.08+0.08 0.00 0.01 0.00
+278 Jordan Henderson Liverpool 22 1303 0 0 0.29+0.29 0.45+0.45 0.02 0.03
+279 Christian Benteke Crystal Palace 7 474 0 0 2.68+2.68 0.43+0.43 0.51 0.08
+280 Alberto Moreno Liverpool 2 156 0 0 0.02+0.02 0.14+0.14 0.01 0.08
+746 533 779.70+33.70 548.98+15.981
+...
+28
+29
+30
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+281 Joe Hart Burnley 19 1710 0 0 0.00 0.02+0.02 0.00 0.00
+282 Pablo Zabaleta West Ham 20 1661 0 1 0.10+0.10 0.81-0.19 0.01 0.04
+283 Nicolás Otamendi Manchester City 12 869 0 0 0.26+0.26 0.24+0.24 0.03 0.02
+284 Vincent Kompany Manchester City 9 555 0 0 0.10+0.10 0.07+0.07 0.02 0.01
+285 Antonio Valencia Manchester United 5 450 0 0 0.02+0.02 0.47+0.47 0.00 0.09
+286 Marouane Fellaini Manchester United 14 728 0 1 0.73+0.73 0.20-0.80 0.09 0.03
+287 Alex McCarthy Southampton 25 2250 0 0 0.00 0.00 0.00 0.00
+288 Hugo Lloris Tottenham 23 2070 0 0 0.00 0.00 0.00 0.00
+289 Toby Alderweireld Tottenham 25 2169 0 0 0.34+0.34 0.23+0.23 0.01 0.01
+290 Danny Rose Tottenham 16 1179 0 3 0.75+0.75 1.82-1.18 0.06 0.14
+746 533 779.70+33.70 548.98+15.981
+...
+29
+30
+31
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+291 Mousa Dembélé Tottenham 10 518 0 0 0.03+0.03 0.00 0.01 0.00
+292 Michel Vorm Tottenham 2 180 0 0 0.00 0.00 0.00 0.00
+293 Ben Davies Tottenham 17 1264 0 0 0.29+0.29 1.70+1.70 0.02 0.12
+294 Carlos Sánchez West Ham 5 213 0 0 0.06+0.06 0.05+0.05 0.02 0.02
+295 Idrissa Gueye Everton 23 1963 0 1 0.28+0.28 0.55-0.45 0.01 0.03
+296 Ashley Westwood Burnley 24 1917 0 5 0.99+0.99 3.65-1.35 0.05 0.17
+297 Leandro Bacuna Cardiff 4 210 0 0 0.05+0.05 0.00 0.02 0.00
+298 César Azpilicueta Chelsea 26 2340 0 2 0.32+0.32 1.76-0.24 0.01 0.07
+299 Cesc Fàbregas Chelsea 6 167 0 0 0.06+0.06 0.22+0.22 0.03 0.12
+300 Asmir Begovic Bournemouth 22 1980 0 0 0.00 0.00 0.00 0.00
+746 533 779.70+33.70 548.98+15.981
+...
+30
+31
+32
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+301 Gary Cahill Chelsea 1 21 0 0 0.00 0.00 0.00 0.00
+302 Lukasz Fabianski West Ham 27 2430 0 0 0.00 0.05+0.05 0.00 0.00
+303 Federico Fernández Newcastle United 15 1266 0 1 0.08+0.08 0.39-0.61 0.01 0.03
+304 Ki Sung-yueng Newcastle United 11 843 0 1 0.07+0.07 0.98-0.02 0.01 0.10
+305 Jermain Defoe Bournemouth 4 13 0 0 0.13+0.13 0.00 0.91 0.00
+306 Jordan Pickford Everton 28 2520 0 0 0.00 0.04+0.04 0.00 0.00
+307 Kasper Schmeichel Leicester 28 2520 0 0 0.08+0.08 0.00 0.00 0.00
+308 Danny Simpson Leicester 5 275 0 0 0.00 0.01+0.01 0.00 0.00
+309 Christian Fuchs Leicester 2 180 0 0 0.07+0.07 0.21+0.21 0.04 0.10
+310 Shinji Okazaki Leicester 18 181 0 1 0.15+0.15 0.11-0.89 0.08 0.06
+746 533 779.70+33.70 548.98+15.981
+...
+31
+32
+33
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+311 Daniel Amartey Leicester 9 637 0 0 0.47+0.47 0.11+0.11 0.07 0.02
+312 Daryl Janmaat Watford 11 974 0 1 0.24+0.24 0.34-0.66 0.02 0.03
+313 Jamaal Lascelles Newcastle United 24 2073 0 1 0.38+0.38 1.25+0.25 0.02 0.05
+314 Jonjo Shelvey Newcastle United 11 743 0 1 0.62+0.62 1.60+0.60 0.08 0.19
+315 Moussa Sissoko Tottenham 21 1649 0 2 0.68+0.68 2.50+0.50 0.04 0.14
+316 Ben Chilwell Leicester 26 2340 0 2 0.78+0.78 2.01+0.01 0.03 0.08
+317 Robbie Brady Burnley 12 589 0 1 0.38+0.38 0.67-0.33 0.06 0.10
+318 Ben Foster Watford 27 2430 0 0 0.02+0.02 0.21+0.21 0.00 0.01
+319 Victor Wanyama Tottenham 5 147 0 0 0.10+0.10 0.00 0.06 0.00
+320 Oriol Romeu Southampton 20 1411 0 0 0.79+0.79 0.95+0.95 0.05 0.06
+746 533 779.70+33.70 548.98+15.981
+...
+32
+33
+34
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+321 Maya Yoshida Southampton 9 800 0 0 0.29+0.29 0.48+0.48 0.03 0.05
+322 Paul Dummett Newcastle United 16 1269 0 0 0.13+0.13 0.20+0.20 0.01 0.01
+323 Phil Bardsley Burnley 15 1317 0 0 0.24+0.24 1.24+1.24 0.02 0.08
+324 Peter Crouch Burnley 2 29 0 0 0.10+0.10 0.00 0.32 0.00
+325 Fabian Delph Manchester City 11 723 0 1 0.07+0.07 0.39-0.61 0.01 0.05
+326 Samir Nasri West Ham 2 139 0 1 0.13+0.13 0.20-0.80 0.08 0.13
+327 Harry Arter Cardiff 22 1781 0 0 0.65+0.65 0.61+0.61 0.03 0.03
+328 Steven Davis Southampton 3 96 0 1 0.00 0.45-0.55 0.00 0.42
+329 Matt Targett Southampton 14 1098 0 3 0.48+0.48 2.11-0.89 0.04 0.17
+330 Kyle Walker-Peters Tottenham 3 102 0 3 0.33+0.33 0.23-2.77 0.29 0.20
+746 533 779.70+33.70 548.98+15.981
+...
+33
+34
+35
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+331 Andreas Pereira Manchester United 8 305 0 0 0.08+0.08 0.02+0.02 0.02 0.01
+332 Carl Jenkinson Arsenal 1 29 0 0 0.00 0.00 0.00 0.00
+333 Phil Jones Manchester United 12 876 0 1 0.19+0.19 0.31-0.69 0.02 0.03
+334 Joe Bennett Cardiff 20 1772 0 1 0.21+0.21 0.65-0.35 0.01 0.03
+335 Paulo Gazzaniga Tottenham 2 180 0 0 0.00 0.00 0.00 0.00
+336 Mason Holgate Everton 5 407 0 0 0.00 0.00 0.00 0.00
+337 Joseph Gomez Liverpool 13 1044 0 0 0.23+0.23 0.42+0.42 0.02 0.04
+338 Tyrone Mings Bournemouth 5 137 0 0 0.00 0.06+0.06 0.00 0.04
+339 Jack Wilshere West Ham 5 338 0 1 0.05+0.05 0.43-0.57 0.01 0.11
+340 Tom Davies Everton 13 965 0 0 0.23+0.23 0.59+0.59 0.02 0.06
+746 533 779.70+33.70 548.98+15.981
+...
+34
+35
+36
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+341 Jonjoe Kenny Everton 9 702 0 1 0.09+0.09 0.80-0.20 0.01 0.10
+342 Davide Zappacosta Chelsea 2 14 0 0 0.15+0.15 0.00 0.98 0.00
+343 Antonio Barreca Newcastle United 1 3 0 0 0.00 0.00 0.00 0.00
+344 Wesley Hoedt Southampton 13 1170 0 0 0.59+0.59 0.02+0.02 0.05 0.00
+345 Emerson Chelsea 4 113 0 0 0.12+0.12 0.00 0.09 0.00
+346 Alisson Liverpool 27 2430 0 0 0.00 0.00 0.00 0.00
+347 Mario Lemina Southampton 18 1484 0 1 0.81+0.81 0.99-0.01 0.05 0.06
+348 Stephan Lichtsteiner Arsenal 12 784 0 0 0.02+0.02 0.05+0.05 0.00 0.01
+349 Adam Masina Watford 7 446 0 1 0.02+0.02 0.27-0.73 0.00 0.06
+350 Tom Heaton Burnley 9 810 0 0 0.00 0.04+0.04 0.00 0.00
+746 533 779.70+33.70 548.98+15.981
+...
+35
+36
+37
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+351 Matthew Lowton Burnley 15 1203 0 0 0.06+0.06 0.34+0.34 0.00 0.03
+352 Ben Mee Burnley 28 2520 0 2 0.70+0.70 1.43-0.57 0.02 0.05
+353 Stephen Ward Burnley 3 235 0 0 0.08+0.08 0.05+0.05 0.03 0.02
+354 Steven Defour Burnley 6 459 0 0 0.00 0.05+0.05 0.00 0.01
+355 Nathaniel Chalobah Watford 7 190 0 0 0.08+0.08 0.22+0.22 0.04 0.11
+356 Dominic Solanke Bournemouth 3 182 0 0 0.53+0.53 0.07+0.07 0.26 0.04
+357 Andrew Robertson Liverpool 25 2238 0 6 0.45+0.45 5.10-0.90 0.02 0.21
+358 Javier Manquillo Newcastle United 13 648 0 2 0.02+0.02 0.54-1.46 0.00 0.07
+359 Christian Kabasele Watford 15 1130 0 0 1.49+1.49 0.12+0.12 0.12 0.01
+360 Alfie Mawson Fulham 13 1033 0 0 0.32+0.32 0.05+0.05 0.03 0.00
+746 533 779.70+33.70 548.98+15.981
+...
+36
+37
+38
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+361 Georges-Kévin Nkoudou Tottenham 1 3 0 1 0.00 0.61-0.39 0.00 18.23
+362 Eric Bailly Manchester United 10 554 0 0 0.00 0.00 0.00 0.00
+363 Kevin Long Burnley 6 514 0 1 0.03+0.03 0.41-0.59 0.01 0.07
+364 Lys Mousset Bournemouth 18 165 0 0 0.27+0.27 0.22+0.22 0.15 0.12
+365 Rob Holding Arsenal 10 807 0 0 0.12+0.12 0.17+0.17 0.01 0.02
+366 Ben Hamer Huddersfield 4 282 0 0 0.00 0.00 0.00 0.00
+367 Arthur Masuaku West Ham 17 1252 0 1 0.03+0.03 0.38-0.62 0.00 0.03
+368 Stefano Okaka Watford 2 18 0 0 0.56+0.56 0.15+0.15 2.78 0.75
+369 Ramadan Sobhi Huddersfield 4 68 0 0 0.00 0.18+0.18 0.00 0.23
+370 Nampalys Mendy Leicester 24 2016 0 0 0.05+0.05 0.08+0.08 0.00 0.00
+746 533 779.70+33.70 548.98+15.981
+...
+37
+38
+39
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+371 Lewis Cook Bournemouth 13 718 0 0 0.13+0.13 0.06+0.06 0.02 0.01
+372 Martín Montoya Brighton 19 1710 0 1 0.14+0.14 1.17+0.17 0.01 0.06
+373 Vicente Iborra Leicester 8 220 0 0 0.27+0.27 0.10+0.10 0.11 0.04
+374 Sergio Rico Fulham 18 1620 0 0 0.00 0.08+0.08 0.00 0.00
+375 Vicente Guaita Crystal Palace 10 854 0 0 0.00 0.00 0.00 0.00
+376 Mateo Kovacic Chelsea 23 1283 0 2 1.74+1.74 1.81-0.19 0.12 0.13
+377 Denis Suárez Arsenal 2 35 0 0 0.00 0.00 0.00 0.00
+378 Christian Atsu Newcastle United 20 1169 0 0 1.33+1.33 1.17+1.17 0.10 0.09
+379 Mat Ryan Brighton 23 2070 0 0 0.00 0.00 0.00 0.00
+380 Fabri Fulham 2 180 0 0 0.00 0.00 0.00 0.00
+746 533 779.70+33.70 548.98+15.981
+...
+38
+39
+40
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+381 Erik Durm Huddersfield 19 1301 0 1 0.24+0.24 0.38-0.62 0.02 0.03
+382 Oleksandr Zinchenko Manchester City 4 325 0 3 0.11+0.11 1.48-1.52 0.03 0.41
+383 Maxime Le Marchand Fulham 19 1621 0 1 0.09+0.09 0.77-0.23 0.01 0.04
+384 Floyd Ayité Fulham 8 142 0 0 0.14+0.14 0.00 0.09 0.00
+385 Benjamin Mendy Manchester City 9 810 0 5 0.21+0.21 2.05-2.95 0.02 0.23
+386 Jonas Lössl Huddersfield 25 2238 0 0 0.00 0.03+0.03 0.00 0.00
+387 Serge Aurier Tottenham 8 566 0 2 0.14+0.14 1.27-0.73 0.02 0.20
+388 Lazar Markovic Fulham 1 42 0 0 0.00 0.01+0.01 0.00 0.03
+389 Jazz Richards Cardiff 3 86 0 0 0.00 0.00 0.00 0.00
+390 Mohamed Diamé Newcastle United 23 1848 0 0 0.89+0.89 0.13+0.13 0.04 0.01
+746 533 779.70+33.70 548.98+15.981
+...
+39
+40
+41
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+391 Sam Gallagher Southampton 2 7 0 0 0.00 0.00 0.00 0.00
+392 Bruno Ecuele Manga Cardiff 28 2520 0 1 0.40+0.40 0.29-0.71 0.01 0.01
+393 Kiko Femenía Watford 20 1383 0 1 0.06+0.06 1.36+0.36 0.00 0.09
+394 Kepa Chelsea 26 2340 0 0 0.00 0.00 0.00 0.00
+395 Diego Rico Bournemouth 8 503 0 0 0.09+0.09 1.18+1.18 0.02 0.21
+396 Florian Lejeune Newcastle United 7 630 0 0 0.20+0.20 0.14+0.14 0.03 0.02
+397 Marc Navarro Watford 1 86 0 0 0.00 0.00 0.00 0.00
+398 Florent Hadergjonaj Huddersfield 22 1732 0 0 0.22+0.22 1.26+1.26 0.01 0.07
+399 Bernardo Brighton 11 899 0 1 0.16+0.16 0.32-0.68 0.02 0.03
+400 Naby Keita Liverpool 19 1071 0 1 2.16+2.16 0.71-0.29 0.18 0.06
+746 533 779.70+33.70 548.98+15.981
+...
+40
+41
+42
+...
+49
+№ Player Team Apps Min G A xG xA xG90 xA90
+401 Caglar Söyüncü Leicester 5 283 0 0 0.06+0.06 0.00 0.02 0.00
+402 Angus Gunn Southampton 2 180 0 0 0.00 0.00 0.00 0.00
+403 Ademola Lookman Everton 15 509 0 2 0.83+0.83 1.61-0.39 0.15 0.28
+404 Scott McTominay Manchester United 9 354 0 0 0.60+0.60 0.00 0.15 0.00
+405 Aaron Wan-Bissaka Crystal Palace 25 2236 0 1 0.28+0.28 1.43+0.43 0.01 0.06
+406 Angel Gomes Manchester United 1 8 0 0 0.08+0.08 0.00 0.89 0.00
+407 Yves Bissouma Brighton 19 1004 0 0 1.61+1.61 0.28+0.28 0.14 0.03
+408 Isaac Mbenza Huddersfield 17 563 0 1 0.47+0.47 0.36-0.64 0.08 0.06
+409 Adama Diakhaby Huddersfield 11 559 0 0 0.84+0.84 0.56+0.56 0.14 0.09
+410 Matteo Guendouzi Arsenal 23 1549 0 0 0.36+0.36 1.21+1.21 0.02 0.07
+746 533 779.70+33.70 548.98+15.98

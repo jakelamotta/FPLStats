@@ -25,7 +25,7 @@ i = 2
 
 prevContent = ""
 
-while i < 43:
+while i < 50:
 	content = driverUS.find_element_by_id('league-players').text
 
 	if (prevContent != content):
@@ -89,6 +89,10 @@ for line in open("scraped.txt", encoding='utf-8'):
 		line = line.replace("Alisson", "Alisson Ramses Becker")
 		line = line.replace("Son Heung-Min", "Heung-Min Son")
 		line = line.replace("David Luiz", "David Luiz Moreira Marinho")
+		line = line.replace("Ricardo Pereira", "Ricardo Domingos Barbosa Pereira")
+		line = line.replace("Ben Chilwell", "Benjamin Chilwell")
+
+		
 
 		line = line.replace(" 0",",0")
 		line = line.replace(" 1",",1")
