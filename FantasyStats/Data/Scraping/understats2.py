@@ -9,6 +9,7 @@ import pandas as pd
 import re
 import matplotlib.pyplot as plt
 import sys
+import json
 
 year = sys.argv[1]
 leagueName = sys.argv[2]
@@ -25,7 +26,7 @@ i = 2
 
 prevContent = ""
 
-while i < 50:
+while i < 52:
 	content = driverUS.find_element_by_id('league-players').text
 
 	if (prevContent != content):
@@ -81,7 +82,7 @@ for line in open("scraped.txt", encoding='utf-8'):
 		line = line.replace("Richarlison", "Richarlison de Andrade")
 		line = line.replace("Felipe Anderson", "Felipe Anderson Pereira Gomes")
 		line = line.replace("Lucas Moura", "Lucas Rodrigues Moura da Silva")
-		line = re.sub(r"Patr.*cio", "Patricio", line)
+		##line = re.sub(r"Patr.*cio", "Patricio", line)
 		
 		line = line.replace("Rui Patricio", "Rui Pedro Patricio")
 		line = line.replace("de Gea", "De Gea")
@@ -114,19 +115,51 @@ for line in open("scraped.txt", encoding='utf-8'):
 
 driverUS.quit()
 
-r = urllib.request.urlopen('https://fantasy.premierleague.com/drf/elements/').read()
+r = urllib.request.urlopen('https://fantasy.premierleague.com/api/bootstrap-static/').read()
 soup = BeautifulSoup(r, features="html.parser")
 
-with open("playerdata.json", "w", encoding="iso-8859-1") as file:
-	for line in soup:
+text = json.loads(str(soup))["elements"]
+
+#with open("playerdata.json", "w", encoding="iso-8859-1") as file:
+#	for line in str(text):
 		
-		line = re.sub(r"dos Santos Patr.*cio", "Patricio", line)
-		file.write(line)
+#		line = line.replace("None", "0")
+		##line = re.sub(r"dos Santos Patr.*cio", "Patricio", line)
+#		file.write(line)
+
+with open("playerdata.json", "w", encoding="iso-8859-1") as file:
+
+    first = True
+    
+    file.write("[")
+    for line in text:
+        
+        lineAsStr=json.dumps(line)
+
+
+        
+        lineAsStr = lineAsStr.replace("null", "0")
+        lineAsStr = lineAsStr.replace("True", "1")
+        lineAsStr = lineAsStr.replace("False", "0")
+        
+
+        if first:
+            file.write(lineAsStr)
+            first = False
+        else:
+            file.write("," + lineAsStr)
+
+        
+
+    file.write("]")
+
 
 df_us = pd.read_csv(fname)
 df = pd.read_json('playerdata.json')
 df['Player'] = df[['first_name', 'second_name']].apply(lambda x: ' '.join(x), axis=1)
-df.drop(df.columns[[0, 1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 40, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53, 54, 55]], axis=1, inplace=True)
+#df.drop(df.columns[[0, 1, 2,3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32,33,34,35,36,37,38,39 40, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53]], axis=1, inplace=True)
+#df.drop(df.columns[[0, 1, 2,3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 38, 39, 40, 43, 44, 45, 47, 48,49, 51, 52]], axis=1, inplace=True)
+df.drop(df.columns[[1, 3, 4, 6, 7, 8,9, 10, 11, 12, 14,15, 16, 17, 18,19, 21, 22, 23, 24,26, 27, 31,32, 33, 35,36,37, 38, 39,40,41,42, 43, 44,45, 46, 47, 48,49,50, 51]], axis=1, inplace=True)
 
 result = pd.merge(df, df_us, on='Player')
 result['Position'] = 'Unfilled'

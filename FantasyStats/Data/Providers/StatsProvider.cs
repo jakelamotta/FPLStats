@@ -65,23 +65,23 @@ namespace Data.Providers
                         double cost = 0.0;
 
                         var parseStatus = int.TryParse(lineAsList[0], out externalId);
-                        parseStatus &= int.TryParse(lineAsList[21], out assists);
-                        parseStatus &= int.TryParse(lineAsList[1], out bps);
-                        parseStatus &= int.TryParse(lineAsList[2], out cs);
-                        parseStatus &= int.TryParse(lineAsList[20], out goals);
-                        parseStatus &= int.TryParse(lineAsList[6], out og);
-                        parseStatus &= int.TryParse(lineAsList[7], out pm);
+                        parseStatus &= int.TryParse(lineAsList[1], out assists);
+                        parseStatus &= int.TryParse(lineAsList[2], out bps);
+                        parseStatus &= int.TryParse(lineAsList[3], out cs);
+                        parseStatus &= Enum.TryParse(lineAsList[4], out pos);
+                        parseStatus &= int.TryParse(lineAsList[5], out goals);
+                        parseStatus &= double.TryParse(lineAsList[7].Replace(".", ","), out cost);
+                        parseStatus &= int.TryParse(lineAsList[8], out og);
+                        parseStatus &= int.TryParse(lineAsList[9], out pm);
                         parseStatus &= int.TryParse(lineAsList[10], out rc);
-                        parseStatus &= int.TryParse(lineAsList[14], out yc);
-                        parseStatus &= int.TryParse(lineAsList[19], out min);
-                        parseStatus &= Enum.TryParse(lineAsList[3], out pos);
-                        parseStatus &= int.TryParse(lineAsList[18], out apps);
+                        parseStatus &= int.TryParse(lineAsList[11], out yc);
+                        parseStatus &= int.TryParse(lineAsList[15], out apps);
+                        parseStatus &= int.TryParse(lineAsList[16], out min);
 
-                        parseStatus &= double.TryParse(lineAsList[23].Replace(".",","), out xa);
-                        parseStatus &= double.TryParse(lineAsList[25].Replace(".", ","), out xa90);
-                        parseStatus &= double.TryParse(lineAsList[22].Replace(".", ","), out xg);
-                        parseStatus &= double.TryParse(lineAsList[24].Replace(".", ","), out xg90);
-                        parseStatus &= double.TryParse(lineAsList[5].Replace(".", ","), out cost);
+                        parseStatus &= double.TryParse(lineAsList[20].Replace(".",","), out xa);
+                        parseStatus &= double.TryParse(lineAsList[22].Replace(".", ","), out xa90);
+                        parseStatus &= double.TryParse(lineAsList[19].Replace(".", ","), out xg);
+                        parseStatus &= double.TryParse(lineAsList[21].Replace(".", ","), out xg90);
                         cost /= 10;
 
                         if (parseStatus)
@@ -91,8 +91,8 @@ namespace Data.Providers
                                 Player = new PlayerDto
                                 {
                                     ExternalId = externalId,
-                                    Name = lineAsList[15],
-                                    SecondName = lineAsList[11],
+                                    Name = lineAsList[12],
+                                    SecondName = "",
                                     LastCost = cost,
                                     Position = pos
                                 },
@@ -101,7 +101,7 @@ namespace Data.Providers
                                     Season = season,
                                     Team = new TeamDto
                                     {
-                                        Name = ConvertDoubleTeam(lineAsList[17])
+                                        Name = ConvertDoubleTeam(lineAsList[14])
                                     }
                                 },
                                 Assists = assists,
@@ -117,7 +117,7 @@ namespace Data.Providers
                                 XG90 = xg90,
                                 YellowCards = yc,
                                 MinutesPlayed = min,
-                                Apps = apps
+                                Apps = 0
                             };
 
                             players.Add(playerStatisticsDto);
@@ -211,23 +211,23 @@ namespace Data.Providers
                         }
                     }
 
-                    foreach (var line in cleanSheetsFile)
-                    {
-                        var csLineAsList = Utility.CsvRowToList(line);
-                        int cs;
+                    //foreach (var line in cleanSheetsFile)
+                    //{
+                    //    var csLineAsList = Utility.CsvRowToList(line);
+                    //    int cs;
 
-                        var st = result.DataObject.FirstOrDefault(r => r.Team.Name.Equals(csLineAsList[1])
-                            && r.Season.Id == season.Id);
+                    //    var st = result.DataObject.FirstOrDefault(r => r.Team.Name.Equals(csLineAsList[1])
+                    //        && r.Season.Id == season.Id);
 
-                        var status = int.TryParse(csLineAsList[2], out cs);
+                    //    var status = int.TryParse(csLineAsList[2], out cs);
 
-                        if (!status || st == null)
-                        {
-                            throw new Exception();
-                        }
+                    //    if (!status || st == null)
+                    //    {
+                    //        throw new Exception();
+                    //    }
 
-                        st.CleanSheets = cs;
-                    }
+                    //    st.CleanSheets = cs;
+                    //}
 
                 }
                 else
