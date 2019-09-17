@@ -26,7 +26,7 @@ i = 2
 
 prevContent = ""
 
-while i < 52:
+while i < 33:
 	content = driverUS.find_element_by_id('league-players').text
 
 	if (prevContent != content):
@@ -48,7 +48,7 @@ for line in open("scraped.txt", encoding='utf-8'):
 	#line = line.replace("\+\d.\d\d\s"," ")
 	line = re.sub(r"\+\d.\d\d\s", " ", line)
 	line = re.sub(r"\-\d.\d\d\s", " ", line)
-	if len(line)>43:
+	if len(line)>21:
 		
 		#This is cause Understat puts Team1,Team2 in Team column when player has switched teams in January transfer window
 		line = line.replace(", ", "--")
@@ -75,13 +75,17 @@ for line in open("scraped.txt", encoding='utf-8'):
 		line = line.replace(" Wolverhampton Wanderers",",Wolverhampton Wanderers")
 		line = line.replace(" West Ham",",West Ham")
 		line = line.replace(" Fulham",",Fulham")
-		line = line.replace(" Aston Villa", "Aston Villa")
-		line = line.replace(" West Bromwich Albion", "West Bromwich Albion")
+		line = line.replace(" Aston Villa", ",Aston Villa")
+		line = line.replace(" West Bromwich Albion", ",West Bromwich Albion")
+		line = line.replace(" Norwich", ",Norwich")
+		line = line.replace(" Sheffield United", ",Sheffield United")
 		line = line.replace("Queens,Park,Rangers", "Queens Park Rangers")
 		line = line.replace("Bernardo Silva", "Bernardo Mota Veiga de Carvalho e Silva")
 		line = line.replace("Richarlison", "Richarlison de Andrade")
 		line = line.replace("Felipe Anderson", "Felipe Anderson Pereira Gomes")
 		line = line.replace("Lucas Moura", "Lucas Rodrigues Moura da Silva")
+		line = line.replace("Dani Ceballos", "Daniel Ceballos Fernandez")
+		line = line.replace("Emerson", "Emerson Palmieri dos Santos")
 		##line = re.sub(r"Patr.*cio", "Patricio", line)
 		
 		line = line.replace("Rui Patricio", "Rui Pedro Patricio")
@@ -141,7 +145,7 @@ with open("playerdata.json", "w", encoding="iso-8859-1") as file:
         lineAsStr = lineAsStr.replace("null", "0")
         lineAsStr = lineAsStr.replace("True", "1")
         lineAsStr = lineAsStr.replace("False", "0")
-        
+        #lineAsStr = re.sub(r"Fern.*ndez", "Fernandez", lineAsStr)
 
         if first:
             file.write(lineAsStr)

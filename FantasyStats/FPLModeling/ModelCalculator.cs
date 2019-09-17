@@ -106,6 +106,8 @@ namespace FPLModeling
                         xg90 = pss.XG90 * pss.MinutesPlayed * fraction;
                         xa90 = pss.XA90 * pss.MinutesPlayed * fraction;
 
+                        
+
                         if (currentStartYear - pss.SeasonTeam.Season.StartYear == 1)
                         {
                             if (!pss.SeasonTeam.Team.Name.Equals(currentTeam))
@@ -192,7 +194,7 @@ namespace FPLModeling
                 throw new Exception();
             }
 
-            xp = (totalCS90 * pCS / 10 + totalXA90 * 3 + totalXG90 * pGoal - totalYC90) / lastCost;
+            xp = (totalCS90 * pCS + totalXA90 * 3 + totalXG90 * pGoal - totalYC90) / lastCost;
 
             return xp;
         }

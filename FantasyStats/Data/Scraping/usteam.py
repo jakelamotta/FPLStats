@@ -9,7 +9,7 @@ import sys
 import time
 
 
-yearMap = {"2018":210,"2017":79,"2016":54,"2015":42,"2014":27}
+yearMap = {"2019":274,"2018":210,"2017":79,"2016":54,"2015":42,"2014":27}
 filepath = "../filedata/"
 year = sys.argv[1]
 leagueName = sys.argv[2]
@@ -25,6 +25,7 @@ content = content.replace(" ", ",")
 content = content.replace("Manchester,City", "Manchester City")
 content = content.replace("Manchester,United", "Manchester United")
 content = content.replace("Newcastle,United", "Newcastle United")
+content = content.replace("Sheffield,United", "Sheffield United")
 content = content.replace("Crystal,Palace", "Crystal Palace")
 content = content.replace("West,Ham", "West Ham")
 content = content.replace("West,Bromwich,Albion", "West Bromwich Albion")
@@ -67,6 +68,7 @@ content = content.replace("Stoke,City", "Stoke")
 content = content.replace("Hull,City", "Hull")
 content = content.replace("Norwich,City", "Norwich")
 content = content.replace("Queens,Park,Rangers", "Queens Park Rangers")
+content = content.replace("Sheffield,United", "Sheffield United")
 content = content.replace(".","")
 
 fname = "../filedata/team_fpl.csv"

@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import sys
 import time
 
-yearMap = {"2018":210,"2017":79,"2016":54,"2015":42,"2014":27}
+yearMap = {"2019":274,"2018":210,"2017":79,"2016":54,"2015":42,"2014":27}
 year = sys.argv[1]
 
 driverUS = webdriver.Chrome()
@@ -43,6 +43,7 @@ content = content.replace("Stoke,City", "Stoke")
 content = content.replace("Hull,City", "Hull")
 content = content.replace("Norwich,City", "Norwich")
 content = content.replace("Queens,Park,Rangers", "Queens Park Rangers")
+content = content.replace("Sheffield,United", "Sheffield United")
 content = content.replace(".","")
 
 fname = "../filedata/saves_fpl.csv"
