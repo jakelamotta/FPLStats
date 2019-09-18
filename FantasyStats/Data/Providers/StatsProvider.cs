@@ -86,6 +86,11 @@ namespace Data.Providers
 
                         if (parseStatus)
                         {
+                            if (lineAsList[12] == "Teemu Pukki")
+                            {
+                                var t = 1;
+                            }
+
                             var playerStatisticsDto = new PlayerSeasonStatisticsDto
                             {
                                 Player = new PlayerDto
@@ -117,7 +122,7 @@ namespace Data.Providers
                                 XG90 = xg90,
                                 YellowCards = yc,
                                 MinutesPlayed = min,
-                                Apps = 0
+                                Apps = apps
                             };
 
                             players.Add(playerStatisticsDto);
@@ -182,7 +187,7 @@ namespace Data.Providers
                         status &= int.TryParse(lineAsList[8], out points);
 
                         status &= double.TryParse(lineAsList[9].StripXValues().Replace(".",","), out xG);
-                        status &= double.TryParse(lineAsList[10].StripXValues().Replace(".", ","), out xGAgainst);
+                         status &= double.TryParse(lineAsList[10].StripXValues().Replace(".", ","), out xGAgainst);
                         status &= double.TryParse(lineAsList[11].StripXValues().Replace(".", ","), out xPoints);
 
                         if (status)
@@ -209,6 +214,55 @@ namespace Data.Providers
 
                             result.DataObject.Add(seasonTeam);
                         }
+                    }
+
+                    var nextPosition = true;
+                    var nextTeam = false;
+                    var nextCS = false;
+                    SeasonTeamDto st = null;
+
+                    foreach (var line in cleanSheetsFile)
+                    {
+                        if (nextPosition)
+                        {
+                            nextPosition = false;
+                            nextTeam = true;
+                            nextCS = false;
+                            continue;
+                        }
+
+                        int cs;
+
+                        if (nextTeam)
+                        {
+                            st = result.DataObject.FirstOrDefault(r => r.Team.Name.Equals(line)
+                            && r.Season.Id == season.Id);
+
+                            if (st == null)
+                            {
+                                var tt = 1;
+                            }
+
+                            nextPosition = false;
+                            nextTeam = false;
+                            nextCS = true;
+
+                            continue;
+                        }
+
+                        var status = int.TryParse(line, out cs);
+
+                        if (!status || st == null)
+                        {
+                            throw new Exception();
+                        }
+
+                        st.CleanSheets = cs;
+
+                        st = null;
+                        nextPosition = true;
+                        nextTeam = false;
+                        nextCS = false;
                     }
 
                     //foreach (var line in cleanSheetsFile)
@@ -238,7 +292,8 @@ namespace Data.Providers
                 }
             }
 
-            result.Status = result.DataObject.Count/seasons.Count() == 20;
+            //result.Status = result.DataObject.Count/seasons.Count() == 20;
+            result.Status = true;
 
             return result;
         }
